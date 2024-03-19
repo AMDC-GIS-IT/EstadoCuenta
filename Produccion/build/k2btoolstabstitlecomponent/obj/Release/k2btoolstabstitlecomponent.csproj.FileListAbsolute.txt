@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\Produccion\web\bin\k2btoolstabstitlecomponent.dll
+C:\KBs\EstadoCuenta\Produccion\build\k2btoolstabstitlecomponent\obj\Release\k2btoolstabstitlecomponent.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\Produccion\build\k2btoolstabstitlecomponent\obj\Release\k2btoolstabstitlecomponent.dll

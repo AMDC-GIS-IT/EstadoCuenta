@@ -1,0 +1,34 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_7-179127</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>K2BListPrograms</ObjName>
+<ObjDesc>K2 BList Programs</ObjDesc>
+<ObjPgmName>K2BListPrograms</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>src0306</MsgCode>
+<Location>
+<Type>Source</Type>
+<Line>13</Line></Location>
+<Message>
+<Token>Subroutine ''AddProgram'' is defined but never used.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Programnames</VarId>
+<VarName>&amp;ProgramNames</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

@@ -1,0 +1,29 @@
+domain_i(101,'k2btools\transactionutils\gxdomainafterconfirmeventname.cs').
+domain_i(102,'k2btools\transactionutils\gxdomainaftercanceleventname.cs').
+domain_i(103,'gxdomaink2bcomponenttype.cs').
+domain_i(105,'gxdomaink2bsesitem.cs').
+domain_i(107,'gxdomaink2bstandardactivitytype.cs').
+domain_i(109,'gxdomaink2btrnmode.cs').
+domain_i(110,'gxdomaink2btrnreturnmode.cs').
+domain_i(111,'gxdomaink2bhttpmethod.cs').
+domain_i(117,'gxdomaink2btoolsmessagetype.cs').
+domain_i(121,'k2btools\gxdomaingenexusgenerator.cs').
+domain_i(131,'k2btools\gxdomaink2bt_desktopnotificationpermission.cs').
+domain_i(138,'k2btools\gxdomaink2bt_webnotificationids.cs').
+domain_i(139,'gxdomaink2bfiltertype.cs').
+domain_i(140,'k2btools\gxdomainattributevaluetype.cs').
+domain_i(142,'gxdomaink2bt_overflowactionposition.cs').
+domain_i(143,'gxdomaink2bt_regionstatus.cs').
+domain_i(144,'k2btools\controls\calendar\gxdomaincontentviewoption.cs').
+domain_i(145,'k2btools\controls\calendar\gxdomainweekstartday.cs').
+domain_i(146,'gxdomaink2bbtntooltip.cs').
+domain_i(148,'gxdomaink2bpage.cs').
+domain_i(149,'gxdomaink2bsymbols.cs').
+domain_i(150,'gxdomaink2bthemeclasses.cs').
+domain_i(160,'gxdomaink2bt_blueprintregionstatus.cs').
+domain_i(161,'gxdomaink2bt_blueprinterrorcode.cs').
+domain_i(97,'k2btools\gxdomaindesignsystemoptions.cs').
+domain_i(98,'k2btools\gxdomaindesignsystemoptionsdefaultvalue.cs').
+domain_i(99,'gxdomaink2baftertrnnavigation.cs').
+external_library_i('ObtenerTasaDeCambioExchangeRateFetcher','ObtenerTasaDeCambio.dll',[ 14,65,0 ]).
+sdt_map_i(15,'ObtenerTasaDeCambioExchangeRateFetcher',[ 14,65,0 ]).

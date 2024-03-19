@@ -1,0 +1,11 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_EstadoCuenta</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>ANDREMONCADA</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\KBs\EstadoCuenta</Directory>
+	<DataFile>GX_KB_EstadoCuenta.mdf</DataFile>
+	<LogFile>GX_KB_EstadoCuenta_log.ldf</LogFile>
+	<HostName>ANDREMONCADA</HostName>
+	<DetachOnClose>False</DetachOnClose>
+</ConnectionInformation>

@@ -1,0 +1,722 @@
+spec_i([ proc,14,l('Estado De Cuenta'),'EstadoDeCuenta',78,spa,'18_0_7-179127' ]).
+ 
+struct_i(2,1,[],[]).
+struct_i(4,2,[],[]).
+struct_i(3,2,[],[]).
+ 
+level_i(2,[ 5,[ [ 5,many ] ],[],[],[ [ [ 5 ],[ 6,1 ] ] ],[ [ [ 5 ],[] ] ],[ 1 ],'PK_CLAVES_RUTAS',[],[] ]).
+level_i(4,[ 4,[ [ 4,many ] ],[],[],[ [ [ 4 ],[ 13,2,15,17,16,18 ] ] ],[ [ [ 4 ],[] ] ],[ 2 ],'IPK_MORA',[ 4,[ [ [],'Art_id_doc',2 ] ] ],[] ]).
+level_i(3,[ 4,[ [ 4,many ] ],[],[],[ [ [ 4 ],[ 2,10,9,12 ] ] ],[ [ [ 4 ],[] ] ],[ 2 ],'IPK_MORA',[ 4,[ [ [],'Art_id_doc',2 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+tw_i(4,[]).
+tw_i(3,[]).
+ 
+lwi_i(2,[ [ c([ t(6,2),t(=,10),t('Clave',23) ],[ 6 ]) ] ]).
+lwi_i(4,[ [ c([ t(13,2),t(=,10),t('Anio',23) ],[ 13 ]) ] ]).
+lwi_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 5,6 ],[ 5,1 ] ] ]).
+ta_i(4,[ [ [ 4,13 ],[ 4,2 ],[ 4,15 ],[ 4,17 ],[ 4,16 ],[ 4,18 ] ] ]).
+ta_i(3,[ [ [ 4,2 ],[ 4,10 ],[ 4,9 ],[ 4,12 ] ] ]).
+ 
+las_i(2,[ [ 6,1 ] ]).
+las_i(4,[ [ 13,2,15,17,16,18 ] ]).
+las_i(3,[ [ 2,10,9,12 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','Ü7Ú.ÌIê2â3Ì¿Ô¿')).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','192.168.200.145')).
+rule_i(0,datastore(1,'CS_DBNAME','BDBI')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','EstadoDeCuenta')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('HTTP_STREAMING_SUPPORT','Off')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'AriesCustom'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Estado_de_Cuenta'))).
+rule_i(0,prop('ObjDesc','Estado De Cuenta')).
+rule_i(0,prop('ObjName','EstadoDeCuenta')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,parm([ 'Clave' ],[])).
+rule_i(0,parmio([ [ 'Clave',in ] ])).
+rule_i(0,output_file(t('Ruta',23),t(pdf,3))).
+rule_i(0,output('FIL')).
+rule_i(0,file(5,'CLAVES_RUTAS',[ 1,6,7,8 ])).
+rule_i(0,loc([ 5 ],'CLAVES_RUTAS','','LAN')).
+rule_i(0,index(5,'PK_CLAVES_RUTAS',u,[ 1 ])).
+rule_i(0,loc([ 5,'PK_CLAVES_RUTAS' ],'PK_CLAVES_RUTAS','','LAN')).
+rule_i(0,file(4,'MORA',[ 2,9,10,11,12,13,14,15,16,17,18,19 ])).
+rule_i(0,loc([ 4 ],'MORA','','LAN')).
+rule_i(0,index(4,'IPK_MORA',u,[ 2 ])).
+rule_i(0,loc([ 4,'IPK_MORA' ],'IPK_MORA','','LAN')).
+rule_i(0,p(0,0,fv,2,[ intname,'MORA' ])).
+rule_i(0,p(0,0,fv,2,[ table,4 ])).
+rule_i(0,p(0,12,fv,2,[])).
+rule_i(0,p(0,12,fv,2,[ 'NAME','MORA' ])).
+rule_i(0,p(0,12,fv,2,[ 'LOC','' ])).
+rule_i(0,p(0,12,fv,2,[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fv,2,[ 'EXTNAM','YES' ])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[ 'NAME','IPK_MORA' ])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[ 'LOC','' ])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fvix,[ 2,2 ],[ 'EXTNAM','YES' ])).
+rule_i(0,p(0,0,fv,1,[ intname,'CLAVES_RUTAS' ])).
+rule_i(0,p(0,0,fv,1,[ table,5 ])).
+rule_i(0,p(0,12,fv,1,[])).
+rule_i(0,p(0,12,fv,1,[ 'NAME','CLAVES_RUTAS' ])).
+rule_i(0,p(0,12,fv,1,[ 'LOC','' ])).
+rule_i(0,p(0,12,fv,1,[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fv,1,[ 'EXTNAM','YES' ])).
+rule_i(0,p(0,12,fvix,[ 1,1 ],[])).
+rule_i(0,p(0,12,fvix,[ 1,1 ],[ 'NAME','PK_CLAVES_RUTAS' ])).
+rule_i(0,p(0,12,fvix,[ 1,1 ],[ 'LOC','' ])).
+rule_i(0,p(0,12,fvix,[ 1,1 ],[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fvix,[ 1,1 ],[ 'EXTNAM','YES' ])).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,3,t,4,[],[ [ [ [],'Art_id_doc',2 ] ],'IPK_MORA',[] ]).
+a_i(3,4,t,4,[],[ [ [ [],'Art_id_doc',2 ] ],'IPK_MORA',[] ]).
+a_i(4,2,t,5,[],[ [],'PK_CLAVES_RUTAS',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(t,i,2,'Art_id_doc').
+v_i(t,o,2,2).
+v_i(t,o,2,10).
+v_i(t,o,2,9).
+v_i(t,o,2,12).
+v_i(t,i,3,'Art_id_doc').
+v_i(t,o,3,13).
+v_i(t,o,3,2).
+v_i(t,o,3,15).
+v_i(t,o,3,17).
+v_i(t,o,3,16).
+v_i(t,o,3,18).
+v_i(t,i,4,[]).
+v_i(t,o,4,6).
+v_i(t,o,4,1).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',69 ]).
+attri_i(13,[ 'OBL_YEAR',int,4,0,'ZZZ9',0,l('OBL_YEAR'),'',0 ]).
+attri_i(6,[ 'CLAVES_RUTASRUTA',int,18,6,'ZZZZZZZZZZ9.999999',0,l('CLAVES_RUTASRUTA'),'',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,l('Page number'),'',68 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,l('Line number'),'',67 ]).
+attri_i(1,[ 'CLAVE_CATASTRAL',svchar,255,0,'',0,l('CLAVE_CATASTRAL'),'',0 ]).
+attri_i(15,[ 'IMPUESTO',int,18,2,'ZZZZZZZZZZZZZZ9.99',0,l('IMPUESTO'),'',0 ]).
+attri_i(17,[ 'TASA_BOMBEROS',int,18,2,'ZZZZZZZZZZZZZZ9.99',0,l('TASA_BOMBEROS'),'',0 ]).
+attri_i(16,[ 'TREN_DE_ASEO',int,18,2,'ZZZZZZZZZZZZZZ9.99',0,l('TREN_DE_ASEO'),'',0 ]).
+attri_i(18,[ 'INTERES',int,18,6,'ZZZZZZZZZZ9.999999',0,l('INTERES'),'',0 ]).
+attri_i(10,[ 'NOMBRE',svchar,323,0,'',0,l('NOMBRE'),'',0 ]).
+attri_i(9,[ 'ACT_ID_CARD',svchar,40,0,'',0,l('ACT_ID_CARD'),'',0 ]).
+attri_i(2,[ 'ART_ID_DOC',svchar,40,0,'',0,l('ART_ID_DOC'),'',0 ]).
+attri_i(12,[ 'NOMBRE_COLONIA',svchar,60,0,'',0,l('NOMBRE_COLONIA'),'',0 ]).
+attri_i('Nombre_colonia',[ 'NOMBRE_COLONIA',svchar,60,0,'',0,l('NOMBRE_COLONIA'),'',63 ]).
+attri_i('Anio23',[ 'Anio23',int,4,0,'ZZZ9',0,l('Anio23'),'',62 ]).
+attri_i('Ruta',[ 'Ruta',svchar,250,0,'',0,l('Ruta'),'',61 ]).
+attri_i('Rutas_coloniaruta',[ 'RUTAS_COLONIARUTA',int,18,6,'ZZZZZZZZZZ9.999999',0,l('RUTA'),'',59 ]).
+attri_i('Mensaje2',[ 'Mensaje2',svchar,120,0,'',0,l('Mensaje2'),'',57 ]).
+attri_i('Mensaje',[ 'Mensaje',svchar,500,0,'',0,l('Mensaje'),'',56 ]).
+attri_i('Hora',[ 'Hora',dtime,0,8,'99:99:99',0,l('Hora'),'',55 ]).
+attri_i('Count3',[ count3,int,4,0,'ZZZ9',0,l(count3),'',54 ]).
+attri_i('Art_id_doc',[ 'ART_ID_DOC',svchar,40,0,'',0,l('ART_ID_DOC'),'',53 ]).
+attri_i('Trendeaseotot',[ 'TrenDeAseotot',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Tren De Aseotot'),'',52 ]).
+attri_i('Trendeaseo1',[ 'TrenDeAseo1',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Tren De Aseo1'),'',51 ]).
+attri_i('Trendeaseo',[ 'TrenDeAseo',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Tren De Aseo'),'',50 ]).
+attri_i('Totaltot',[ 'Totaltot',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Totaltot'),'',49 ]).
+attri_i('Total1',[ 'Total1',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Total1'),'',48 ]).
+attri_i('Total',[ 'Total',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Total'),'',47 ]).
+attri_i('Tipomovimientoguid',[ 'TipoMovimientoGUID',guid,4,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,l('Tipo Movimiento GUID'),'',46 ]).
+attri_i('Tbl_accountacc_id',[ 'TBL_ACCOUNTACC_ID',guid,16,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,l('ACC_ID'),'',44 ]).
+attri_i('Tasabomberostot',[ 'TasaBomberostot',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Tasa Bomberostot'),'',43 ]).
+attri_i('Tasabomberos1',[ 'TasaBomberos1',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Tasa Bomberos1'),'',42 ]).
+attri_i('Tasabomberos',[ 'TasaBomberos',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Tasa Bomberos'),'',41 ]).
+attri_i('Subtotal1',[ 'SubTotal1',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Sub Total1'),'',40 ]).
+attri_i('Subtotal',[ 'SubTotal',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Sub Total'),'',39 ]).
+attri_i('Para',[ 'Para',int,4,0,'ZZZ9',0,l('Para'),'',38 ]).
+attri_i('Objetoimponible',[ 'ObjetoImponible',guid,4,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,l('Objeto Imponible'),'',36 ]).
+attri_i('Nombre',[ 'Nombre',svchar,200,0,'',0,l('Nombre'),'',35 ]).
+attri_i('Movimiento',[ 'Movimiento',svchar,40,0,'',0,l('Movimiento'),'',34 ]).
+attri_i('Mov_id',[ 'MOV_ID',guid,16,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,l('MOV_ID'),'',33 ]).
+attri_i('Monto',[ 'Monto',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Monto'),'',32 ]).
+attri_i('Interestot',[ 'Interestot',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Interestot'),'',31 ]).
+attri_i('Interes3',[ 'Interes3',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Interes3'),'',30 ]).
+attri_i('Interes2',[ 'Interes2',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Interes2'),'',29 ]).
+attri_i('Interes1',[ 'Interes1',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Interes1'),'',28 ]).
+attri_i('Interes',[ 'Interes',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Interes'),'',27 ]).
+attri_i('Impuestostot',[ 'Impuestostot',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Impuestostot'),'',26 ]).
+attri_i('Impuestos1',[ 'Impuestos1',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Impuestos1'),'',25 ]).
+attri_i('Impuestos',[ 'Impuestos',int,16,2,'Z,ZZZ,ZZZ,ZZZ,ZZ9.99 LPS',0,l('Impuestos'),'',24 ]).
+attri_i('Fecha3',[ 'Fecha3',date,8,0,'99/99/9999',0,l('Fecha3'),'',23 ]).
+attri_i('Fecha2',[ 'Fecha2',date,8,0,'99/99/99',0,l('Fecha2'),'',22 ]).
+attri_i('Fecha',[ 'Fecha',date,8,0,'99/99/99',0,l('Fecha'),'',21 ]).
+attri_i('Dias',[ 'Dias',int,8,0,'ZZZZZZZ9',0,l('Dias'),'',20 ]).
+attri_i('Cuenta',[ 'Cuenta',guid,4,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,l('Cuenta'),'',19 ]).
+attri_i('Count5',[ 'Count5',int,4,0,'ZZZ9',0,l('Count5'),'',18 ]).
+attri_i('Count4',[ count4,int,4,0,'ZZZ9',0,l(count4),'',17 ]).
+attri_i('Count2',[ count2,int,4,0,'ZZZ9',0,l(count2),'',16 ]).
+attri_i('Count',[ count,int,4,0,'ZZZ9',0,l(count),'',15 ]).
+attri_i('Contador',[ 'CONTADOR',int,4,0,'ZZZ9',0,l('CONTADOR'),'',14 ]).
+attri_i('Clave',[ 'Clave',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,l('Clave'),'',13 ]).
+attri_i('Anio2',[ 'Anio2',int,4,0,'ZZZ9',0,l('Anio2'),'',12 ]).
+attri_i('Anio',[ 'Anio',int,4,0,'ZZZ9',0,l('Anio'),'',11 ]).
+attri_i('Act_id_card',[ 'ACT_ID_CARD',svchar,40,0,'',0,l('ACT_ID_CARD'),'',10 ]).
+attri_i('Act_id',[ 'ACT_ID',guid,16,0,'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',0,l('ACT_ID'),'',9 ]).
+attri_i('Acc_number',[ 'ACC_NUMBER',svchar,60,0,'',0,l('ACC_NUMBER'),'',8 ]).
+ 
+table_i(4,[ 'MORA',[ 2,9,10,12,13,15,16,17,18 ],l('MORA'),'MORA' ]).
+table_i(5,[ 'CLAVES_RUTAS',[ 1,6 ],l('CLAVES_RUTAS'),'CLAVES_RUTAS' ]).
+ 
+index_i(5,[ 'PK_CLAVES_RUTAS',u,[ 1 ],'PK_CLAVES_RUTAS' ]).
+index_i(4,[ 'IPK_MORA',u,[ 2 ],'IPK_MORA' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(4,0,0,[ [ [ 2,23,'Art_id_doc',= ] ],one ]).
+start_i(3,0,0,[ [ [ 2,23,'Art_id_doc',= ] ],one ]).
+ 
+end_i(4,0,0,[ [ [ t(2,2),t(=,10),t('Art_id_doc',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(2,2),t(=,10),t('Art_id_doc',23) ] ] ]).
+ 
+ 
+map_i(4,i,'IPK_MORA',[ 'IPK_MORA' ]).
+map_i(4,a,19,[ 'MoraId' ]).
+map_i(4,a,18,[ 'INTERES' ]).
+map_i(4,a,17,[ 'TASA_BOMBEROS' ]).
+map_i(4,a,16,[ 'TREN_DE_ASEO' ]).
+map_i(4,a,15,[ 'IMPUESTO' ]).
+map_i(4,a,14,[ 'DIAS' ]).
+map_i(4,a,13,[ 'OBL_YEAR' ]).
+map_i(4,a,12,[ 'NOMBRE_COLONIA' ]).
+map_i(4,a,11,[ 'SECTOR_COLONIA' ]).
+map_i(4,a,10,[ 'NOMBRE' ]).
+map_i(4,a,9,[ 'ACT_ID_CARD' ]).
+map_i(4,a,2,[ 'ART_ID_DOC' ]).
+map_i(5,i,'PK_CLAVES_RUTAS',[ 'PK_CLAVES_RUTAS' ]).
+map_i(5,a,8,[ 'ClavesRutaId' ]).
+map_i(5,a,7,[ 'UMAPS' ]).
+map_i(5,a,6,[ 'RUTA' ]).
+map_i(5,a,1,[ 'CLAVE_CATASTRAL' ]).
+map_i(5,i,'PK_CLAVES_RUTAS',[ 'PK_CLAVES_RUTAS' ]).
+map_i(4,i,'IPK_MORA',[ 'IPK_MORA' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(3,nvg,2,[],[ [ 12,2,9,10 ],[ 2 ],[] ]).
+break_i(4,nvg,2,[],[ [ 18,16,17,15 ],[ 2,13 ],[] ]).
+break_i(2,nvg,1,[ 1 ],[ [ 1 ],[ 6 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,5,5).
+b_group_i(2,1,lit,0,6,6).
+b_group_i(2,2,nvg,3,11,11).
+b_group_i(3,1,lit,0,12,12).
+b_group_i(2,3,lit,0,19,34).
+b_group_i(2,4,nvg,4,38,38).
+b_group_i(4,1,lit,0,58,58).
+b_group_i(2,5,lit,0,68,73).
+b_group_i(1,3,lit,0,114,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t('Fecha3',23,0,0),t(=,10,0,0),t([ t('Datetime',36,0,0),t('now(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t('Hora',23,0,0),t(=,10,0,0),t([ t('Datetime',36,0,0),t('now(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[]).
+b_line_i(5,2,1,cmd,6,[ t('',121,5,0),t(table,3,5,10),t(5,3,5,10),t('ORDER',39,5,23),t(1,2,5,29) ]).
+b_line_i(7,2,1,cmd,6,[ t('',107,7,0),t('Count',23,6,0),t(=,10,6,0),t('Count',23,6,0),t(+,5,6,0),t('1',3,6,0) ]).
+b_line_i(8,2,1,cmd,6,[]).
+b_line_i(9,2,1,cmd,6,[ t('',107,9,0),t('Art_id_doc',23,6,0),t(=,10,6,0),t(1,2,6,0) ]).
+b_line_i(10,2,1,cmd,6,[]).
+b_line_i(11,3,1,cmd,12,[ t('',121,11,0),t(table,3,11,11),t(4,3,11,11) ]).
+b_line_i(13,3,1,cmd,12,[ t('',107,13,0),t('Nombre',23,12,0),t(=,10,12,0),t(10,2,12,0) ]).
+b_line_i(14,3,1,cmd,12,[ t('',107,14,0),t('Act_id_card',23,12,0),t(=,10,12,0),t(9,2,12,0) ]).
+b_line_i(15,3,1,cmd,12,[ t('',107,15,0),t('Art_id_doc',23,12,0),t(=,10,12,0),t(2,2,12,0) ]).
+b_line_i(16,3,1,cmd,12,[ t('',107,16,0),t('Nombre_colonia',23,12,0),t(=,10,12,0),t(12,2,12,0) ]).
+b_line_i(17,3,1,cmd,12,[]).
+b_line_i(18,3,1,cmd,12,[ t('',128,18,0) ]).
+b_line_i(19,2,3,cmd,14,[]).
+b_line_i(20,2,3,pb,14,[ t('Datos',29,14,7) ]).
+b_line_i([ 20,0 ],2,3,line,14,[ t(' ',3,0,0) ]).
+b_line_i([ 20,1 ],2,3,line,15,[ t(l('Alcaldía Municipal del Distrito Cental'),3,1,15) ]).
+b_line_i([ 20,3 ],2,3,line,17,[ t(l('Tegucigalpa, Honduras'),3,3,15) ]).
+b_line_i([ 20,5 ],2,3,line,19,[ t(l('GERENCIA DE RECAUDACIÓN Y CONTROL FINANCIERO'),3,5,15) ]).
+b_line_i([ 20,8 ],2,3,line,22,[ t(l('ESTADO DE CUENTA '),3,8,15) ]).
+b_line_i([ 20,12 ],2,3,line,26,[ t(l('Nombre:'),3,12,3),t('Nombre',23,12,13),t(l('Fecha:'),3,12,70),t('Fecha3',23,12,77),t(l('Hora:'),3,12,92),t('Hora',23,12,98) ]).
+b_line_i([ 20,14 ],2,3,line,28,[ t(l('Identidad:'),3,14,3),t('Act_id_card',23,14,14),t(l('Clave Catastral:'),3,14,42),t('Art_id_doc',23,14,58),t(l('Colonia:'),3,14,77),t('Nombre_colonia',23,14,86) ]).
+b_line_i([ 20,17 ],2,3,line,31,[ t(l('Año'),3,17,1),t(l('Impuesto'),3,17,13),t(l('Tren de Aseo'),3,17,31),t(l('Tasa de Bomberos'),3,17,52),t(l('Recargos'),3,17,76),t(l('Total'),3,17,95) ]).
+b_line_i([ 20,19 ],2,3,line,33,[ t(' ',3,19,0) ]).
+b_line_i(21,2,3,cmd,34,[ t('',107,21,0),t('Impuestostot',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(22,2,3,cmd,34,[ t('',107,22,0),t('Trendeaseotot',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(23,2,3,cmd,34,[ t('',107,23,0),t('Tasabomberostot',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(24,2,3,cmd,34,[ t('',107,24,0),t('Interestot',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(25,2,3,cmd,34,[ t('',107,25,0),t('Totaltot',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(26,2,3,cmd,34,[]).
+b_line_i(27,2,3,cmd,34,[ t('',107,27,0),t('Anio23',23,34,0),t(=,10,34,0),t([ t('Datetime',36,34,0),[ t('now(',1,34,0),t(')',4,34,0) ],[ t('addyears(',1,34,0),t('-9',3,34,0),t(')',4,34,0) ],t('year(',1,34,0) ],31,34,0),t(')',4,34,0) ]).
+b_line_i([ 28,0 ],2,3,cmd,34,[ t('',107,28,0),t('Count5',23,34,0),t(=,10,34,0),t('Anio23',23,34,0) ]).
+b_line_i(28,2,3,cmd,34,[ t('',114,28,0),t('Count5',23,34,5),t(<=,10,34,1),t('2024',3,34,26) ]).
+b_line_i(29,2,3,cmd,34,[ t('',107,29,0),t('Anio2',23,34,0),t(=,10,34,0),t('Count5',23,34,0) ]).
+b_line_i(30,2,3,cmd,34,[ t('',107,30,0),t('Anio',23,34,0),t(=,10,34,0),t('Anio2',23,34,0) ]).
+b_line_i(31,2,3,cmd,34,[ t('',107,31,0),t('Fecha',23,34,0),t(=,10,34,0),t([ t('Date',36,34,0),t('new(',1,34,0) ],31,34,0),t('Anio2',23,34,0),t(',',7,34,0),t('8',3,34,0),t(',',7,34,0),t('31',3,34,0),t(')',4,34,0) ]).
+b_line_i(32,2,3,cmd,34,[]).
+b_line_i(33,2,3,cmd,34,[ t('',107,33,0),t('Interes3',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(34,2,3,cmd,34,[ t('',107,34,0),t('Impuestos1',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(35,2,3,cmd,34,[ t('',107,35,0),t('Tasabomberos1',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(36,2,3,cmd,34,[ t('',107,36,0),t('Trendeaseo1',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(37,2,3,cmd,34,[ t('',107,37,0),t('Total1',23,34,0),t(=,10,34,0),t('0',3,34,0) ]).
+b_line_i(38,4,1,cmd,58,[ t('',121,38,0),t(table,3,38,11),t(4,3,38,11) ]).
+b_line_i(41,4,1,cmd,58,[]).
+b_line_i(42,4,1,cmd,58,[ t('',107,42,0),t('Impuestos1',23,58,0),t(=,10,58,0),t(15,2,58,0) ]).
+b_line_i(43,4,1,cmd,58,[ t('',107,43,0),t('Tasabomberos1',23,58,0),t(=,10,58,0),t(17,2,58,0) ]).
+b_line_i(44,4,1,cmd,58,[ t('',107,44,0),t('Trendeaseo1',23,58,0),t(=,10,58,0),t(16,2,58,0) ]).
+b_line_i(45,4,1,cmd,58,[ t('',107,45,0),t('Interes3',23,58,0),t(=,10,58,0),t(18,2,58,0) ]).
+b_line_i(46,4,1,cmd,58,[ t('',107,46,0),t('Total1',23,58,0),t(=,10,58,0),t('Impuestos1',23,58,0),t(+,5,58,0),t('Tasabomberos1',23,58,0),t(+,5,58,0),t('Trendeaseo1',23,58,0),t(+,5,58,0),t('Interes3',23,58,0) ]).
+b_line_i(47,4,1,cmd,58,[]).
+b_line_i(48,4,1,cmd,58,[ t('',128,48,0) ]).
+b_line_i(49,2,5,cmd,45,[]).
+b_line_i(50,2,5,cmd,45,[ t('',107,50,0),t('Impuestostot',23,45,0),t(=,10,45,0),t('Impuestostot',23,45,0),t(+,5,45,0),t('Impuestos1',23,45,0) ]).
+b_line_i(51,2,5,cmd,45,[ t('',107,51,0),t('Trendeaseotot',23,45,0),t(=,10,45,0),t('Trendeaseotot',23,45,0),t(+,5,45,0),t('Trendeaseo1',23,45,0) ]).
+b_line_i(52,2,5,cmd,45,[ t('',107,52,0),t('Tasabomberostot',23,45,0),t(=,10,45,0),t('Tasabomberostot',23,45,0),t(+,5,45,0),t('Tasabomberos1',23,45,0) ]).
+b_line_i(53,2,5,cmd,45,[ t('',107,53,0),t('Interestot',23,45,0),t(=,10,45,0),t('Interestot',23,45,0),t(+,5,45,0),t('Interes3',23,45,0) ]).
+b_line_i(54,2,5,cmd,45,[ t('',107,54,0),t('Totaltot',23,45,0),t(=,10,45,0),t('Totaltot',23,45,0),t(+,5,45,0),t('Total1',23,45,0) ]).
+b_line_i(55,2,5,pb,45,[ t('Datos1',29,45,8) ]).
+b_line_i([ 55,0 ],2,5,line,45,[ t('Anio',23,0,1),t('Impuestos1',23,0,13),t('Trendeaseo1',23,0,31),t('Tasabomberos1',23,0,52),t('Interes3',23,0,76),t('Total1',23,0,95) ]).
+b_line_i([ 55,1 ],2,5,line,46,[ t(' ',3,1,0) ]).
+b_line_i([ 56,0 ],2,5,cmd,47,[ t('',107,56,0),t('Count5',23,47,0),t(=,10,47,0),t('Count5',23,47,0),t(+,5,47,0),t('1',3,47,0) ]).
+b_line_i(56,2,5,cmd,47,[ t('',115,56,0) ]).
+b_line_i(57,2,5,cmd,47,[]).
+b_line_i(58,2,5,cmd,47,[ t('',107,58,0),t('Mensaje',23,47,0),t(=,10,47,0),t('getmessagetext(',1,47,0),t('"Recuerda que puedes aprovechar el descuento por pronto pago que vence el 30 a abril y la amnistía que esta vigente hasta el 30 de Junio."',3,47,0),t(')',4,47,0) ]).
+b_line_i(59,2,5,cmd,47,[ t('',107,59,0),t('Mensaje2',23,47,0),t(=,10,47,0),t('getmessagetext(',1,47,0),t('"Datos actualizados al 29 de febrero del 2024."',3,47,0),t(')',4,47,0) ]).
+b_line_i(60,2,5,pb,47,[ t('Datos3',29,47,8) ]).
+b_line_i([ 60,0 ],2,5,line,47,[ t(l('TOTAL'),3,0,1),t('Impuestostot',23,0,13),t('Trendeaseotot',23,0,31),t('Tasabomberostot',23,0,52),t('Interestot',23,0,76),t('Totaltot',23,0,95) ]).
+b_line_i([ 60,4 ],2,5,line,51,[ t(l('Total a Pagar:'),3,4,1),t('Totaltot',23,4,16) ]).
+b_line_i([ 60,7 ],2,5,line,54,[ t('Mensaje',23,7,0) ]).
+b_line_i([ 60,13 ],2,5,line,60,[ t('Mensaje2',23,13,0) ]).
+b_line_i([ 60,25 ],2,5,line,72,[ t(' ',3,25,0) ]).
+b_line_i(61,2,5,cmd,73,[]).
+b_line_i(62,2,5,cmd,73,[]).
+b_line_i(63,2,5,cmd,73,[]).
+b_line_i(64,2,5,cmd,73,[]).
+b_line_i(65,2,5,cmd,73,[]).
+b_line_i(66,2,5,cmd,73,[]).
+b_line_i(67,2,5,cmd,73,[]).
+b_line_i(68,2,5,cmd,73,[ t('',128,68,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',12269,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(11,20,t(l('Nombre:'),3),[ font('Arial',10,[ bold ]),rect(25,183,92,205),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel4'),gxcolor([]) ]).
+lit_i(14,20,t(l('Alcaldía Municipal del Distrito Cental'),3),[ font('Arial',20,[ bold ]),rect(108,17,683,67),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(15,20,t('Nombre',23),[ font('Arial',10,[]),rect(92,183,425,205),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&nombre'),ctrltype(edit,15),ispwd(0),gxcolor([]) ]).
+lit_i(16,20,t('Act_id_card',23),[ font('Arial',10,[]),rect(100,217,300,239),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&act_id_card'),ctrltype(edit,16),ispwd(0),gxcolor([]) ]).
+lit_i(17,20,t('Art_id_doc',23),[ font('Arial',10,[]),rect(408,217,558,239),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&art_id_doc'),ctrltype(edit,17),ispwd(0),gxcolor([]) ]).
+lit_i(39,20,bitmap(i(98,'95130b7a-b128-4e54-8298-646ac84013e4')),[ ctlname('Gxreportimage1'),rect(683,0,816,67) ]).
+lit_i(40,20,bitmap(i(98,'eda46848-09cd-492f-abad-525fdafedf51')),[ ctlname('Gxreportimage2'),rect(17,0,109,83) ]).
+lit_i(41,20,t(l('Tegucigalpa, Honduras'),3),[ font('Arial',10,[ bold ]),rect(108,50,683,100),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel11'),gxcolor([]) ]).
+lit_i(42,20,t(l('GERENCIA DE RECAUDACIÓN Y CONTROL FINANCIERO'),3),[ font('Arial',11,[ bold ]),rect(108,80,683,130),outstyle(none),align(center),valign(middle),fore(rgb(128,128,128)),border(1),ctlname('Gxreportlabel12'),gxcolor([]) ]).
+lit_i(43,20,t(l('ESTADO DE CUENTA '),3),[ font('Arial',12,[ bold ]),rect(108,130,683,163),outstyle(none),align(center),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel13'),gxcolor([]) ]).
+lit_i(44,20,t(l('Fecha:'),3),[ font('Arial',10,[ bold ]),rect(492,183,542,205),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel14'),gxcolor([]) ]).
+lit_i(45,20,t('Fecha3',23),[ font('Arial',10,[]),rect(542,183,642,205),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&fecha3'),ctrltype(edit,45),ispwd(0),gxcolor([]) ]).
+lit_i(46,20,t(l('Identidad:'),3),[ font('Arial',10,[ bold ]),rect(25,217,100,239),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel5'),gxcolor([]) ]).
+lit_i(47,20,t(l('Clave Catastral:'),3),[ font('Arial',10,[ bold ]),rect(300,217,408,239),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel15'),gxcolor([]) ]).
+lit_i(48,20,rect(48),[ rect(8,267,808,298),outstyle(single),fill,back(rgb(92,206,223)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle1'),gxcolor([]),borderstyle(0,0,1,0),radius(0,0,0,0) ]).
+lit_i(49,20,t(l('Año'),3),[ font('Arial',10,[ bold ]),rect(8,267,91,298),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel6'),gxcolor([]) ]).
+lit_i(51,20,rect(51),[ rect(92,267,92,298),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline3'),gxcolor([]),borderstyle(0) ]).
+lit_i(53,20,rect(53),[ rect(217,267,217,298),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline4'),gxcolor([]),borderstyle(0) ]).
+lit_i(54,20,t(l('Impuesto'),3),[ font('Arial',10,[ bold ]),rect(92,267,217,298),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel17'),gxcolor([]) ]).
+lit_i(56,20,rect(56),[ rect(367,267,367,298),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline5'),gxcolor([]),borderstyle(0) ]).
+lit_i(90,20,t(l('Tren de Aseo'),3),[ font('Arial',10,[ bold ]),rect(217,267,367,298),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel18'),gxcolor([]) ]).
+lit_i(57,20,t(l('Tasa de Bomberos'),3),[ font('Arial',10,[ bold ]),rect(367,267,534,298),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel19'),gxcolor([]) ]).
+lit_i(58,20,rect(58),[ rect(533,267,533,298),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline6'),gxcolor([]),borderstyle(0) ]).
+lit_i(59,20,t(l('Recargos'),3),[ font('Arial',10,[ bold ]),rect(533,267,666,298),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel20'),gxcolor([]) ]).
+lit_i(60,20,rect(60),[ rect(667,267,667,298),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline7'),gxcolor([]),borderstyle(0) ]).
+lit_i(62,20,t(l('Total'),3),[ font('Arial',10,[ bold ]),rect(667,267,809,298),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel16'),gxcolor([]) ]).
+lit_i(91,20,t(l('Hora:'),3),[ font('Arial',10,[ bold ]),rect(650,183,700,205),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel3'),gxcolor([]) ]).
+lit_i(92,20,t('Hora',23),[ font('Arial',10,[]),rect(692,183,784,205),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&hora'),ctrltype(edit,92),ispwd(0),gxcolor([]) ]).
+lit_i(95,20,t(l('Colonia:'),3),[ font('Arial',10,[ bold ]),rect(542,217,600,239),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel7'),gxcolor([]) ]).
+lit_i(96,20,t('Nombre_colonia',23),[ font('Arial',10,[]),rect(608,217,791,239),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&nombre_colonia'),ctrltype(edit,96),ispwd(0),gxcolor([]) ]).
+lit_i(1,20,window,[ title(l('Text')),rect(0,0,852,299),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Datos'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(6,55,t('Anio',23),[ font('Arial',10,[]),rect(8,0,91,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&anio'),ctrltype(edit,6),ispwd(0),gxcolor([]) ]).
+lit_i(25,55,t('Impuestos1',23),[ font('Arial',10,[]),rect(92,0,217,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&impuestos1'),ctrltype(edit,25),ispwd(0),gxcolor([]) ]).
+lit_i(26,55,t('Trendeaseo1',23),[ font('Arial',10,[]),rect(217,0,367,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&trendeaseo1'),ctrltype(edit,26),ispwd(0),gxcolor([]) ]).
+lit_i(28,55,t('Tasabomberos1',23),[ font('Arial',10,[]),rect(367,0,534,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&tasabomberos1'),ctrltype(edit,28),ispwd(0),gxcolor([]) ]).
+lit_i(30,55,t('Total1',23),[ font('Arial',10,[]),rect(667,0,809,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&total1'),ctrltype(edit,30),ispwd(0),gxcolor([]) ]).
+lit_i(38,55,t('Interes3',23),[ font('Arial',10,[]),rect(533,0,666,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&interes3'),ctrltype(edit,38),ispwd(0),gxcolor([]) ]).
+lit_i(63,55,rect(63),[ rect(8,0,808,30),outstyle(single),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle2'),gxcolor([]),borderstyle(0,0,1,0),radius(0,0,0,0) ]).
+lit_i(65,55,rect(65),[ rect(92,0,92,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline1'),gxcolor([]),borderstyle(0) ]).
+lit_i(66,55,rect(66),[ rect(217,0,217,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline2'),gxcolor([]),borderstyle(0) ]).
+lit_i(67,55,rect(67),[ rect(367,0,367,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline8'),gxcolor([]),borderstyle(0) ]).
+lit_i(68,55,rect(68),[ rect(533,0,533,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline9'),gxcolor([]),borderstyle(0) ]).
+lit_i(69,55,rect(69),[ rect(667,0,667,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline10'),gxcolor([]),borderstyle(0) ]).
+lit_i(7,55,window,[ title(l('Text')),rect(0,0,852,32),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Datos1'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(82,60,rect(82),[ rect(8,0,808,31),outstyle(single),fill,back(rgb(192,192,192)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportrectangle3'),gxcolor([]),borderstyle(0,0,0,0),radius(0,0,0,0) ]).
+lit_i(72,60,rect(72),[ rect(667,0,667,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline11'),gxcolor([]),borderstyle(0) ]).
+lit_i(74,60,rect(74),[ rect(533,0,533,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline12'),gxcolor([]),borderstyle(0) ]).
+lit_i(76,60,rect(76),[ rect(367,0,367,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline13'),gxcolor([]),borderstyle(0) ]).
+lit_i(79,60,rect(79),[ rect(217,0,217,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline14'),gxcolor([]),borderstyle(0) ]).
+lit_i(80,60,rect(80),[ rect(92,0,92,31),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline15'),gxcolor([]),borderstyle(0) ]).
+lit_i(81,60,t(l('TOTAL'),3),[ font('Arial',10,[ bold ]),rect(8,0,91,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel10'),gxcolor([]) ]).
+lit_i(83,60,t('Totaltot',23),[ font('Arial',10,[ bold ]),rect(667,0,809,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&totaltot'),ctrltype(edit,83),ispwd(0),gxcolor([]) ]).
+lit_i(84,60,t('Interestot',23),[ font('Arial',10,[ bold ]),rect(533,0,666,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&interestot'),ctrltype(edit,84),ispwd(0),gxcolor([]) ]).
+lit_i(85,60,t('Tasabomberostot',23),[ font('Arial',10,[ bold ]),rect(367,0,534,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&tasabomberostot'),ctrltype(edit,85),ispwd(0),gxcolor([]) ]).
+lit_i(86,60,t('Trendeaseotot',23),[ font('Arial',10,[ bold ]),rect(217,0,367,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&trendeaseotot'),ctrltype(edit,86),ispwd(0),gxcolor([]) ]).
+lit_i(87,60,t('Impuestostot',23),[ font('Arial',10,[ bold ]),rect(92,0,217,31),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&impuestostot'),ctrltype(edit,87),ispwd(0),gxcolor([]) ]).
+lit_i(88,60,t(l('Total a Pagar:'),3),[ font('Arial',10,[ bold ]),rect(8,67,116,89),outstyle(none),align(left),valign(middle),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(89,60,t('Totaltot',23),[ font('Arial',10,[ bold ]),rect(117,67,259,89),outstyle(none),align(center),valign(middle),fore(rgb(0,0,0)),border(1),format(0),ctlname('&totaltot'),ctrltype(edit,89),ispwd(0),gxcolor([]) ]).
+lit_i(93,60,t('Mensaje',23),[ font('Arial',14,[ bold ]),rect(0,117,817,184),outstyle(none),align(center),valign(middle),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&mensaje'),ctrltype(edit,93),ispwd(0),gxcolor([]) ]).
+lit_i(94,60,t('Mensaje2',23),[ font('Arial',10,[ bold ]),rect(0,200,817,267),outstyle(none),align(center),valign(middle),wrap,fore(rgb(0,0,0)),border(1),format(0),ctlname('&mensaje2'),ctrltype(edit,94),ispwd(0),gxcolor([]) ]).
+lit_i(97,60,bitmap(i(98,'09a25aae-18e3-4d8f-b315-08f46844995f')),[ ctlname('Gxreportimage3'),rect(242,267,559,400) ]).
+lit_i(70,60,window,[ title(l('Text')),rect(0,0,852,400),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Datos3'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ctrl_info_i(20,15,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(20,16,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(20,17,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(20,45,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(20,92,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(20,96,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(55,6,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(55,25,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(55,26,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(55,28,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(55,30,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(55,38,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(60,83,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(60,84,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(60,85,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(60,86,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(60,87,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(60,89,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(60,93,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(60,94,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+calling_main_i(1,14).
+ 
+att_prop_i(2,12,'ExternalName','NOMBRE_COLONIA',d).
+att_prop_i(2,12,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,12,'EmptyAsNull','Yes',d).
+att_prop_i(2,12,idBasedOn,'',d).
+att_prop_i(2,12,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,12,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,12,'AttRegEx','',d).
+att_prop_i(2,12,'AttValidationFailedMsg','',d).
+att_prop_i(2,12,'DownloadOffline','0',d).
+att_prop_i(2,12,'VarServiceExtName','',d).
+att_prop_i(2,12,'FullName','NOMBRE_COLONIA',v).
+att_prop_i(2,2,'ExternalName','ART_ID_DOC',d).
+att_prop_i(2,2,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,2,'EmptyAsNull','Yes',d).
+att_prop_i(2,2,idBasedOn,'',d).
+att_prop_i(2,2,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,2,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,2,'AttRegEx','',d).
+att_prop_i(2,2,'AttValidationFailedMsg','',d).
+att_prop_i(2,2,'DownloadOffline','0',d).
+att_prop_i(2,2,'VarServiceExtName','',d).
+att_prop_i(2,2,'FullName','ART_ID_DOC',v).
+att_prop_i(2,9,'ExternalName','ACT_ID_CARD',d).
+att_prop_i(2,9,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,idBasedOn,'',d).
+att_prop_i(2,9,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,9,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'DownloadOffline','0',d).
+att_prop_i(2,9,'VarServiceExtName','',d).
+att_prop_i(2,9,'FullName','ACT_ID_CARD',v).
+att_prop_i(2,10,'ExternalName','NOMBRE',d).
+att_prop_i(2,10,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,10,'EmptyAsNull','Yes',d).
+att_prop_i(2,10,idBasedOn,'',d).
+att_prop_i(2,10,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,10,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,10,'AttRegEx','',d).
+att_prop_i(2,10,'AttValidationFailedMsg','',d).
+att_prop_i(2,10,'DownloadOffline','0',d).
+att_prop_i(2,10,'VarServiceExtName','',d).
+att_prop_i(2,10,'FullName','NOMBRE',v).
+att_prop_i(2,18,'ExternalName','INTERES',d).
+att_prop_i(2,18,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,18,'EmptyAsNull','Yes',d).
+att_prop_i(2,18,idBasedOn,'',d).
+att_prop_i(2,18,'AUTONUMBER','0',d).
+att_prop_i(2,18,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,18,'AttRegEx','',d).
+att_prop_i(2,18,'AttValidationFailedMsg','',d).
+att_prop_i(2,18,'DownloadOffline','0',d).
+att_prop_i(2,18,'VarServiceExtName','',d).
+att_prop_i(2,18,'FullName','INTERES',v).
+att_prop_i(2,16,'ExternalName','TREN_DE_ASEO',d).
+att_prop_i(2,16,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,16,'EmptyAsNull','Yes',d).
+att_prop_i(2,16,idBasedOn,'',d).
+att_prop_i(2,16,'AUTONUMBER','0',d).
+att_prop_i(2,16,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,16,'AttRegEx','',d).
+att_prop_i(2,16,'AttValidationFailedMsg','',d).
+att_prop_i(2,16,'DownloadOffline','0',d).
+att_prop_i(2,16,'VarServiceExtName','',d).
+att_prop_i(2,16,'FullName','TREN_DE_ASEO',v).
+att_prop_i(2,17,'ExternalName','TASA_BOMBEROS',d).
+att_prop_i(2,17,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,17,'EmptyAsNull','Yes',d).
+att_prop_i(2,17,idBasedOn,'',d).
+att_prop_i(2,17,'AUTONUMBER','0',d).
+att_prop_i(2,17,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,17,'AttRegEx','',d).
+att_prop_i(2,17,'AttValidationFailedMsg','',d).
+att_prop_i(2,17,'DownloadOffline','0',d).
+att_prop_i(2,17,'VarServiceExtName','',d).
+att_prop_i(2,17,'FullName','TASA_BOMBEROS',v).
+att_prop_i(2,15,'ExternalName','IMPUESTO',d).
+att_prop_i(2,15,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,15,'EmptyAsNull','Yes',d).
+att_prop_i(2,15,idBasedOn,'',d).
+att_prop_i(2,15,'AUTONUMBER','0',d).
+att_prop_i(2,15,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,15,'AttRegEx','',d).
+att_prop_i(2,15,'AttValidationFailedMsg','',d).
+att_prop_i(2,15,'DownloadOffline','0',d).
+att_prop_i(2,15,'VarServiceExtName','',d).
+att_prop_i(2,15,'FullName','IMPUESTO',v).
+att_prop_i(2,1,'ExternalName','CLAVE_CATASTRAL',d).
+att_prop_i(2,1,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,1,'EmptyAsNull','Yes',d).
+att_prop_i(2,1,idBasedOn,'',d).
+att_prop_i(2,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,1,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,1,'AttRegEx','',d).
+att_prop_i(2,1,'AttValidationFailedMsg','',d).
+att_prop_i(2,1,'DownloadOffline','0',d).
+att_prop_i(2,1,'VarServiceExtName','',d).
+att_prop_i(2,1,'FullName','CLAVE_CATASTRAL',v).
+att_prop_i(2,6,'ExternalName','CLAVES_RUTASRUTA',d).
+att_prop_i(2,6,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,idBasedOn,'',d).
+att_prop_i(2,6,'AUTONUMBER','0',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'DownloadOffline','0',d).
+att_prop_i(2,6,'VarServiceExtName','',d).
+att_prop_i(2,6,'FullName','CLAVES_RUTASRUTA',v).
+att_prop_i(2,13,'ExternalName','OBL_YEAR',d).
+att_prop_i(2,13,'ExternalNamespace','EstadoCuenta',d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,idBasedOn,'',d).
+att_prop_i(2,13,'AUTONUMBER','0',d).
+att_prop_i(2,13,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'DownloadOffline','0',d).
+att_prop_i(2,13,'VarServiceExtName','',d).
+att_prop_i(2,13,'FullName','OBL_YEAR',v).
+ 
+ 
+tbl_att_prop_i(2,5,1,'AllowNulls',n).
+tbl_att_prop_i(2,4,2,'AllowNulls',n).
+tbl_att_prop_i(2,4,9,'AllowNulls',n).
+tbl_att_prop_i(2,4,10,'AllowNulls',n).
+ 
+var_prop_i(2,'Acc_number',idBasedOn,'',v).
+var_prop_i(2,'Act_id',idBasedOn,'',v).
+var_prop_i(2,'Act_id','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(2,'Act_id','AttValidationFailedMsg','GXM_InvalidGUID',d).
+var_prop_i(2,'Act_id_card',idBasedOn,'',v).
+var_prop_i(2,'Cuenta','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(2,'Cuenta','AttValidationFailedMsg','GXM_InvalidGUID',d).
+var_prop_i(2,'Mov_id',idBasedOn,'',v).
+var_prop_i(2,'Mov_id','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(2,'Mov_id','AttValidationFailedMsg','GXM_InvalidGUID',d).
+var_prop_i(2,'Objetoimponible','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(2,'Objetoimponible','AttValidationFailedMsg','GXM_InvalidGUID',d).
+var_prop_i(2,'Tbl_accountacc_id',idBasedOn,'',v).
+var_prop_i(2,'Tbl_accountacc_id','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(2,'Tbl_accountacc_id','AttValidationFailedMsg','GXM_InvalidGUID',d).
+var_prop_i(2,'Tipomovimientoguid',idBasedOn,'',v).
+var_prop_i(2,'Tipomovimientoguid','AttRegEx','([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|^\s*$)',d).
+var_prop_i(2,'Tipomovimientoguid','AttValidationFailedMsg','GXM_InvalidGUID',d).
+var_prop_i(2,'Art_id_doc',idBasedOn,'',v).
+var_prop_i(2,'Rutas_coloniaruta',idBasedOn,'',v).
+var_prop_i(2,'Nombre_colonia',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,14,'ESTADODECUENTA','HTTP','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,14,'ESTADODECUENTA',[ 15,'AESTADODECUENTA','Estado De Cuenta','','','','HTTP' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

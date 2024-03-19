@@ -1,0 +1,32 @@
+openapi: 3.0.0
+info:
+  title: "Estado Cuenta"
+  version: "20240304200646"
+servers:
+  - url: http://localhost/EstadoCuentaNETFrameworkSQLServer/rest
+paths:
+  /K2BToolsGetUseEncryption:
+    post:
+      tags:
+        - K2BToolsGetUseEncryption
+      operationId: "K2BToolsGetUseEncryption"
+      summary: "K2 BTools Get Use Encryption"
+
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/K2BToolsGetUseEncryptionOutput"
+        404:
+          description: "Not found"
+components:
+  schemas:
+    K2BToolsGetUseEncryptionOutput:
+      properties:
+        encrypt:
+          type: "string"
+
+  
+ 

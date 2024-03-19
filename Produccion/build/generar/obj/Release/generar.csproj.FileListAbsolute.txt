@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\Produccion\web\bin\generar.dll
+C:\KBs\EstadoCuenta\Produccion\build\generar\obj\Release\generar.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\Produccion\build\generar\obj\Release\generar.dll

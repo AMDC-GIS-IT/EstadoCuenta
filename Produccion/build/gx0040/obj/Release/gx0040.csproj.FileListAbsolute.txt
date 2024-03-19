@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\Produccion\web\bin\gx0040.dll
+C:\KBs\EstadoCuenta\Produccion\build\gx0040\obj\Release\gx0040.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\Produccion\build\gx0040\obj\Release\gx0040.dll

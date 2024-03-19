@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\Produccion\web\bin\k2btools.designsystems.aries.uiconfiguration.dll
+C:\KBs\EstadoCuenta\Produccion\build\k2btools.designsystems.aries.uiconfiguration\obj\Release\k2btools.designsystems.aries.uiconfiguration.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\Produccion\build\k2btools.designsystems.aries.uiconfiguration\obj\Release\k2btools.designsystems.aries.uiconfiguration.dll

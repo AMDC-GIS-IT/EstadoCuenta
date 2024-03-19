@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\Produccion\web\bin\k2bt_returnfileinhttpresponse.dll
+C:\KBs\EstadoCuenta\Produccion\build\k2bt_returnfileinhttpresponse\obj\Release\k2bt_returnfileinhttpresponse.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\Produccion\build\k2bt_returnfileinhttpresponse\obj\Release\k2bt_returnfileinhttpresponse.dll

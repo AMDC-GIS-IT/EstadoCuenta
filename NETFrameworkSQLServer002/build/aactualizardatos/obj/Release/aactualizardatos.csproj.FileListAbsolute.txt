@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\web\bin\aactualizardatos.dll
+C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\aactualizardatos\obj\Release\aactualizardatos.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\aactualizardatos\obj\Release\aactualizardatos.dll

@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\Produccion\web\bin\avineta.dll
+C:\KBs\EstadoCuenta\Produccion\build\avineta\obj\Release\avineta.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\Produccion\build\avineta\obj\Release\avineta.dll

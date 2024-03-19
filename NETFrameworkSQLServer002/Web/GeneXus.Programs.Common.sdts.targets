@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+<ItemGroup>
+</ItemGroup>
+
+<ItemGroup>
+ 	<Compile Include="$(WebDirectory)\type_SdtDesktopNotificationInfoSDT.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtFileUploadData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BActivity.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BActivityList_K2BActivityListItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BAttributeValue_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridColumns_K2BGridColumnsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BGridConfiguration.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BMultiLevelMenu_K2BMultiLevelMenuItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BProgramNames_ProgramName.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BSearchResult_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTabOptions_K2BTabOptionsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\k2btools\controltypes\coloroptionpicker\type_SdtColorOptions_Color.cs" />
+ 	<Compile Include="$(WebDirectory)\k2btools\integrationprocedures\type_SdtWebNotificationSDT_Notification.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTrnContext.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTrnContext_Attribute.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BTrnNavigation.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BT_CSVImportParameters.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BT_ExtendedControlValues_Item.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtK2BWizardSteps_K2BWizardStepsItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSearchableTransactions_SearchableTransactionsItem.cs" />
+
+</ItemGroup>
+
+</Project>

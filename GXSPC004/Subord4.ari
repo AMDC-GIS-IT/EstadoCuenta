@@ -1,0 +1,4 @@
+dir_subordinates_i(4,4,[]).
+dir_subordinates_i(4,5,[]).
+dir_subordinates_i(4,6,[]).
+ 

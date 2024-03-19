@@ -1,0 +1,15 @@
+2024-03-06 13:05:44,261: INFO  – ========== Structure Data Type generation started ==========
+2024-03-06 13:05:44,271: INFO  – Generating structure... 
+2024-03-06 13:05:44,280: INFO  – done!
+2024-03-06 13:05:44,281: INFO  – Saving 'ObtenerTasaDeCambio'
+2024-03-06 13:05:44,729: INFO  – Structured Data Type 'ObtenerTasaDeCambio' successfully saved in 'Root Module'
+2024-03-06 13:05:44,731: INFO  – Success: Structure Data Type generation
+2024-03-06 13:06:35,804: INFO  – ========== OpenAPI Import started ==========
+2024-03-06 13:06:36,230: ERROR – error: The remote server returned an error: (401) Unauthorized.
+2024-03-06 13:43:12,953: ERROR – error src0256: Expecting assignment expression, e.g. '&tasa = <value>' (Procedure 'Procedure2' Source, Line: 23, Char: 1, , Details, )
+2024-03-06 16:02:42,997: INFO  – ========== Structure Data Type generation started ==========
+2024-03-06 16:02:43,010: INFO  – Generating structure... 
+2024-03-06 16:02:43,011: INFO  – done!
+2024-03-06 16:02:43,012: INFO  – Saving 'ValorDolar'
+2024-03-06 16:02:43,214: INFO  – Structured Data Type 'ValorDolar' successfully saved in 'Root Module'
+2024-03-06 16:02:43,214: INFO  – Success: Structure Data Type generation

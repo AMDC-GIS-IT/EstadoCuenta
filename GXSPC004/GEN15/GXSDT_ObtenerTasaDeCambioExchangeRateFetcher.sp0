@@ -1,0 +1,110 @@
+ 
+spec_i([ sdt,[ 14,65,0 ],'ObtenerTasaDeCambioExchangeRateFetcher','ObtenerTasaDeCambioExchangeRateFetcher',0,spa,'18_0_7-179127' ]).
+ 
+struct_dt_i([ 14,65,0 ],name,'ObtenerTasaDeCambioExchangeRateFetcher').
+struct_dt_i([ 14,65,0 ],'ObjName','ObtenerTasaDeCambioExchangeRateFetcher').
+struct_dt_i([ 14,65,0 ],'ObjDesc','').
+struct_dt_i([ 14,65,0 ],'ExoType','0').
+struct_dt_i([ 14,65,0 ],'ObjNamespace','').
+struct_dt_i([ 14,65,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,65,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,65,0 ],'ExoNameCSHARP','ExchangeRateFetcher').
+struct_dt_i([ 14,65,0 ],'AssemblyName','ObtenerTasaDeCambio.dll').
+struct_dt_i([ 14,65,0 ],'ExoConstructorParametersCSHARP','*none').
+struct_dt_i([ 14,65,0 ],'ExoNameNETCORE','ExchangeRateFetcher').
+struct_dt_i([ 14,65,0 ],'NetCoreAssemblyName','ObtenerTasaDeCambio.dll').
+struct_dt_i([ 14,65,0 ],'NetCorePackageName','').
+struct_dt_i([ 14,65,0 ],'ExoConstructorParametersNETCORE','*none').
+struct_dt_i([ 14,65,0 ],'PackageName','').
+struct_dt_i([ 14,65,0 ],'ExoNameJS','').
+struct_dt_i([ 14,65,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,65,0 ],'ExoJsModuleName','').
+struct_dt_i([ 14,65,0 ],'ExoJsModulePath','').
+struct_dt_i([ 14,65,0 ],'ExoJsModuleReference','').
+struct_dt_i([ 14,65,0 ],'Folder',o(120,'Root Module')).
+struct_dt_i([ 14,65,0 ],'FullyQualifiedName','ObtenerTasaDeCambioExchangeRateFetcher').
+struct_dt_i([ 14,65,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,65,0 ],fullname,'ObtenerTasaDeCambioExchangeRateFetcher').
+struct_dt_i([ 14,65,0 ],modified,yes).
+ 
+ 
+struct_dt_method_i([ 14,65,0 ],1,name,obtenertasadecambio).
+struct_dt_method_i([ 14,65,0 ],1,camelname,'ObtenerTasaDeCambio').
+struct_dt_method_i([ 14,65,0 ],1,externalType,'').
+struct_dt_method_i([ 14,65,0 ],1,length,9999).
+struct_dt_method_i([ 14,65,0 ],1,decimals,0).
+struct_dt_method_i([ 14,65,0 ],1,type,[ 5,9999,0 ]).
+struct_dt_method_i([ 14,65,0 ],1,collection,'True').
+struct_dt_method_i([ 14,65,0 ],1,'IntName','ObtenerTasaDeCambio').
+struct_dt_method_i([ 14,65,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,65,0 ],1,'ExoItemType','Character').
+struct_dt_method_i([ 14,65,0 ],1,basedon,'').
+struct_dt_method_i([ 14,65,0 ],1,'XmlName','ObtenerTasaDeCambio').
+struct_dt_method_i([ 14,65,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,65,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,65,0 ],1,'ExoNameCSHARP','ObtenerTasaDeCambio').
+struct_dt_method_i([ 14,65,0 ],1,'ExoItemExtTypeCSHARP','System.Threading.Tasks.Task< System.String>').
+struct_dt_method_i([ 14,65,0 ],1,'ExoNameNETCORE','ObtenerTasaDeCambio').
+struct_dt_method_i([ 14,65,0 ],1,'ExoItemExtTypeNETCORE','System.Threading.Tasks.Task< System.String>').
+struct_dt_method_i([ 14,65,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,65,0 ],1,'ExoNameJS','').
+struct_dt_method_i([ 14,65,0 ],1,'ExoExtNameJSModule','').
+struct_dt_method_i([ 14,65,0 ],1,'ExoMemberJsModulePath','').
+struct_dt_method_i([ 14,65,0 ],1,'ExoAsyncJSModule','0').
+ 
+struct_dt_param_i([ 14,65,1 ],1,name,apikey).
+struct_dt_param_i([ 14,65,1 ],1,camelname,apiKey).
+struct_dt_param_i([ 14,65,1 ],1,externalType,'').
+struct_dt_param_i([ 14,65,1 ],1,length,9999).
+struct_dt_param_i([ 14,65,1 ],1,decimals,0).
+struct_dt_param_i([ 14,65,1 ],1,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,65,1 ],1,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,1 ],1,'IntName',apiKey).
+struct_dt_param_i([ 14,65,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,1 ],1,'ExoItemType','Character').
+struct_dt_param_i([ 14,65,1 ],1,basedon,'').
+struct_dt_param_i([ 14,65,1 ],1,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,65,1 ],1,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_param_i([ 14,65,1 ],2,name,basecurrency).
+struct_dt_param_i([ 14,65,1 ],2,camelname,baseCurrency).
+struct_dt_param_i([ 14,65,1 ],2,externalType,'').
+struct_dt_param_i([ 14,65,1 ],2,length,9999).
+struct_dt_param_i([ 14,65,1 ],2,decimals,0).
+struct_dt_param_i([ 14,65,1 ],2,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,65,1 ],2,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,1 ],2,'IntName',baseCurrency).
+struct_dt_param_i([ 14,65,1 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,1 ],2,'ExoItemType','Character').
+struct_dt_param_i([ 14,65,1 ],2,basedon,'').
+struct_dt_param_i([ 14,65,1 ],2,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,65,1 ],2,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_param_i([ 14,65,1 ],3,name,targetcurrency).
+struct_dt_param_i([ 14,65,1 ],3,camelname,targetCurrency).
+struct_dt_param_i([ 14,65,1 ],3,externalType,'').
+struct_dt_param_i([ 14,65,1 ],3,length,9999).
+struct_dt_param_i([ 14,65,1 ],3,decimals,0).
+struct_dt_param_i([ 14,65,1 ],3,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,65,1 ],3,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,1 ],3,'IntName',targetCurrency).
+struct_dt_param_i([ 14,65,1 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,1 ],3,'ExoItemType','Character').
+struct_dt_param_i([ 14,65,1 ],3,basedon,'').
+struct_dt_param_i([ 14,65,1 ],3,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,65,1 ],3,'ExoItemExtTypeNETCORE','System.String').
+struct_dt_param_i([ 14,65,1 ],4,name,date).
+struct_dt_param_i([ 14,65,1 ],4,camelname,date).
+struct_dt_param_i([ 14,65,1 ],4,externalType,'').
+struct_dt_param_i([ 14,65,1 ],4,length,9999).
+struct_dt_param_i([ 14,65,1 ],4,decimals,0).
+struct_dt_param_i([ 14,65,1 ],4,type,[ 5,9999,0 ]).
+struct_dt_param_i([ 14,65,1 ],4,'ExoParamAccessType',in).
+struct_dt_param_i([ 14,65,1 ],4,'IntName',date).
+struct_dt_param_i([ 14,65,1 ],4,'ExoItemDesc','').
+struct_dt_param_i([ 14,65,1 ],4,'ExoItemType','Character').
+struct_dt_param_i([ 14,65,1 ],4,basedon,'').
+struct_dt_param_i([ 14,65,1 ],4,'ExoItemExtTypeCSHARP','System.String').
+struct_dt_param_i([ 14,65,1 ],4,'ExoItemExtTypeNETCORE','System.String').
+ 
+ 
+ 
+ 

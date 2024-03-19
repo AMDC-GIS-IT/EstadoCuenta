@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\Produccion\web\bin\k2btools.designsystems.aries.searchresultentitywc.dll
+C:\KBs\EstadoCuenta\Produccion\build\k2btools.designsystems.aries.searchresultentitywc\obj\Release\k2btools.designsystems.aries.searchresultentitywc.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\Produccion\build\k2btools.designsystems.aries.searchresultentitywc\obj\Release\k2btools.designsystems.aries.searchresultentitywc.dll

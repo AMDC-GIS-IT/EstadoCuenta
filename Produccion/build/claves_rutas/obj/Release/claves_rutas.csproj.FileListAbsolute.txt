@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\Produccion\web\bin\claves_rutas.dll
+C:\KBs\EstadoCuenta\Produccion\build\claves_rutas\obj\Release\claves_rutas.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\Produccion\build\claves_rutas\obj\Release\claves_rutas.dll

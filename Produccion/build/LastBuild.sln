@@ -1,0 +1,25 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aprocedure2", "aprocedure2\aprocedure2.csproj", "{F8C84B85-F675-437D-9879-D203D9714FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneXus.Programs.Common", "GeneXus.Programs.Common\GeneXus.Programs.Common.csproj", "{D80E18A9-73ED-4924-B568-3D55798BB830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8C84B85-F675-437D-9879-D203D9714FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C84B85-F675-437D-9879-D203D9714FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C84B85-F675-437D-9879-D203D9714FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C84B85-F675-437D-9879-D203D9714FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80E18A9-73ED-4924-B568-3D55798BB830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80E18A9-73ED-4924-B568-3D55798BB830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80E18A9-73ED-4924-B568-3D55798BB830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80E18A9-73ED-4924-B568-3D55798BB830}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

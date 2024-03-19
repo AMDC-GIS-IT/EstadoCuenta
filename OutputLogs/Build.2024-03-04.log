@@ -1,0 +1,2240 @@
+2024-03-04 09:58:01,062: INFO  – ========== Build All started ==========
+2024-03-04 09:58:01,487: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 09:58:01,512: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 09:58:01,601: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 09:58:01,609: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 09:58:01,725: INFO  – ========== Database Creation Analysis started ==========
+2024-03-04 09:58:03,507: INFO  – Processing ... 
+2024-03-04 09:58:03,513: INFO  – Searching for new or changed tables ...
+2024-03-04 09:58:03,707: INFO  – Analyzing   RUTAS_COLONIA ...
+2024-03-04 09:58:03,709: INFO  – Removing specification files ...
+2024-03-04 09:58:03,710: INFO  – Specification files removed.
+2024-03-04 09:58:04,593: INFO  – Analyzing   MORA ...
+2024-03-04 09:58:04,593: INFO  – Analyzing   CLAVES_RUTAS ...
+2024-03-04 09:58:04,593: INFO  – Searching for deleted tables ...
+2024-03-04 09:58:04,594: INFO  – Searching redundancy in CLAVES_RUTAS
+2024-03-04 09:58:04,594: INFO  – Updating redundancy in CLAVES_RUTAS
+2024-03-04 09:58:04,594: INFO  – Searching redundancy in MORA
+2024-03-04 09:58:04,595: INFO  – Updating redundancy in MORA
+2024-03-04 09:58:04,595: INFO  – Searching redundancy in RUTAS_COLONIA
+2024-03-04 09:58:04,595: INFO  – Updating redundancy in RUTAS_COLONIA
+2024-03-04 09:58:04,596: INFO  –  Specifying GXLRED ...
+2024-03-04 09:58:04,597: INFO  – Loading table and attribute properties ...
+2024-03-04 09:58:04,597: INFO  – Saving specifications.
+2024-03-04 09:58:04,967: INFO  – Success: Database Creation Analysis
+2024-03-04 09:58:49,773: INFO  – ========== Target Environment update started ==========
+2024-03-04 09:58:50,097: INFO  – Success: Target Environment update
+2024-03-04 09:58:50,263: INFO  – Generating User Control GeneXusUnanimo.Dropdown
+2024-03-04 09:58:50,306: INFO  – Generating User Control GeneXusUnanimo.DropdownAngular
+2024-03-04 09:58:50,406: INFO  – Generating User Control GeneXusUnanimo.Select
+2024-03-04 09:58:50,457: INFO  – Generating User Control GeneXusUnanimo.SelectAngular
+2024-03-04 09:58:50,483: INFO  – Generating User Control GeneXusUnanimo.Sidebar
+2024-03-04 09:58:50,517: INFO  – Generating User Control GeneXusUnanimo.SidebarAngular
+2024-03-04 09:58:50,551: INFO  – Generating User Control GeneXusUnanimo.Treeview
+2024-03-04 09:58:50,585: INFO  – Generating User Control GeneXusUnanimo.TreeviewAngular
+2024-03-04 09:58:50,624: INFO  – Generating User Control GeneXusUnanimo.Step
+2024-03-04 09:58:50,655: INFO  – Generating User Control GeneXusUnanimo.StepAngular
+2024-03-04 09:58:50,674: INFO  – Generating User Control GeneXusUnanimo.Alert
+2024-03-04 09:58:50,709: INFO  – Generating User Control GeneXusUnanimo.AlertAngular
+2024-03-04 09:58:50,734: INFO  – Generating User Control GeneXusUnanimo.Icon
+2024-03-04 09:58:50,765: INFO  – Generating User Control GeneXusUnanimo.IconAngular
+2024-03-04 09:58:50,779: INFO  – Generating User Control GeneXusUnanimo.Switch
+2024-03-04 09:58:50,832: INFO  – Generating User Control GeneXusUnanimo.Slider
+2024-03-04 09:58:50,892: INFO  – Generating User Control GeneXusUnanimo.Button
+2024-03-04 09:58:51,171: INFO  – ========== Specification started ==========
+2024-03-04 09:58:53,115: INFO  –  Specifying ActualizarDatos ...
+2024-03-04 09:58:53,116: INFO  –  Specifying General.UI.MasterPrompt ...
+2024-03-04 09:58:53,134: INFO  –  Specifying General.UI.MasterUnanimoSidebar ...
+2024-03-04 09:58:53,155: INFO  –  Specifying General.UI.SidebarItemsDP ...
+2024-03-04 09:58:53,854: INFO  –  Specifying  stub ActualizarDatos ...
+2024-03-04 09:58:53,885: INFO  – Generating Resources...
+2024-03-04 09:58:56,066: INFO  –  Specifying CLAVES_RUTAS ...
+2024-03-04 09:58:56,183: INFO  –  Specifying MORA ...
+2024-03-04 09:58:56,300: INFO  – Creating prompt 'Gx0010' (for table 'CLAVES_RUTAS')...
+2024-03-04 09:58:56,768: INFO  – Success
+2024-03-04 09:58:56,798: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 09:58:57,941: INFO  –  Specifying RUTAS_COLONIA ...
+2024-03-04 09:58:58,926: INFO  – Creating prompt 'Gx0020' (for table 'MORA')...
+2024-03-04 09:58:59,286: INFO  –  Specifying Gx0010 ...
+2024-03-04 09:59:00,528: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18 to NETFrameworkSQLServer002\web...
+2024-03-04 09:59:01,150: INFO  – Creating prompt 'Gx0030' (for table 'RUTAS_COLONIA')...
+2024-03-04 09:59:02,139: INFO  –  Specifying Gx0030 ...
+2024-03-04 09:59:03,198: INFO  –  Specifying Gx0020 ...
+2024-03-04 09:59:04,102: INFO  – Processing inferred calls...
+2024-03-04 09:59:05,251: INFO  – Success: Specification
+2024-03-04 09:59:07,158: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\sidebaritemsdp.cs
+2024-03-04 09:59:08,612: INFO  – Generating to NETFrameworkSQLServer002\web\actualizardatos.cs
+2024-03-04 09:59:08,625: INFO  – Generating to NETFrameworkSQLServer002\web\aactualizardatos.cs
+2024-03-04 09:59:08,727: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterprompt.cs
+2024-03-04 09:59:08,759: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterprompt.js
+2024-03-04 09:59:08,808: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterunanimosidebar.cs
+2024-03-04 09:59:08,880: INFO  – Generating to NETFrameworkSQLServer002\web\general\ui\masterunanimosidebar.js
+2024-03-04 09:59:08,927: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutas.cs
+2024-03-04 09:59:09,247: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutas.js
+2024-03-04 09:59:09,309: INFO  – Generating to NETFrameworkSQLServer002\web\gx0010.cs
+2024-03-04 09:59:09,603: INFO  – Generating to NETFrameworkSQLServer002\web\gx0010.js
+2024-03-04 09:59:09,715: INFO  – Generating to NETFrameworkSQLServer002\web\rutas_colonia.cs
+2024-03-04 09:59:09,953: INFO  – Generating to NETFrameworkSQLServer002\web\rutas_colonia.js
+2024-03-04 09:59:09,983: INFO  – Generating to NETFrameworkSQLServer002\web\mora.cs
+2024-03-04 09:59:10,503: INFO  – Generating to NETFrameworkSQLServer002\web\mora.js
+2024-03-04 09:59:10,565: INFO  – Generating to NETFrameworkSQLServer002\web\gx0030.cs
+2024-03-04 09:59:10,780: INFO  – Generating to NETFrameworkSQLServer002\web\gx0030.js
+2024-03-04 09:59:10,823: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.cs
+2024-03-04 09:59:11,372: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.js
+2024-03-04 09:59:12,388: INFO  – Generating to NETFrameworkSQLServer002\web\GxWebStd.cs
+2024-03-04 09:59:13,527: INFO  – Generating to NETFrameworkSQLServer002\web\gxlred.cs
+2024-03-04 09:59:13,541: INFO  – Generating to NETFrameworkSQLServer002\web\GxModelInfoProvider.cs
+2024-03-04 09:59:13,541: INFO  – Generating to NETFrameworkSQLServer002\web\GxObjectCollection.cs
+2024-03-04 09:59:13,545: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 09:59:13,559: INFO  – Generating to NETFrameworkSQLServer002\web\GxWebServicesConfig.cs
+2024-03-04 09:59:13,560: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 09:59:13,589: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 09:59:13,712: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 09:59:13,849: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 09:59:13,917: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 09:59:13,918: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 09:59:13,923: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-04 09:59:13,924: INFO  – Generating to NETFrameworkSQLServer002\web\SoapParm.cs
+2024-03-04 09:59:14,201: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 09:59:14,350: INFO  – Compressing static files...
+2024-03-04 09:59:14,524: INFO  – Success
+2024-03-04 09:59:14,835: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 09:59:14,838: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 09:59:19,242: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 09:59:19,243: INFO  – ========== Web config update started ==========
+2024-03-04 09:59:19,600: INFO  – Virtual directory created.
+2024-03-04 09:59:19,716: INFO  – Updating web config ...
+2024-03-04 09:59:19,739: INFO  – Success: Web config update
+2024-03-04 09:59:19,752: INFO  – Success: Build All
+2024-03-04 09:59:58,248: INFO  – ========== Run Developer Menu Without Building started ==========
+2024-03-04 09:59:58,372: INFO  – Success: Run Developer Menu Without Building
+2024-03-04 10:00:00,638: INFO  – ========== Run CLAVES_RUTAS Without Building started ==========
+2024-03-04 10:00:00,647: INFO  – ========== Execution started ==========
+2024-03-04 10:00:00,689: INFO  – Success: Execution
+2024-03-04 10:00:00,692: INFO  – Success: Run CLAVES_RUTAS Without Building
+2024-03-04 10:00:44,256: INFO  – ========== Build With This Only started ==========
+2024-03-04 10:00:44,324: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 10:00:44,325: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 10:00:44,430: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 10:00:44,430: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 10:00:44,466: INFO  – ========== Target Environment update started ==========
+2024-03-04 10:00:44,576: INFO  – Success: Target Environment update
+2024-03-04 10:00:44,577: INFO  – Building changed objects list
+2024-03-04 10:00:44,601: INFO  – ========== Specification started ==========
+2024-03-04 10:00:45,527: INFO  –  Specifying ActualizarDatos ...
+2024-03-04 10:00:46,141: INFO  –  Specifying  stub ActualizarDatos ...
+2024-03-04 10:00:46,617: INFO  – Success: Specification
+2024-03-04 10:00:46,733: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 10:00:47,309: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 10:00:47,322: INFO  – Compressing static files...
+2024-03-04 10:00:47,337: INFO  – Success
+2024-03-04 10:00:47,447: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 10:00:47,448: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 10:00:48,118: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 10:00:48,122: INFO  – Success: Build With This Only
+2024-03-04 10:04:00,412: INFO  – ========== Build All started ==========
+2024-03-04 10:04:00,489: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 10:04:00,490: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 10:04:00,579: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 10:04:00,580: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 10:04:00,634: INFO  – ========== Database Impact Analysis started ==========
+2024-03-04 10:04:01,020: INFO  – Processing ... 
+2024-03-04 10:04:01,029: INFO  – Subtype groups were validated...
+2024-03-04 10:04:01,033: INFO  – Searching for new or changed tables ...
+2024-03-04 10:04:01,045: INFO  – Analyzing   RUTAS_COLONIA ...
+2024-03-04 10:04:01,046: INFO  – Removing specification files ...
+2024-03-04 10:04:01,046: INFO  – Specification files removed.
+2024-03-04 10:04:01,127: INFO  –  Specifying RUTAS_COLONIAConversion ...
+2024-03-04 10:04:01,301: INFO  – Searching for deleted tables ...
+2024-03-04 10:04:01,413: INFO  – Success: Database Impact Analysis
+2024-03-04 10:04:03,920: INFO  – ========== Target Environment update started ==========
+2024-03-04 10:04:04,036: INFO  – Success: Target Environment update
+2024-03-04 10:04:04,173: INFO  – ========== Specification started ==========
+2024-03-04 10:04:05,935: INFO  –  Specifying CLAVES_RUTAS ...
+2024-03-04 10:04:06,103: INFO  – Generating Resources...
+2024-03-04 10:04:06,883: INFO  – Success
+2024-03-04 10:04:06,904: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 10:04:07,109: INFO  –  Specifying ActualizarDatos ...
+2024-03-04 10:04:07,262: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutas.cs
+2024-03-04 10:04:07,558: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutas.js
+2024-03-04 10:04:07,593: INFO  –  Specifying RUTAS_COLONIA ...
+2024-03-04 10:04:07,638: INFO  –  Specifying  stub ActualizarDatos ...
+2024-03-04 10:04:07,655: INFO  – Generating to NETFrameworkSQLServer002\web\actualizardatos.cs
+2024-03-04 10:04:07,670: INFO  – Generating to NETFrameworkSQLServer002\web\aactualizardatos.cs
+2024-03-04 10:04:07,728: INFO  – Creating prompt 'Gx0030' (for table 'RUTAS_COLONIA')...
+2024-03-04 10:04:09,479: INFO  – Generating to NETFrameworkSQLServer002\web\rutas_colonia.cs
+2024-03-04 10:04:09,526: INFO  –  Specifying Gx0030 ...
+2024-03-04 10:04:09,738: INFO  – Generating to NETFrameworkSQLServer002\web\rutas_colonia.js
+2024-03-04 10:04:10,388: INFO  – Generating to NETFrameworkSQLServer002\web\gx0030.cs
+2024-03-04 10:04:10,502: INFO  – Processing inferred calls...
+2024-03-04 10:04:10,612: INFO  – Generating to NETFrameworkSQLServer002\web\gx0030.js
+2024-03-04 10:04:11,587: INFO  – Success: Specification
+2024-03-04 10:04:11,725: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 10:04:11,731: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 10:04:11,760: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 10:04:11,805: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 10:04:11,860: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 10:04:11,881: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 10:04:11,882: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 10:04:11,887: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-04 10:04:12,131: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 10:04:12,145: INFO  – Compressing static files...
+2024-03-04 10:04:12,192: INFO  – Success
+2024-03-04 10:04:12,269: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 10:04:12,271: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 10:04:14,980: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 10:04:14,980: INFO  – ========== Web config update started ==========
+2024-03-04 10:04:15,045: INFO  – Updating web config ...
+2024-03-04 10:04:15,068: INFO  – Success: Web config update
+2024-03-04 10:04:15,074: INFO  – Success: Build All
+2024-03-04 10:20:01,465: INFO  – ========== Run Developer Menu Without Building started ==========
+2024-03-04 10:20:01,517: INFO  – Success: Run Developer Menu Without Building
+2024-03-04 10:20:03,232: INFO  – ========== Run CLAVES_RUTAS Without Building started ==========
+2024-03-04 10:20:03,237: INFO  – ========== Execution started ==========
+2024-03-04 10:20:03,259: INFO  – Success: Execution
+2024-03-04 10:20:03,261: INFO  – Success: Run CLAVES_RUTAS Without Building
+2024-03-04 10:20:14,952: INFO  – ========== Run MORA Without Building started ==========
+2024-03-04 10:20:14,963: INFO  – ========== Execution started ==========
+2024-03-04 10:20:14,986: INFO  – Success: Execution
+2024-03-04 10:20:14,997: INFO  – Success: Run MORA Without Building
+2024-03-04 10:20:34,864: INFO  – ========== Run RUTAS_COLONIA Without Building started ==========
+2024-03-04 10:20:34,879: INFO  – ========== Execution started ==========
+2024-03-04 10:20:34,906: INFO  – Success: Execution
+2024-03-04 10:20:34,914: INFO  – Success: Run RUTAS_COLONIA Without Building
+2024-03-04 10:22:26,345: INFO  – ========== Build All started ==========
+2024-03-04 10:22:26,422: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 10:22:26,422: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 10:22:26,516: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 10:22:26,516: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 10:22:26,570: INFO  – ========== Target Environment update started ==========
+2024-03-04 10:22:30,457: INFO  – Success: Target Environment update
+2024-03-04 10:22:30,460: INFO  – Building changed objects list
+2024-03-04 10:22:30,958: INFO  – ========== Specification started ==========
+2024-03-04 10:22:31,878: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 10:22:32,265: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 10:22:32,280: INFO  – Generating Resources...
+2024-03-04 10:22:32,634: INFO  – Success
+2024-03-04 10:22:32,655: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 10:22:32,927: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 10:22:32,939: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 10:22:35,017: INFO  –  Specifying MORA ...
+2024-03-04 10:22:35,140: INFO  – Creating prompt 'Gx0020' (for table 'MORA')...
+2024-03-04 10:22:36,067: INFO  –  Specifying Gx0020 ...
+2024-03-04 10:22:37,398: INFO  – Generating to NETFrameworkSQLServer002\web\mora.cs
+2024-03-04 10:22:37,518: INFO  – Processing inferred calls...
+2024-03-04 10:22:37,925: INFO  – Generating to NETFrameworkSQLServer002\web\mora.js
+2024-03-04 10:22:37,966: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.cs
+2024-03-04 10:22:38,527: INFO  – Generating to NETFrameworkSQLServer002\web\gx0020.js
+2024-03-04 10:22:38,640: INFO  – Success: Specification
+2024-03-04 10:22:38,788: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 10:22:38,795: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 10:22:38,814: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 10:22:38,850: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 10:22:38,913: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 10:22:38,940: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 10:22:38,940: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 10:22:39,181: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 10:22:39,197: INFO  – Compressing static files...
+2024-03-04 10:22:39,252: INFO  – Success
+2024-03-04 10:22:39,343: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 10:22:39,345: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 10:22:42,616: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 10:22:42,616: INFO  – ========== Web config update started ==========
+2024-03-04 10:22:42,691: INFO  – Updating web config ...
+2024-03-04 10:22:42,759: INFO  – Success: Web config update
+2024-03-04 10:22:42,760: INFO  – Success: Build All
+2024-03-04 10:26:35,497: INFO  – ========== Build All started ==========
+2024-03-04 10:26:35,559: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 10:26:35,560: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 10:26:35,652: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 10:26:35,652: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 10:26:35,686: INFO  – ========== Target Environment update started ==========
+2024-03-04 10:26:35,802: INFO  – Success: Target Environment update
+2024-03-04 10:26:35,803: INFO  – Building changed objects list
+2024-03-04 10:26:35,916: INFO  – ========== Specification started ==========
+2024-03-04 10:26:36,757: INFO  –  Specifying ActualizarDatos (already specified) ...
+2024-03-04 10:26:36,789: INFO  – Generating Resources...
+2024-03-04 10:26:36,843: INFO  – Success
+2024-03-04 10:26:36,864: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 10:26:37,143: INFO  – Generating to NETFrameworkSQLServer002\web\actualizardatos.cs
+2024-03-04 10:26:37,153: INFO  – Generating to NETFrameworkSQLServer002\web\aactualizardatos.cs
+2024-03-04 10:26:38,768: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 10:26:38,790: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 10:26:38,799: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 10:26:39,231: INFO  – Success: Specification
+2024-03-04 10:26:39,377: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 10:26:39,382: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 10:26:39,399: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 10:26:39,431: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 10:26:39,489: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 10:26:39,513: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 10:26:39,514: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 10:26:39,741: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 10:26:39,762: INFO  – Compressing static files...
+2024-03-04 10:26:39,782: INFO  – Success
+2024-03-04 10:26:39,859: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 10:26:39,861: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 10:26:41,003: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 10:26:41,004: INFO  – ========== Web config update started ==========
+2024-03-04 10:26:41,067: INFO  – Updating web config ...
+2024-03-04 10:26:41,087: INFO  – Success: Web config update
+2024-03-04 10:26:41,095: INFO  – Success: Build All
+2024-03-04 11:24:18,682: INFO  – ========== Build All started ==========
+2024-03-04 11:24:18,764: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:24:18,765: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:24:18,867: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:24:18,869: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:24:18,928: INFO  – ========== Database Impact Analysis started ==========
+2024-03-04 11:24:20,226: INFO  – Processing ... 
+2024-03-04 11:24:20,261: INFO  – Subtype groups were validated...
+2024-03-04 11:24:20,265: INFO  – Searching for new or changed tables ...
+2024-03-04 11:24:20,457: INFO  – Analyzing   CLAVES_RUTAS ...
+2024-03-04 11:24:20,457: INFO  – Removing specification files ...
+2024-03-04 11:24:20,457: INFO  – Specification files removed.
+2024-03-04 11:24:20,864: INFO  – information nfo0005: This table is reorganized using a conversion program. (Table 'CLAVES_RUTAS', )
+2024-03-04 11:24:20,864: INFO  – information nfo0004: CLAVES_RUTAS was associated to Data view CLAVES_RUTAS.
+2024-03-04 11:24:20,890: INFO  –  Specifying CLAVES_RUTASConversion ...
+2024-03-04 11:24:20,945: WARN  – warning: rgz0007: Attribute ART_ID_DOC does not allow nulls and does not have an Initial Value. An empty default value will be used.
+2024-03-04 11:24:20,949: WARN  – warning: rgz0005: For each value of CLAVES_RUTASRUTA there may be several values of UMAPS, ClavesRutaId.
+2024-03-04 11:24:20,991: WARN  – warning: rgo0002: Table 'MORA' is referenced by table 'CLAVES_RUTAS' and at least one attribute in its foreign key (ART_ID_DOC) does not allow nulls. A default record will be added if table 'CLAVES_RUTAS' has records and a record with default values does not exist in table 'MORA'.
+2024-03-04 11:24:21,026: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-04 11:24:21,316: INFO  – Searching for deleted tables ...
+2024-03-04 11:24:21,316: INFO  – Loading table and attribute properties ...
+2024-03-04 11:24:21,316: INFO  – Saving specifications.
+2024-03-04 11:24:21,786: INFO  – Success: Database Impact Analysis
+2024-03-04 11:24:24,604: INFO  – Generating Resources...
+2024-03-04 11:24:25,446: INFO  – Success
+2024-03-04 11:24:25,447: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 11:24:25,533: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-03-04 11:24:25,640: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-03-04 11:24:25,642: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-04 11:24:25,652: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutasconversion.cs
+2024-03-04 11:24:25,687: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 11:24:25,696: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 11:24:25,710: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 11:24:25,716: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-03-04 11:24:25,716: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-03-04 11:24:25,716: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-03-04 11:24:25,718: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-03-04 11:24:25,718: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 11:24:25,953: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 11:24:25,984: INFO  – ========== Reorganization started ==========
+2024-03-04 11:24:25,986: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 11:24:26,789: INFO  – "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui
+2024-03-04 11:24:27,250: INFO  – Modificando la tabla CLAVES_RUTAS .
+2024-03-04 11:24:27,772: INFO  – Modificando la tabla CLAVES_RUTAS . Iniciado
+2024-03-04 11:30:48,853: INFO  – ========== Build All started ==========
+2024-03-04 11:30:48,989: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:30:49,004: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:30:49,098: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:30:49,100: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:30:49,165: INFO  – ========== Database Impact Analysis started ==========
+2024-03-04 11:30:50,862: INFO  – Processing ... 
+2024-03-04 11:30:50,887: INFO  – Searching for new or changed tables ...
+2024-03-04 11:30:51,099: INFO  – Analyzing   CLAVES_RUTAS ...
+2024-03-04 11:30:51,099: INFO  – Removing specification files ...
+2024-03-04 11:30:51,099: INFO  – Specification files removed.
+2024-03-04 11:30:51,589: INFO  – information nfo0005: This table is reorganized using a conversion program. (Table 'CLAVES_RUTAS', )
+2024-03-04 11:30:51,590: INFO  – information nfo0004: CLAVES_RUTAS was associated to Data view CLAVES_RUTAS.
+2024-03-04 11:30:51,606: INFO  –  Specifying CLAVES_RUTASConversion ...
+2024-03-04 11:30:51,670: WARN  – warning: rgz0007: Attribute ART_ID_DOC does not allow nulls and does not have an Initial Value. An empty default value will be used.
+2024-03-04 11:30:51,676: WARN  – warning: rgz0005: For each value of CLAVES_RUTASRUTA there may be several values of UMAPS, ClavesRutaId.
+2024-03-04 11:30:51,730: WARN  – warning: rgo0002: Table 'MORA' is referenced by table 'CLAVES_RUTAS' and at least one attribute in its foreign key (ART_ID_DOC) does not allow nulls. A default record will be added if table 'CLAVES_RUTAS' has records and a record with default values does not exist in table 'MORA'.
+2024-03-04 11:30:51,772: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-04 11:30:51,822: INFO  – Searching for deleted tables ...
+2024-03-04 11:30:52,059: INFO  – Loading table and attribute properties ...
+2024-03-04 11:30:52,060: INFO  – Saving specifications.
+2024-03-04 11:30:52,418: INFO  – Success: Database Impact Analysis
+2024-03-04 11:31:05,458: ERROR – error: Reorganization was canceled by user
+2024-03-04 11:31:05,462: INFO  – Failed: Build All
+2024-03-04 11:31:09,261: INFO  – ========== Build All started ==========
+2024-03-04 11:31:09,322: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:31:09,323: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:31:09,405: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:31:09,406: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:31:09,432: INFO  – ========== Database Impact Analysis started ==========
+2024-03-04 11:31:09,820: INFO  – Processing ... 
+2024-03-04 11:31:09,825: INFO  – Subtype groups were validated...
+2024-03-04 11:31:09,828: INFO  – Searching for new or changed tables ...
+2024-03-04 11:31:09,843: INFO  – Analyzing   CLAVES_RUTAS ...
+2024-03-04 11:31:09,844: INFO  – Removing specification files ...
+2024-03-04 11:31:09,844: INFO  – Specification files removed.
+2024-03-04 11:31:09,919: INFO  – information nfo0005: This table is reorganized using a conversion program. (Table 'CLAVES_RUTAS', )
+2024-03-04 11:31:09,920: INFO  – information nfo0004: CLAVES_RUTAS was associated to Data view CLAVES_RUTAS.
+2024-03-04 11:31:09,928: INFO  –  Specifying CLAVES_RUTASConversion ...
+2024-03-04 11:31:09,956: WARN  – warning: rgz0005: For each value of CLAVES_RUTASRUTA there may be several values of UMAPS, ClavesRutaId.
+2024-03-04 11:31:09,962: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-04 11:31:10,106: INFO  – Searching for deleted tables ...
+2024-03-04 11:31:10,106: INFO  – Loading table and attribute properties ...
+2024-03-04 11:31:10,106: INFO  – Saving specifications.
+2024-03-04 11:31:10,293: INFO  – Success: Database Impact Analysis
+2024-03-04 11:31:13,378: INFO  – Generating Resources...
+2024-03-04 11:31:13,624: INFO  – Success
+2024-03-04 11:31:13,628: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 11:31:17,274: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-03-04 11:31:17,377: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-03-04 11:31:17,383: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutasconversion.cs
+2024-03-04 11:31:17,437: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 11:31:17,442: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 11:31:17,458: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 11:31:17,464: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-03-04 11:31:17,464: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-03-04 11:31:17,464: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-03-04 11:31:17,465: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-03-04 11:31:17,466: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 11:31:17,704: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 11:31:17,788: INFO  – ========== Reorganization started ==========
+2024-03-04 11:31:17,793: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 11:31:18,460: INFO  – "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui
+2024-03-04 11:31:18,662: INFO  – La última reorganización ha fallado y Ud. está intentando ejecutar una reorganización diferente.
+2024-03-04 11:31:18,662: INFO  – Errores inesperados podrían ocurrir si Ud. no intenta finalizar la reorganización anterior antes de ejecutar ésta.
+2024-03-04 11:31:18,662: INFO  – Si ud. quiere ejecutar esta reorganización de todas formas, utilice el parámetro '-ignoreresume' de la propiedad Reorganization Options del generador.
+2024-03-04 11:31:18,663: INFO  – El proceso de reorganización no ha sido exitoso.
+2024-03-04 11:31:18,675: INFO  – Failed: Reorganization
+2024-03-04 11:31:18,675: ERROR – error: Error in reorganization
+2024-03-04 11:31:18,680: INFO  – Failed: Build All
+2024-03-04 11:31:35,100: INFO  – ========== Build With This Only started ==========
+2024-03-04 11:31:35,170: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:31:35,170: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:31:35,261: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:31:35,262: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:31:35,301: INFO  – ========== Database Impact Analysis started ==========
+2024-03-04 11:31:36,501: INFO  – Processing ... 
+2024-03-04 11:31:36,522: INFO  – Searching for new or changed tables ...
+2024-03-04 11:31:36,664: INFO  – Analyzing   CLAVES_RUTAS ...
+2024-03-04 11:31:36,665: INFO  – Removing specification files ...
+2024-03-04 11:31:36,665: INFO  – Specification files removed.
+2024-03-04 11:31:36,990: INFO  – information nfo0005: This table is reorganized using a conversion program. (Table 'CLAVES_RUTAS', )
+2024-03-04 11:31:36,992: INFO  – information nfo0004: CLAVES_RUTAS was associated to Data view CLAVES_RUTAS.
+2024-03-04 11:31:37,009: INFO  –  Specifying CLAVES_RUTASConversion ...
+2024-03-04 11:31:37,053: WARN  – warning: rgz0005: For each value of CLAVES_RUTASRUTA there may be several values of UMAPS, ClavesRutaId.
+2024-03-04 11:31:37,072: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-04 11:31:37,280: INFO  – Searching for deleted tables ...
+2024-03-04 11:31:37,280: INFO  – Loading table and attribute properties ...
+2024-03-04 11:31:37,280: INFO  – Saving specifications.
+2024-03-04 11:31:37,440: INFO  – Success: Database Impact Analysis
+2024-03-04 11:31:39,422: INFO  – Generating Resources...
+2024-03-04 11:31:39,574: INFO  – Success
+2024-03-04 11:31:39,574: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 11:31:39,885: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-03-04 11:31:39,922: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-03-04 11:31:39,929: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutasconversion.cs
+2024-03-04 11:31:39,956: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 11:31:39,962: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 11:31:39,972: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 11:31:39,977: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-03-04 11:31:39,977: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-03-04 11:31:39,978: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-03-04 11:31:39,979: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-03-04 11:31:39,979: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 11:31:40,202: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 11:31:40,220: INFO  – ========== Reorganization started ==========
+2024-03-04 11:31:40,222: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 11:31:40,877: INFO  – "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui
+2024-03-04 11:31:41,069: INFO  – La última reorganización ha fallado y Ud. está intentando ejecutar una reorganización diferente.
+2024-03-04 11:31:41,070: INFO  – Errores inesperados podrían ocurrir si Ud. no intenta finalizar la reorganización anterior antes de ejecutar ésta.
+2024-03-04 11:31:41,070: INFO  – Si ud. quiere ejecutar esta reorganización de todas formas, utilice el parámetro '-ignoreresume' de la propiedad Reorganization Options del generador.
+2024-03-04 11:31:41,070: INFO  – El proceso de reorganización no ha sido exitoso.
+2024-03-04 11:31:41,082: INFO  – Failed: Reorganization
+2024-03-04 11:31:41,082: ERROR – error: Error in reorganization
+2024-03-04 11:31:41,092: INFO  – Failed: Build With This Only
+2024-03-04 11:32:13,551: INFO  – ========== Build All started ==========
+2024-03-04 11:32:13,623: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:32:13,625: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:32:13,719: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:32:13,719: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:32:13,751: INFO  – ========== Database Impact Analysis started ==========
+2024-03-04 11:32:14,136: INFO  – Processing ... 
+2024-03-04 11:32:14,139: INFO  – Subtype groups were validated...
+2024-03-04 11:32:14,142: INFO  – Searching for new or changed tables ...
+2024-03-04 11:32:14,152: INFO  – Analyzing   CLAVES_RUTAS ...
+2024-03-04 11:32:14,152: INFO  – Removing specification files ...
+2024-03-04 11:32:14,152: INFO  – Specification files removed.
+2024-03-04 11:32:14,218: INFO  – information nfo0005: This table is reorganized using a conversion program. (Table 'CLAVES_RUTAS', )
+2024-03-04 11:32:14,219: INFO  – information nfo0004: CLAVES_RUTAS was associated to Data view CLAVES_RUTAS.
+2024-03-04 11:32:14,233: INFO  –  Specifying CLAVES_RUTASConversion ...
+2024-03-04 11:32:14,254: WARN  – warning: rgz0005: For each value of CLAVES_RUTASRUTA there may be several values of UMAPS, ClavesRutaId, CLAVE_CATASTRAL.
+2024-03-04 11:32:14,260: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-04 11:32:14,444: INFO  – Searching for deleted tables ...
+2024-03-04 11:32:14,444: INFO  – Loading table and attribute properties ...
+2024-03-04 11:32:14,445: INFO  – Saving specifications.
+2024-03-04 11:32:14,594: INFO  – Success: Database Impact Analysis
+2024-03-04 11:32:16,357: INFO  – Generating Resources...
+2024-03-04 11:32:16,433: INFO  – Success
+2024-03-04 11:32:16,434: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 11:32:16,744: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-03-04 11:32:16,779: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-03-04 11:32:16,785: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutasconversion.cs
+2024-03-04 11:32:16,813: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 11:32:16,818: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 11:32:16,828: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 11:32:16,832: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-03-04 11:32:16,833: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-03-04 11:32:16,833: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-03-04 11:32:16,834: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-03-04 11:32:16,835: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 11:32:17,063: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 11:32:17,082: INFO  – ========== Reorganization started ==========
+2024-03-04 11:32:17,084: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 11:32:17,733: INFO  – "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui
+2024-03-04 11:32:17,926: INFO  – La última reorganización ha fallado y Ud. está intentando ejecutar una reorganización diferente.
+2024-03-04 11:32:17,926: INFO  – Errores inesperados podrían ocurrir si Ud. no intenta finalizar la reorganización anterior antes de ejecutar ésta.
+2024-03-04 11:32:17,926: INFO  – Si ud. quiere ejecutar esta reorganización de todas formas, utilice el parámetro '-ignoreresume' de la propiedad Reorganization Options del generador.
+2024-03-04 11:32:17,927: INFO  – El proceso de reorganización no ha sido exitoso.
+2024-03-04 11:32:17,938: INFO  – Failed: Reorganization
+2024-03-04 11:32:17,939: ERROR – error: Error in reorganization
+2024-03-04 11:32:17,943: INFO  – Failed: Build All
+2024-03-04 11:32:24,316: INFO  – ========== Build All started ==========
+2024-03-04 11:32:24,379: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:32:24,380: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:32:24,483: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:32:24,484: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:32:24,528: INFO  – ========== Database Impact Analysis started ==========
+2024-03-04 11:32:24,917: INFO  – Processing ... 
+2024-03-04 11:32:24,926: INFO  – Searching for new or changed tables ...
+2024-03-04 11:32:24,935: INFO  – Analyzing   CLAVES_RUTAS ...
+2024-03-04 11:32:24,936: INFO  – Removing specification files ...
+2024-03-04 11:32:24,936: INFO  – Specification files removed.
+2024-03-04 11:32:25,008: INFO  – information nfo0005: This table is reorganized using a conversion program. (Table 'CLAVES_RUTAS', )
+2024-03-04 11:32:25,009: INFO  – information nfo0004: CLAVES_RUTAS was associated to Data view CLAVES_RUTAS.
+2024-03-04 11:32:25,016: INFO  –  Specifying CLAVES_RUTASConversion ...
+2024-03-04 11:32:25,037: WARN  – warning: rgz0005: For each value of CLAVES_RUTASRUTA there may be several values of UMAPS, ClavesRutaId, CLAVE_CATASTRAL.
+2024-03-04 11:32:25,042: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-04 11:32:25,089: INFO  – Searching for deleted tables ...
+2024-03-04 11:32:25,089: INFO  – Loading table and attribute properties ...
+2024-03-04 11:32:25,089: INFO  – Saving specifications.
+2024-03-04 11:32:25,372: INFO  – Success: Database Impact Analysis
+2024-03-04 11:32:53,518: ERROR – error: Reorganization was canceled by user
+2024-03-04 11:32:53,519: INFO  – Failed: Build All
+2024-03-04 11:32:56,133: INFO  – ========== Build All started ==========
+2024-03-04 11:32:56,195: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:32:56,196: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:32:56,285: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:32:56,286: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:32:56,310: INFO  – ========== Database Impact Analysis started ==========
+2024-03-04 11:32:57,485: INFO  – Processing ... 
+2024-03-04 11:32:57,503: INFO  – Subtype groups were validated...
+2024-03-04 11:32:57,507: INFO  – Searching for new or changed tables ...
+2024-03-04 11:32:57,614: INFO  – Analyzing   CLAVES_RUTAS ...
+2024-03-04 11:32:57,614: INFO  – Removing specification files ...
+2024-03-04 11:32:57,614: INFO  – Specification files removed.
+2024-03-04 11:32:57,940: INFO  – information nfo0005: This table is reorganized using a conversion program.
+2024-03-04 11:32:57,941: INFO  – information nfo0004: CLAVES_RUTAS was associated to Data view CLAVES_RUTAS.
+2024-03-04 11:32:57,957: INFO  –  Specifying CLAVES_RUTASConversion ...
+2024-03-04 11:32:57,990: WARN  – warning: rgz0008: Attribute CLAVES_RUTASRUTA changed from AllowNulls=Yes to AllowNulls=No and no initial value was specified. Null values will be treated as empty ones.
+2024-03-04 11:32:58,012: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-04 11:32:58,164: INFO  – Searching for deleted tables ...
+2024-03-04 11:32:58,164: INFO  – Loading table and attribute properties ...
+2024-03-04 11:32:58,164: INFO  – Saving specifications.
+2024-03-04 11:32:58,374: INFO  – Success: Database Impact Analysis
+2024-03-04 11:32:59,829: INFO  – Generating Resources...
+2024-03-04 11:32:59,926: INFO  – Success
+2024-03-04 11:32:59,926: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 11:33:00,241: INFO  – Generating to NETFrameworkSQLServer002\web\reorg.cs
+2024-03-04 11:33:00,272: INFO  – Generating to NETFrameworkSQLServer002\web\ReorganizationScript.txt
+2024-03-04 11:33:00,279: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutasconversion.cs
+2024-03-04 11:33:00,306: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 11:33:00,312: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 11:33:00,322: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 11:33:00,327: INFO  – Generating to NETFrameworkSQLServer002\web\_COPYCLS.GEN
+2024-03-04 11:33:00,327: INFO  – Generating to NETFrameworkSQLServer002\web\REORGPGM.GEN
+2024-03-04 11:33:00,328: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.cs
+2024-03-04 11:33:00,329: INFO  – Generating to NETFrameworkSQLServer002\web\reorganization.bld
+2024-03-04 11:33:00,329: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 11:33:00,558: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 11:33:00,576: INFO  – ========== Reorganization started ==========
+2024-03-04 11:33:00,578: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 11:33:01,218: INFO  – "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\web\bin\reor.exe" -nogui
+2024-03-04 11:33:01,405: INFO  – La última reorganización ha fallado y Ud. está intentando ejecutar una reorganización diferente.
+2024-03-04 11:33:01,406: INFO  – Errores inesperados podrían ocurrir si Ud. no intenta finalizar la reorganización anterior antes de ejecutar ésta.
+2024-03-04 11:33:01,406: INFO  – Si ud. quiere ejecutar esta reorganización de todas formas, utilice el parámetro '-ignoreresume' de la propiedad Reorganization Options del generador.
+2024-03-04 11:33:01,406: INFO  – El proceso de reorganización no ha sido exitoso.
+2024-03-04 11:33:01,419: INFO  – Failed: Reorganization
+2024-03-04 11:33:01,419: ERROR – error: Error in reorganization
+2024-03-04 11:33:01,432: INFO  – Failed: Build All
+2024-03-04 11:47:38,014: INFO  – ========== Build All started ==========
+2024-03-04 11:47:38,082: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:47:38,082: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:47:38,181: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:47:38,182: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:47:38,208: INFO  – ========== Database Impact Analysis started ==========
+2024-03-04 11:47:39,405: INFO  – Processing ... 
+2024-03-04 11:47:39,446: INFO  – Subtype groups were validated...
+2024-03-04 11:47:39,450: INFO  – Searching for new or changed tables ...
+2024-03-04 11:47:39,590: INFO  – Analyzing   RUTAS_COLONIA ...
+2024-03-04 11:47:39,591: INFO  – Removing specification files ...
+2024-03-04 11:47:39,591: INFO  – Specification files removed.
+2024-03-04 11:47:39,955: INFO  –  Specifying RUTAS_COLONIAConversion ...
+2024-03-04 11:47:40,007: WARN  – warning: rgz0008: Attribute COLONIA changed from AllowNulls=Yes to AllowNulls=No and no initial value was specified. Null values will be treated as empty ones.
+2024-03-04 11:47:40,009: WARN  – warning: rgz0008: Attribute RutaColoniaId changed from AllowNulls=Yes to AllowNulls=No and no initial value was specified. Null values will be treated as empty ones.
+2024-03-04 11:47:40,023: INFO  – information nfo0005: This table is reorganized using a conversion program. (Table 'MORA', )
+2024-03-04 11:47:40,046: INFO  – information nfo0003: The reorganization for this table makes the schema not backward compatible.
+2024-03-04 11:47:40,187: INFO  – Analyzing   CLAVES_RUTAS ...
+2024-03-04 11:47:40,188: INFO  – Analyzing   MORA ...
+2024-03-04 11:47:40,294: INFO  – Searching for deleted tables ...
+2024-03-04 11:47:40,546: INFO  – Success: Database Impact Analysis
+2024-03-04 11:47:41,996: INFO  – ========== Target Environment update started ==========
+2024-03-04 11:47:42,276: INFO  – Success: Target Environment update
+2024-03-04 11:47:42,816: INFO  – ========== Specification started ==========
+2024-03-04 11:47:45,444: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 11:47:46,019: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 11:47:46,052: INFO  – Generating Resources...
+2024-03-04 11:47:46,154: INFO  – Success
+2024-03-04 11:47:46,162: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 11:47:46,467: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 11:47:48,125: INFO  –  Specifying RUTAS_COLONIA ...
+2024-03-04 11:47:48,200: INFO  –  Specifying CLAVES_RUTAS ...
+2024-03-04 11:47:48,288: INFO  –  Specifying MORA ...
+2024-03-04 11:47:48,338: INFO  – Creating prompt 'Gx0060' (for table 'RUTAS_COLONIA')...
+2024-03-04 11:47:50,062: INFO  – Creating prompt 'Gx0040' (for table 'MORA')...
+2024-03-04 11:47:50,252: INFO  – Generating to NETFrameworkSQLServer002\web\rutas_colonia.cs
+2024-03-04 11:47:50,307: INFO  –  Specifying Gx0060 ...
+2024-03-04 11:47:50,516: INFO  – Generating to NETFrameworkSQLServer002\web\rutas_colonia.js
+2024-03-04 11:47:51,220: INFO  – Generating to NETFrameworkSQLServer002\web\gx0060.cs
+2024-03-04 11:47:51,445: INFO  – Generating to NETFrameworkSQLServer002\web\gx0060.js
+2024-03-04 11:47:52,007: INFO  – Creating prompt 'Gx0050' (for table 'CLAVES_RUTAS')...
+2024-03-04 11:47:52,893: INFO  –  Specifying Gx0050 ...
+2024-03-04 11:47:53,841: INFO  –  Specifying Gx0040 ...
+2024-03-04 11:47:53,856: INFO  – Generating to NETFrameworkSQLServer002\web\mora.cs
+2024-03-04 11:47:54,380: INFO  – Generating to NETFrameworkSQLServer002\web\mora.js
+2024-03-04 11:47:54,423: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutas.cs
+2024-03-04 11:47:54,713: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutas.js
+2024-03-04 11:47:54,743: INFO  – Generating to NETFrameworkSQLServer002\web\gx0050.cs
+2024-03-04 11:47:54,764: INFO  – Processing inferred calls...
+2024-03-04 11:47:55,038: INFO  – Generating to NETFrameworkSQLServer002\web\gx0050.js
+2024-03-04 11:47:55,104: INFO  – Generating to NETFrameworkSQLServer002\web\gx0040.cs
+2024-03-04 11:47:55,658: INFO  – Generating to NETFrameworkSQLServer002\web\gx0040.js
+2024-03-04 11:47:55,871: INFO  – Success: Specification
+2024-03-04 11:47:56,013: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutasconversion.cs
+2024-03-04 11:47:56,044: INFO  – Generating to NETFrameworkSQLServer002\web\rutas_coloniaconversion.cs
+2024-03-04 11:47:56,074: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 11:47:56,081: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 11:47:56,106: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 11:47:56,230: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 11:47:56,292: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 11:47:56,317: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 11:47:56,318: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 11:47:56,329: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-04 11:47:56,585: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 11:47:56,603: INFO  – Compressing static files...
+2024-03-04 11:47:56,789: INFO  – Success
+2024-03-04 11:47:56,929: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 11:47:56,931: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 11:48:01,263: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 11:48:01,263: INFO  – ========== Web config update started ==========
+2024-03-04 11:48:01,483: INFO  – Updating web config ...
+2024-03-04 11:48:01,506: INFO  – Success: Web config update
+2024-03-04 11:48:01,538: INFO  – Success: Build All
+2024-03-04 11:48:49,038: INFO  – ========== Build All started ==========
+2024-03-04 11:48:49,111: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:48:49,112: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:48:49,201: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:48:49,202: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:48:49,272: INFO  – ========== Target Environment update started ==========
+2024-03-04 11:48:49,426: INFO  – Success: Target Environment update
+2024-03-04 11:48:49,428: INFO  – Building changed objects list
+2024-03-04 11:48:49,563: INFO  – ========== Specification started ==========
+2024-03-04 11:48:50,479: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 11:48:50,581: INFO  – Generating Resources...
+2024-03-04 11:48:50,634: INFO  – Success
+2024-03-04 11:48:51,100: INFO  – Success: Specification
+2024-03-04 11:48:51,203: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 11:48:51,553: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 11:48:51,646: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 11:48:51,663: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 11:48:51,667: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 11:48:51,682: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 11:48:51,716: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 11:48:51,760: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 11:48:51,780: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 11:48:51,780: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 11:48:52,014: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 11:48:52,029: INFO  – Compressing static files...
+2024-03-04 11:48:52,052: INFO  – Success
+2024-03-04 11:48:52,132: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 11:48:52,134: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 11:48:53,261: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 11:48:53,261: INFO  – ========== Web config update started ==========
+2024-03-04 11:48:53,324: INFO  – Updating web config ...
+2024-03-04 11:48:53,348: INFO  – Success: Web config update
+2024-03-04 11:48:53,350: INFO  – Success: Build All
+2024-03-04 11:49:25,527: INFO  – ========== Build With This Only started ==========
+2024-03-04 11:49:25,596: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:49:25,598: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:49:25,696: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:49:25,696: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:49:25,735: INFO  – ========== Target Environment update started ==========
+2024-03-04 11:49:25,893: INFO  – Success: Target Environment update
+2024-03-04 11:49:25,895: INFO  – Building changed objects list
+2024-03-04 11:49:25,917: INFO  – ========== Specification started ==========
+2024-03-04 11:49:26,892: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 11:49:27,403: INFO  – Success: Specification
+2024-03-04 11:49:27,523: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 11:49:27,835: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 11:49:27,921: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 11:49:28,213: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 11:49:28,233: INFO  – Compressing static files...
+2024-03-04 11:49:28,250: INFO  – Success
+2024-03-04 11:49:28,336: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 11:49:28,337: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 11:49:29,136: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 11:49:29,139: INFO  – Success: Build With This Only
+2024-03-04 11:51:09,849: INFO  – ========== Build With This Only started ==========
+2024-03-04 11:51:09,920: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 11:51:09,920: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 11:51:10,021: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 11:51:10,022: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 11:51:10,053: INFO  – ========== Target Environment update started ==========
+2024-03-04 11:51:10,195: INFO  – Success: Target Environment update
+2024-03-04 11:51:10,196: INFO  – Building changed objects list
+2024-03-04 11:51:10,216: INFO  – ========== Specification started ==========
+2024-03-04 11:51:11,026: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 11:51:11,509: INFO  – Success: Specification
+2024-03-04 11:51:11,611: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 11:51:11,972: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 11:51:12,071: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 11:51:12,347: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 11:51:12,367: INFO  – Compressing static files...
+2024-03-04 11:51:12,383: INFO  – Success
+2024-03-04 11:51:12,456: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 11:51:12,458: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 11:51:13,298: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 11:51:13,300: INFO  – Success: Build With This Only
+2024-03-04 12:02:54,163: INFO  – ========== Build With This Only started ==========
+2024-03-04 12:02:54,233: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 12:02:54,234: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 12:02:54,330: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 12:02:54,330: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 12:02:54,368: INFO  – ========== Target Environment update started ==========
+2024-03-04 12:02:54,492: INFO  – Success: Target Environment update
+2024-03-04 12:02:54,495: INFO  – Building changed objects list
+2024-03-04 12:02:54,514: INFO  – ========== Specification started ==========
+2024-03-04 12:02:55,362: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 12:02:56,701: INFO  – Success: Specification
+2024-03-04 12:02:56,807: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 12:02:57,126: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 12:02:57,224: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 12:02:57,497: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 12:02:57,512: INFO  – Compressing static files...
+2024-03-04 12:02:57,537: INFO  – Success
+2024-03-04 12:02:57,628: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 12:02:57,630: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 12:02:58,509: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 12:02:58,514: INFO  – Success: Build With This Only
+2024-03-04 12:11:55,043: INFO  – ========== Build All started ==========
+2024-03-04 12:11:55,119: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 12:11:55,120: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 12:11:55,210: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 12:11:55,211: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 12:11:55,249: INFO  – ========== Target Environment update started ==========
+2024-03-04 12:11:55,381: INFO  – Success: Target Environment update
+2024-03-04 12:11:55,385: INFO  – Building changed objects list
+2024-03-04 12:11:55,677: INFO  – ========== Specification started ==========
+2024-03-04 12:11:55,918: INFO  –  Specifying EstadoDeCuenta (1 of 1) ...
+2024-03-04 12:11:57,763: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 29. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 12:11:57,916: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 12:12:00,811: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 12:12:00,883: INFO  – Generating Resources...
+2024-03-04 12:12:00,938: INFO  – Success
+2024-03-04 12:12:02,148: INFO  – Success: Specification
+2024-03-04 12:12:02,263: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 12:12:02,594: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 12:12:02,701: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 12:12:02,708: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 12:12:02,713: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 12:12:02,731: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 12:12:02,771: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 12:12:02,816: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 12:12:02,855: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 12:12:02,856: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 12:12:03,088: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 12:12:03,105: INFO  – Compressing static files...
+2024-03-04 12:12:03,126: INFO  – Success
+2024-03-04 12:12:03,185: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 12:12:03,187: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 12:12:04,180: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 12:12:04,181: INFO  – ========== Web config update started ==========
+2024-03-04 12:12:04,249: INFO  – Updating web config ...
+2024-03-04 12:12:04,273: INFO  – Success: Web config update
+2024-03-04 12:12:04,280: INFO  – Success: Build All
+2024-03-04 12:12:42,601: INFO  – ========== Build With This Only started ==========
+2024-03-04 12:12:42,666: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 12:12:42,667: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 12:12:42,763: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 12:12:42,764: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 12:12:42,798: INFO  – ========== Target Environment update started ==========
+2024-03-04 12:12:42,960: INFO  – Success: Target Environment update
+2024-03-04 12:12:42,964: INFO  – Building changed objects list
+2024-03-04 12:12:42,986: INFO  – ========== Specification started ==========
+2024-03-04 12:12:43,917: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 12:12:45,093: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 29. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 12:12:45,122: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 12:12:45,560: INFO  – Success: Specification
+2024-03-04 12:12:45,678: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 12:12:46,011: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 12:12:46,369: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 12:12:46,389: INFO  – Compressing static files...
+2024-03-04 12:12:46,406: INFO  – Success
+2024-03-04 12:12:46,486: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 12:12:46,490: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 12:12:47,290: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 12:12:47,292: INFO  – Success: Build With This Only
+2024-03-04 13:17:03,914: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:17:03,975: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:17:03,977: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:17:04,093: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:17:04,093: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:17:04,127: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:17:04,309: INFO  – Success: Target Environment update
+2024-03-04 13:17:04,313: INFO  – Building changed objects list
+2024-03-04 13:17:04,335: INFO  – ========== Specification started ==========
+2024-03-04 13:17:05,007: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 29. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:17:05,090: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 13:17:07,951: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 13:17:08,550: INFO  – Success: Specification
+2024-03-04 13:17:08,664: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:17:09,007: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:17:09,107: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 13:17:09,378: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:17:09,396: INFO  – Compressing static files...
+2024-03-04 13:17:09,414: INFO  – Success
+2024-03-04 13:17:09,484: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:17:09,486: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:17:11,827: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:17:11,829: INFO  – Success: Build With This Only
+2024-03-04 13:20:16,695: INFO  – ========== Build All started ==========
+2024-03-04 13:20:16,758: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:20:16,759: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:20:16,845: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:20:16,846: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:20:16,889: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:20:17,027: INFO  – Success: Target Environment update
+2024-03-04 13:20:17,029: INFO  – Building changed objects list
+2024-03-04 13:20:17,163: INFO  – ========== Specification started ==========
+2024-03-04 13:20:17,968: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 13:20:19,242: ERROR – error spc0010: Type mismatch in assignment: &Mensaje2 = "Datos actualizados al 29 de febrero del 2024." (Numeric=Character). (Procedure 'EstadoDeCuenta' Source, Line: 46, , Details, )
+2024-03-04 13:20:19,340: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 29. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:20:19,869: INFO  – Failed: Specification
+2024-03-04 13:20:19,987: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:20:20,290: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 13:20:20,297: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 13:20:20,312: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 13:20:20,346: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 13:20:20,374: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 13:20:20,395: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 13:20:20,396: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 13:20:20,628: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:20:20,644: INFO  – Compressing static files...
+2024-03-04 13:20:20,663: INFO  – Success
+2024-03-04 13:20:20,741: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:20:20,744: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:20:21,847: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:20:21,847: INFO  – ========== Web config update started ==========
+2024-03-04 13:20:21,914: INFO  – Updating web config ...
+2024-03-04 13:20:21,936: INFO  – Success: Web config update
+2024-03-04 13:20:21,938: INFO  – Failed: Build All
+2024-03-04 13:20:26,622: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:20:26,684: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:20:26,684: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:20:26,797: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:20:26,798: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:20:26,836: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:20:26,890: INFO  – Success: Target Environment update
+2024-03-04 13:20:26,893: INFO  – Building changed objects list
+2024-03-04 13:20:26,912: INFO  – ========== Specification started ==========
+2024-03-04 13:20:27,731: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 13:20:29,074: ERROR – error spc0010: Type mismatch in assignment: &Mensaje2 = "Datos actualizados al 29 de febrero del 2024." (Numeric=Character). (Procedure 'EstadoDeCuenta' Source, Line: 46, , Details, )
+2024-03-04 13:20:29,187: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 29. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:20:29,684: INFO  – Failed: Specification
+2024-03-04 13:20:29,800: INFO  – Failed: Build With This Only
+2024-03-04 13:20:43,614: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:20:43,678: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:20:43,678: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:20:43,784: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:20:43,784: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:20:43,830: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:20:43,897: INFO  – Success: Target Environment update
+2024-03-04 13:20:43,897: INFO  – Building changed objects list
+2024-03-04 13:20:43,919: INFO  – ========== Specification started ==========
+2024-03-04 13:20:44,708: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 13:20:45,019: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 29. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:20:45,064: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 13:20:45,555: INFO  – Success: Specification
+2024-03-04 13:20:45,667: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:20:45,978: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:20:46,388: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:20:46,401: INFO  – Compressing static files...
+2024-03-04 13:20:46,415: INFO  – Success
+2024-03-04 13:20:46,513: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:20:46,515: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:20:47,311: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:20:47,320: INFO  – Success: Build With This Only
+2024-03-04 13:21:08,524: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:21:08,587: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:21:08,588: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:21:08,681: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:21:08,682: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:21:08,721: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:21:08,882: INFO  – Success: Target Environment update
+2024-03-04 13:21:08,885: INFO  – Building changed objects list
+2024-03-04 13:21:08,908: INFO  – ========== Specification started ==========
+2024-03-04 13:21:09,718: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 13:21:10,024: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 29. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:21:10,053: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 13:21:10,542: INFO  – Success: Specification
+2024-03-04 13:21:10,655: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:21:10,975: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:21:11,345: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:21:11,360: INFO  – Compressing static files...
+2024-03-04 13:21:11,375: INFO  – Success
+2024-03-04 13:21:11,462: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:21:11,464: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:21:12,250: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:21:12,252: INFO  – Success: Build With This Only
+2024-03-04 13:22:57,994: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:22:58,061: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:22:58,061: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:22:58,151: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:22:58,152: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:22:58,189: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:22:58,316: INFO  – Success: Target Environment update
+2024-03-04 13:22:58,319: INFO  – Building changed objects list
+2024-03-04 13:22:58,341: INFO  – ========== Specification started ==========
+2024-03-04 13:22:59,135: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 13:22:59,419: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 29. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:22:59,444: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 13:22:59,900: INFO  – Success: Specification
+2024-03-04 13:23:00,005: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:23:00,319: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:23:00,426: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 13:23:00,705: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:23:00,723: INFO  – Compressing static files...
+2024-03-04 13:23:00,742: INFO  – Success
+2024-03-04 13:23:01,242: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:23:01,244: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:23:02,067: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:23:02,078: INFO  – Success: Build With This Only
+2024-03-04 13:26:50,557: INFO  – ========== Build All started ==========
+2024-03-04 13:26:50,631: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:26:50,632: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:26:50,724: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:26:50,726: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:26:50,763: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:26:50,900: INFO  – Success: Target Environment update
+2024-03-04 13:26:50,903: INFO  – Building changed objects list
+2024-03-04 13:26:51,044: INFO  – ========== Specification started ==========
+2024-03-04 13:26:51,847: INFO  –  Specifying Vineta ...
+2024-03-04 13:26:52,186: INFO  –  Specifying  stub Vineta ...
+2024-03-04 13:26:52,207: INFO  – Generating Resources...
+2024-03-04 13:26:52,256: INFO  – Success
+2024-03-04 13:26:52,637: INFO  – Success: Specification
+2024-03-04 13:26:52,752: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:26:53,078: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 13:26:53,144: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 13:26:53,159: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 13:26:53,165: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 13:26:53,178: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 13:26:53,218: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 13:26:53,262: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 13:26:53,283: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 13:26:53,284: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 13:26:53,513: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:26:53,532: INFO  – Compressing static files...
+2024-03-04 13:26:53,549: INFO  – Success
+2024-03-04 13:26:53,606: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:26:53,608: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:26:54,587: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:26:54,588: INFO  – ========== Web config update started ==========
+2024-03-04 13:26:54,652: INFO  – Updating web config ...
+2024-03-04 13:26:54,676: INFO  – Success: Web config update
+2024-03-04 13:26:54,679: INFO  – Success: Build All
+2024-03-04 13:28:56,919: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:28:56,996: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:28:56,996: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:28:57,105: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:28:57,105: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:28:57,137: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:28:57,299: INFO  – Success: Target Environment update
+2024-03-04 13:28:57,301: INFO  – Building changed objects list
+2024-03-04 13:28:57,324: INFO  – ========== Specification started ==========
+2024-03-04 13:28:57,357: INFO  –  Specifying Vineta (1 of 1) ...
+2024-03-04 13:28:57,680: WARN  – warning spc0043: COLONIA is not instantiated in group starting at line 9. (Procedure 'Vineta', , Details, )
+2024-03-04 13:28:57,747: INFO  –  Specifying  stub Vineta ...
+2024-03-04 13:29:00,179: INFO  –  Specifying Vineta (already specified) ...
+2024-03-04 13:29:00,665: INFO  – Success: Specification
+2024-03-04 13:29:00,786: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:29:01,101: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 13:29:01,160: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 13:29:01,437: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:29:01,454: INFO  – Compressing static files...
+2024-03-04 13:29:01,471: INFO  – Success
+2024-03-04 13:29:01,564: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:29:01,566: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:29:02,372: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:29:02,374: INFO  – Success: Build With This Only
+2024-03-04 13:29:37,262: INFO  – ========== Build All started ==========
+2024-03-04 13:29:37,337: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:29:37,339: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:29:37,445: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:29:37,445: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:29:37,483: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:29:37,563: INFO  – Success: Target Environment update
+2024-03-04 13:29:37,564: INFO  – Building changed objects list
+2024-03-04 13:29:37,702: INFO  – ========== Specification started ==========
+2024-03-04 13:29:38,527: INFO  –  Specifying Vineta (already specified) ...
+2024-03-04 13:29:38,547: INFO  – Generating Resources...
+2024-03-04 13:29:38,595: INFO  – Success
+2024-03-04 13:29:39,025: INFO  – Success: Specification
+2024-03-04 13:29:39,138: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:29:39,450: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 13:29:39,515: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 13:29:39,521: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 13:29:39,533: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 13:29:39,549: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 13:29:39,583: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 13:29:39,631: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 13:29:39,652: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 13:29:39,654: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 13:29:39,894: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:29:39,916: INFO  – Compressing static files...
+2024-03-04 13:29:39,931: INFO  – Success
+2024-03-04 13:29:39,997: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:29:39,999: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:29:40,919: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:29:40,919: INFO  – ========== Web config update started ==========
+2024-03-04 13:29:40,983: INFO  – Updating web config ...
+2024-03-04 13:29:41,002: INFO  – Success: Web config update
+2024-03-04 13:29:41,004: INFO  – Success: Build All
+2024-03-04 13:31:25,223: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:31:25,291: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:31:25,292: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:31:25,389: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:31:25,390: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:31:25,429: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:31:25,580: INFO  – Success: Target Environment update
+2024-03-04 13:31:25,583: INFO  – Building changed objects list
+2024-03-04 13:31:25,607: INFO  – ========== Specification started ==========
+2024-03-04 13:31:29,463: INFO  – Success: Specification
+2024-03-04 13:31:29,566: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:31:29,891: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:31:29,991: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 13:31:30,271: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:31:30,288: INFO  – Compressing static files...
+2024-03-04 13:31:30,304: INFO  – Success
+2024-03-04 13:31:30,366: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:31:30,368: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:31:31,263: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:31:31,265: INFO  – Success: Build With This Only
+2024-03-04 13:36:51,207: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:36:51,286: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:36:51,287: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:36:51,380: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:36:51,381: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:36:51,417: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:36:51,594: INFO  – Success: Target Environment update
+2024-03-04 13:36:51,597: INFO  – Building changed objects list
+2024-03-04 13:36:51,631: INFO  – ========== Specification started ==========
+2024-03-04 13:36:51,949: INFO  –  Specifying EstadoDeCuenta (1 of 1) ...
+2024-03-04 13:36:52,332: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 31. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:36:52,383: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 13:36:54,970: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 13:36:55,454: INFO  – Success: Specification
+2024-03-04 13:36:55,565: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:36:55,888: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:36:56,007: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 13:36:56,268: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:36:56,283: INFO  – Compressing static files...
+2024-03-04 13:36:56,303: INFO  – Success
+2024-03-04 13:36:56,383: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:36:56,384: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:36:57,181: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:36:57,183: INFO  – Success: Build With This Only
+2024-03-04 13:37:40,129: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:37:40,207: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:37:40,207: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:37:40,296: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:37:40,297: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:37:40,337: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:37:40,510: INFO  – Success: Target Environment update
+2024-03-04 13:37:40,512: INFO  – Building changed objects list
+2024-03-04 13:37:40,532: INFO  – ========== Specification started ==========
+2024-03-04 13:37:41,417: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 13:37:41,740: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 31. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:37:41,778: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 13:37:42,241: INFO  – Success: Specification
+2024-03-04 13:37:42,344: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:37:42,694: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:37:43,081: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:37:43,100: INFO  – Compressing static files...
+2024-03-04 13:37:43,115: INFO  – Success
+2024-03-04 13:37:43,200: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:37:43,203: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:37:44,003: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:37:44,005: INFO  – Success: Build With This Only
+2024-03-04 13:39:29,935: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:39:30,002: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:39:30,002: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:39:30,086: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:39:30,087: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:39:30,122: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:39:30,310: INFO  – Success: Target Environment update
+2024-03-04 13:39:30,311: INFO  – Building changed objects list
+2024-03-04 13:39:30,330: INFO  – ========== Specification started ==========
+2024-03-04 13:39:31,181: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 13:39:31,646: INFO  – Success: Specification
+2024-03-04 13:39:31,749: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:39:32,058: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:39:32,178: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 13:39:32,438: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:39:32,460: INFO  – Compressing static files...
+2024-03-04 13:39:32,475: INFO  – Success
+2024-03-04 13:39:32,593: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:39:32,596: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:39:33,398: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:39:33,405: INFO  – Success: Build With This Only
+2024-03-04 13:40:28,498: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:40:28,557: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:40:28,558: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:40:28,655: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:40:28,655: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:40:28,701: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:40:28,818: INFO  – Success: Target Environment update
+2024-03-04 13:40:28,819: INFO  – Building changed objects list
+2024-03-04 13:40:28,840: INFO  – ========== Specification started ==========
+2024-03-04 13:40:29,738: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 13:40:30,115: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 25. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:40:30,145: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 13:40:30,622: INFO  – Success: Specification
+2024-03-04 13:40:30,727: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:40:31,063: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:40:31,641: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:40:31,661: INFO  – Compressing static files...
+2024-03-04 13:40:31,680: INFO  – Success
+2024-03-04 13:40:31,744: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:40:31,746: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:40:32,547: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:40:32,549: INFO  – Success: Build With This Only
+2024-03-04 13:42:53,999: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:42:54,077: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:42:54,077: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:42:54,171: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:42:54,172: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:42:54,206: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:42:54,324: INFO  – Success: Target Environment update
+2024-03-04 13:42:54,325: INFO  – Building changed objects list
+2024-03-04 13:42:54,363: INFO  – ========== Specification started ==========
+2024-03-04 13:42:55,170: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 13:42:55,479: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 34. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:42:55,512: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 13:42:55,968: INFO  – Success: Specification
+2024-03-04 13:42:56,078: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:42:56,406: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:42:56,524: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 13:42:56,798: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:42:56,817: INFO  – Compressing static files...
+2024-03-04 13:42:56,833: INFO  – Success
+2024-03-04 13:42:56,923: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:42:56,924: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:42:57,720: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:42:57,726: INFO  – Success: Build With This Only
+2024-03-04 13:54:08,474: INFO  – ========== Build With This Only started ==========
+2024-03-04 13:54:08,548: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:54:08,548: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:54:08,634: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:54:08,635: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:54:08,671: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:54:08,801: INFO  – Success: Target Environment update
+2024-03-04 13:54:08,806: INFO  – Building changed objects list
+2024-03-04 13:54:08,828: INFO  – ========== Specification started ==========
+2024-03-04 13:54:09,707: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 13:54:10,208: INFO  – Success: Specification
+2024-03-04 13:54:10,324: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:54:10,650: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 13:54:10,753: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 13:54:11,028: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:54:11,043: INFO  – Compressing static files...
+2024-03-04 13:54:11,060: INFO  – Success
+2024-03-04 13:54:11,133: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:54:11,134: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:54:11,923: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:54:11,928: INFO  – Success: Build With This Only
+2024-03-04 13:55:54,028: INFO  – ========== Build All started ==========
+2024-03-04 13:55:54,094: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 13:55:54,094: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 13:55:54,189: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 13:55:54,189: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 13:55:54,226: INFO  – ========== Target Environment update started ==========
+2024-03-04 13:55:54,353: INFO  – Success: Target Environment update
+2024-03-04 13:55:54,356: INFO  – Building changed objects list
+2024-03-04 13:55:54,491: INFO  – ========== Specification started ==========
+2024-03-04 13:55:55,322: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 13:55:55,652: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 27. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:55:55,660: WARN  – warning spc0047: Variable Ruta not defined; N(10.2) assumed. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 13:55:55,741: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 13:55:55,770: INFO  – Generating Resources...
+2024-03-04 13:55:55,828: INFO  – Success
+2024-03-04 13:55:56,269: INFO  – Success: Specification
+2024-03-04 13:55:56,382: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 13:55:56,692: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 13:55:56,699: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 13:55:56,714: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 13:55:56,747: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 13:55:56,772: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 13:55:56,790: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 13:55:56,790: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 13:55:57,035: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 13:55:57,054: INFO  – Compressing static files...
+2024-03-04 13:55:57,076: INFO  – Success
+2024-03-04 13:55:57,129: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 13:55:57,130: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 13:55:58,091: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 13:55:58,092: INFO  – ========== Web config update started ==========
+2024-03-04 13:55:58,155: INFO  – Updating web config ...
+2024-03-04 13:55:58,181: INFO  – Success: Web config update
+2024-03-04 13:55:58,182: INFO  – Success: Build All
+2024-03-04 14:06:01,401: INFO  – ========== Build All started ==========
+2024-03-04 14:06:01,504: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:06:01,506: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:06:05,543: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:06:05,544: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:06:05,618: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:06:06,181: INFO  – Success: Target Environment update
+2024-03-04 14:06:06,185: INFO  – Building changed objects list
+2024-03-04 14:06:06,524: INFO  – Generating User Control K2BT_Stepper
+2024-03-04 14:06:06,586: INFO  – Generating User Control K2BT_ModalWindow
+2024-03-04 14:06:06,615: INFO  – Generating User Control K2BT_ConfirmDialog
+2024-03-04 14:06:06,648: INFO  – Generating User Control K2BT_ActionGroup
+2024-03-04 14:06:06,673: INFO  – Generating User Control K2BT_Component
+2024-03-04 14:06:06,705: INFO  – Generating User Control K2BT_ExtendedCombobox
+2024-03-04 14:06:06,757: INFO  – Generating User Control K2BT_ToggleBar
+2024-03-04 14:06:06,810: INFO  – Generating User Control K2BTools.DesignSystems.Aries.NotificationsButton
+2024-03-04 14:06:07,268: INFO  – ========== Specification started ==========
+2024-03-04 14:06:07,973: INFO  – Processing enumerated domains...
+2024-03-04 14:06:08,624: INFO  – Loading objects to specify ...10
+2024-03-04 14:06:08,637: INFO  – Loading objects to specify ...20
+2024-03-04 14:06:08,644: INFO  – Loading objects to specify ...30
+2024-03-04 14:06:08,653: INFO  – Loading objects to specify ...40
+2024-03-04 14:06:08,664: INFO  – Loading objects to specify ...50
+2024-03-04 14:06:08,675: INFO  – Loading objects to specify ...60
+2024-03-04 14:06:08,687: INFO  – Loading objects to specify ...70
+2024-03-04 14:06:08,858: INFO  –  Specifying K2BGetContext ...
+2024-03-04 14:06:09,311: INFO  –  Specifying K2BTools.DesignSystems.Aries.NotificationsViewer ...
+2024-03-04 14:06:09,321: INFO  –  Specifying K2BTools.DesignSystems.Aries.UIConfiguration ...
+2024-03-04 14:06:09,330: INFO  –  Specifying K2BTools.DesignSystems.Aries.SearchResultEntityWC ...
+2024-03-04 14:06:09,332: INFO  –  Specifying K2BTools.SetDesignSystemOptionValue ...
+2024-03-04 14:06:09,345: INFO  –  Specifying K2BTools.DesignSystems.Aries.TabbedViewForUniversalSearch ...
+2024-03-04 14:06:09,354: INFO  –  Specifying K2BTools.DesignSystems.Aries.SampleFooterComponent ...
+2024-03-04 14:06:09,384: INFO  –  Specifying K2BTools.GetDesignSystemOptions ...
+2024-03-04 14:06:09,399: INFO  –  Specifying K2BToolsComponentPlaceHolder ...
+2024-03-04 14:06:09,406: INFO  –  Specifying Procedure1 ...
+2024-03-04 14:06:09,411: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 14:06:09,426: INFO  –  Specifying K2BToolsTabsTitleComponent ...
+2024-03-04 14:06:09,465: INFO  –  Specifying K2BTools.GetDesignSystemOptionValue ...
+2024-03-04 14:06:09,466: INFO  – Generating Resources...
+2024-03-04 14:06:09,869: INFO  –  Specifying K2BSessionGet ...
+2024-03-04 14:06:10,222: INFO  –  Specifying K2BIsAuthorizedActivityName ...
+2024-03-04 14:06:10,230: INFO  –  Specifying K2BIsAuthorizedActivityList ...
+2024-03-04 14:06:10,505: INFO  –  Specifying K2BListPrograms ...
+2024-03-04 14:06:10,510: INFO  –  Specifying K2BRemoveExcelDocument ...
+2024-03-04 14:06:10,644: WARN  – warning src0306: Subroutine ''AddProgram'' is defined but never used. (Procedure 'K2BListPrograms' Source, Line: 13, Char: 5, , Details, )
+2024-03-04 14:06:11,017: INFO  –  Specifying K2BToolsGetSearchResults ...
+2024-03-04 14:06:11,279: INFO  –  Specifying K2BSessionRemove ...
+2024-03-04 14:06:11,283: INFO  –  Specifying K2BGetUserCaption ...
+2024-03-04 14:06:11,480: INFO  –  Specifying K2BIsAuthenticated ...
+2024-03-04 14:06:11,862: INFO  –  Specifying K2BGetUserMenu ...
+2024-03-04 14:06:11,866: INFO  –  Specifying K2BPersistRowsPerPage ...
+2024-03-04 14:06:11,874: INFO  –  Specifying K2BIsAuthorizedActivity ...
+2024-03-04 14:06:12,001: INFO  –  Specifying K2BGetUserAvatar ...
+2024-03-04 14:06:12,135: INFO  –  Specifying K2BGetUserEmail ...
+2024-03-04 14:06:12,248: INFO  –  Specifying K2BToolsMsg ...
+2024-03-04 14:06:12,511: INFO  –  Specifying K2BLogoutImplementation ...
+2024-03-04 14:06:12,517: INFO  –  Specifying K2BGetGridConfigurationSessionKey ...
+2024-03-04 14:06:12,854: INFO  –  Specifying K2BPersistGridConfiguration ...
+2024-03-04 14:06:13,017: INFO  –  Specifying K2BGetSearchResultFromData ...
+2024-03-04 14:06:13,107: INFO  –  Specifying K2BTools.IntegrationProcedures.GetDesktopNotificationInformation ...
+2024-03-04 14:06:13,112: INFO  –  Specifying GetDateFriendlyString ...
+2024-03-04 14:06:13,223: INFO  –  Specifying K2BTools.IntegrationProcedures.RegisterClient ...
+2024-03-04 14:06:13,422: INFO  –  Specifying K2BTools.TabbedView.GetTabsMarkup ...
+2024-03-04 14:06:13,427: INFO  –  Specifying K2BTools.DesignSystems.Common.FormatNumericByMagnitude ...
+2024-03-04 14:06:13,612: INFO  –  Specifying K2BTools.IntegrationProcedures.GetWebNotificationsUnreadCount ...
+2024-03-04 14:06:13,612: INFO  –  Specifying K2BToolsMessageQueueAdd ...
+2024-03-04 14:06:13,727: INFO  –  Specifying K2BLoadRowsPerPage ...
+2024-03-04 14:06:13,865: INFO  –  Specifying K2BSaveRowsPerPage ...
+2024-03-04 14:06:13,984: INFO  –  Specifying K2BToolsGetUseEncryption ...
+2024-03-04 14:06:14,174: INFO  –  Specifying K2BSCAddItem ...
+2024-03-04 14:06:14,526: INFO  –  Specifying K2BSaveGridConfiguration ...
+2024-03-04 14:06:14,857: INFO  –  Specifying K2BLoadGridConfiguration ...
+2024-03-04 14:06:15,002: INFO  –  Specifying RUTAS_COLONIA ...
+2024-03-04 14:06:15,022: INFO  –  Specifying K2BListProgramsToMultiLevelMenuSDT ...
+2024-03-04 14:06:15,116: INFO  –  Specifying K2BTools.IntegrationProcedures.MarkWebNotificationAsRead ...
+2024-03-04 14:06:15,213: INFO  –  Specifying K2BChangePassword ...
+2024-03-04 14:06:15,514: INFO  –  Specifying K2BNotAuthorized ...
+2024-03-04 14:06:15,521: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage1_VerticalMenu ...
+2024-03-04 14:06:15,623: INFO  –  Specifying MORA ...
+2024-03-04 14:06:15,642: INFO  –  Specifying K2BTools.DesignSystems.Aries.SearchResult ...
+2024-03-04 14:06:15,760: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage2_HorizontalMenu ...
+2024-03-04 14:06:15,879: INFO  –  Specifying K2BGetUserCode ...
+2024-03-04 14:06:15,985: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage5_VerticalMenu ...
+2024-03-04 14:06:16,013: INFO  –  Specifying K2BSCJoinString ...
+2024-03-04 14:06:16,192: INFO  –  Specifying K2BSCRemoveItem ...
+2024-03-04 14:06:16,212: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage3_VerticalMenu ...
+2024-03-04 14:06:16,214: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage4_VerticalMenu ...
+2024-03-04 14:06:16,342: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage6_VerticalMenu ...
+2024-03-04 14:06:16,536: INFO  –  Specifying CLAVES_RUTAS ...
+2024-03-04 14:06:16,580: INFO  –  Specifying K2BTools.DesignSystems.Aries.MasterPage7_VerticalMenu ...
+2024-03-04 14:06:16,587: INFO  –  Specifying K2BTools.DesignSystems.Aries.ViewAllNotifications ...
+2024-03-04 14:06:16,730: INFO  –  Specifying K2BLogout ...
+2024-03-04 14:06:16,855: INFO  –  Specifying K2BT_ReturnFileInHttpResponse ...
+2024-03-04 14:06:16,987: INFO  –  Specifying Generar ...
+2024-03-04 14:06:17,042: INFO  –  Specifying K2BGetSearchableEntities ...
+2024-03-04 14:06:17,262: INFO  –  Specifying K2BTools.IntegrationProcedures.GetLatestNotificationsForCurrentUser ...
+2024-03-04 14:06:17,531: INFO  –  Specifying K2BHome ...
+2024-03-04 14:06:18,023: INFO  –  Specifying K2BRetrieveRowsPerPage ...
+2024-03-04 14:06:18,881: INFO  –  Specifying K2BRetrieveGridConfiguration ...
+2024-03-04 14:06:19,003: INFO  –  Specifying K2BT_MasterPage ...
+2024-03-04 14:06:19,260: INFO  –  Specifying K2BTools.IntegrationProcedures.GetAllNotificationsForCurrentUserDP ...
+2024-03-04 14:06:19,343: INFO  – Success
+2024-03-04 14:06:19,366: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 14:06:19,629: INFO  – Processing inferred calls...
+2024-03-04 14:06:19,989: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 14:06:20,015: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\setdesignsystemoptionvalue.cs
+2024-03-04 14:06:20,044: INFO  – Generating to NETFrameworkSQLServer002\web\procedure1.cs
+2024-03-04 14:06:20,124: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getdesignsystemoptionvalue.cs
+2024-03-04 14:06:20,171: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\getdesignsystemoptions.cs
+2024-03-04 14:06:20,218: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsessionget.cs
+2024-03-04 14:06:20,251: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetcontext.cs
+2024-03-04 14:06:20,329: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthorizedactivitylist.cs
+2024-03-04 14:06:20,378: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthorizedactivityname.cs
+2024-03-04 14:06:20,478: INFO  – Generating to NETFrameworkSQLServer002\web\k2bremoveexceldocument.cs
+2024-03-04 14:06:20,514: INFO  – Generating to NETFrameworkSQLServer002\web\k2blistprograms.cs
+2024-03-04 14:06:20,633: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolscomponentplaceholder.cs
+2024-03-04 14:06:20,757: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolscomponentplaceholder.js
+2024-03-04 14:06:20,785: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\samplefootercomponent.cs
+2024-03-04 14:06:20,903: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\samplefootercomponent.js
+2024-03-04 14:06:20,966: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\tabbedviewforuniversalsearch.cs
+2024-03-04 14:06:21,138: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\tabbedviewforuniversalsearch.js
+2024-03-04 14:06:21,206: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsgetsearchresults.cs
+2024-03-04 14:06:21,303: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetusercaption.cs
+2024-03-04 14:06:21,396: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsessionremove.cs
+2024-03-04 14:06:21,435: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthenticated.cs
+2024-03-04 14:06:21,484: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\uiconfiguration.cs
+2024-03-04 14:06:21,671: INFO  – Success: Specification
+2024-03-04 14:06:21,890: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\uiconfiguration.js
+2024-03-04 14:06:22,012: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresultentitywc.cs
+2024-03-04 14:06:22,433: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresultentitywc.js
+2024-03-04 14:06:22,518: INFO  – Generating to NETFrameworkSQLServer002\web\k2bpersistrowsperpage.cs
+2024-03-04 14:06:22,562: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetusermenu.cs
+2024-03-04 14:06:22,666: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\notificationsviewer.cs
+2024-03-04 14:06:23,571: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\notificationsviewer.js
+2024-03-04 14:06:23,757: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsmsg.cs
+2024-03-04 14:06:23,815: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetuseremail.cs
+2024-03-04 14:06:23,868: INFO  – Generating to NETFrameworkSQLServer002\web\k2bisauthorizedactivity.cs
+2024-03-04 14:06:23,926: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetuseravatar.cs
+2024-03-04 14:06:23,975: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetgridconfigurationsessionkey.cs
+2024-03-04 14:06:24,018: INFO  – Generating to NETFrameworkSQLServer002\web\k2blogoutimplementation.cs
+2024-03-04 14:06:24,058: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolstabstitlecomponent.cs
+2024-03-04 14:06:24,212: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolstabstitlecomponent.js
+2024-03-04 14:06:24,262: INFO  – Generating to NETFrameworkSQLServer002\web\k2bpersistgridconfiguration.cs
+2024-03-04 14:06:24,305: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetsearchresultfromdata.cs
+2024-03-04 14:06:24,355: INFO  – Generating to NETFrameworkSQLServer002\web\getdatefriendlystring.cs
+2024-03-04 14:06:24,411: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\registerclient.cs
+2024-03-04 14:06:24,451: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\common\formatnumericbymagnitude.cs
+2024-03-04 14:06:24,504: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getwebnotificationsunreadcount.cs
+2024-03-04 14:06:24,547: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\tabbedview\gettabsmarkup.cs
+2024-03-04 14:06:24,614: INFO  – Generating to NETFrameworkSQLServer002\web\k2bloadrowsperpage.cs
+2024-03-04 14:06:24,676: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsaverowsperpage.cs
+2024-03-04 14:06:24,711: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getdesktopnotificationinformation.cs
+2024-03-04 14:06:24,729: INFO  – Generating to NETFrameworkSQLServer002\web\k2bsavegridconfiguration.cs
+2024-03-04 14:06:24,790: INFO  – Generating to NETFrameworkSQLServer002\web\k2bloadgridconfiguration.cs
+2024-03-04 14:06:24,860: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsmessagequeueadd.cs
+2024-03-04 14:06:24,867: INFO  – Generating to NETFrameworkSQLServer002\web\rutas_colonia.cs
+2024-03-04 14:06:24,984: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsgetuseencryption.cs
+2024-03-04 14:06:24,994: INFO  – Generating to NETFrameworkSQLServer002\web\k2bscadditem.cs
+2024-03-04 14:06:25,006: INFO  – Generating to NETFrameworkSQLServer002\web\k2btoolsgetuseencryption.svc
+2024-03-04 14:06:25,092: INFO  – Generating to NETFrameworkSQLServer002\web\k2blistprogramstomultilevelmenusdt.cs
+2024-03-04 14:06:25,251: INFO  – Generating to NETFrameworkSQLServer002\web\k2bnotauthorized.cs
+2024-03-04 14:06:25,316: INFO  – Generating to NETFrameworkSQLServer002\web\rutas_colonia.js
+2024-03-04 14:06:25,351: INFO  – Generating to NETFrameworkSQLServer002\web\k2bnotauthorized.js
+2024-03-04 14:06:25,357: INFO  – Generating to NETFrameworkSQLServer002\web\k2bscremoveitem.cs
+2024-03-04 14:06:25,407: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage1_verticalmenu.cs
+2024-03-04 14:06:25,567: INFO  – Generating to NETFrameworkSQLServer002\web\k2bscjoinstring.cs
+2024-03-04 14:06:25,843: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage2_horizontalmenu.cs
+2024-03-04 14:06:25,908: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage1_verticalmenu.js
+2024-03-04 14:06:26,022: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_returnfileinhttpresponse.cs
+2024-03-04 14:06:26,093: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage3_verticalmenu.cs
+2024-03-04 14:06:26,134: INFO  – Generating to NETFrameworkSQLServer002\web\k2blogout.cs
+2024-03-04 14:06:26,279: INFO  – Generating to NETFrameworkSQLServer002\web\k2blogout.js
+2024-03-04 14:06:26,362: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage2_horizontalmenu.js
+2024-03-04 14:06:26,426: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetsearchableentities.cs
+2024-03-04 14:06:26,570: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage3_verticalmenu.js
+2024-03-04 14:06:26,673: INFO  – Generating to NETFrameworkSQLServer002\web\k2bretrieverowsperpage.cs
+2024-03-04 14:06:26,678: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\markwebnotificationasread.cs
+2024-03-04 14:06:26,724: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage7_verticalmenu.cs
+2024-03-04 14:06:26,745: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage4_verticalmenu.cs
+2024-03-04 14:06:26,854: INFO  – Generating to NETFrameworkSQLServer002\web\k2bchangepassword.cs
+2024-03-04 14:06:26,914: INFO  – Generating to NETFrameworkSQLServer002\web\k2bchangepassword.js
+2024-03-04 14:06:26,983: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage6_verticalmenu.cs
+2024-03-04 14:06:26,985: INFO  – Generating to NETFrameworkSQLServer002\web\mora.cs
+2024-03-04 14:06:27,104: INFO  – Generating to NETFrameworkSQLServer002\web\k2bgetusercode.cs
+2024-03-04 14:06:27,105: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresult.cs
+2024-03-04 14:06:27,159: INFO  – Generating to NETFrameworkSQLServer002\web\k2bretrievegridconfiguration.cs
+2024-03-04 14:06:27,190: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage4_verticalmenu.js
+2024-03-04 14:06:27,207: INFO  – Generating to NETFrameworkSQLServer002\web\k2bhome.cs
+2024-03-04 14:06:27,228: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage7_verticalmenu.js
+2024-03-04 14:06:27,252: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\searchresult.js
+2024-03-04 14:06:27,275: INFO  – Generating to NETFrameworkSQLServer002\web\k2bhome.js
+2024-03-04 14:06:27,314: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getallnotificationsforcurrentuserdp.cs
+2024-03-04 14:06:27,373: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_masterpage.cs
+2024-03-04 14:06:27,383: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage5_verticalmenu.cs
+2024-03-04 14:06:27,455: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage6_verticalmenu.js
+2024-03-04 14:06:27,583: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutas.cs
+2024-03-04 14:06:27,757: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\masterpage5_verticalmenu.js
+2024-03-04 14:06:27,783: INFO  – Generating to NETFrameworkSQLServer002\web\k2bt_masterpage.js
+2024-03-04 14:06:27,832: INFO  – Generating to NETFrameworkSQLServer002\web\mora.js
+2024-03-04 14:06:28,031: INFO  – Generating to NETFrameworkSQLServer002\web\claves_rutas.js
+2024-03-04 14:06:28,142: INFO  – Generating to NETFrameworkSQLServer002\web\generar.cs
+2024-03-04 14:06:28,187: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\getlatestnotificationsforcurrentuser.cs
+2024-03-04 14:06:28,231: INFO  – Generating to NETFrameworkSQLServer002\web\generar.js
+2024-03-04 14:06:28,276: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\viewallnotifications.cs
+2024-03-04 14:06:29,226: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\designsystems\aries\viewallnotifications.js
+2024-03-04 14:06:31,409: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 14:06:31,544: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2baftertrnnavigation.cs
+2024-03-04 14:06:31,555: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bbtntooltip.cs
+2024-03-04 14:06:31,696: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bcomponenttype.cs
+2024-03-04 14:06:31,710: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bfiltertype.cs
+2024-03-04 14:06:31,730: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bhttpmethod.cs
+2024-03-04 14:06:31,750: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bpage.cs
+2024-03-04 14:06:31,763: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsesitem.cs
+2024-03-04 14:06:31,786: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bstandardactivitytype.cs
+2024-03-04 14:06:31,804: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bsymbols.cs
+2024-03-04 14:06:31,826: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bthemeclasses.cs
+2024-03-04 14:06:31,844: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btoolsmessagetype.cs
+2024-03-04 14:06:31,862: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnmode.cs
+2024-03-04 14:06:31,881: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2btrnreturnmode.cs
+2024-03-04 14:06:31,897: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_blueprinterrorcode.cs
+2024-03-04 14:06:31,911: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_blueprintregionstatus.cs
+2024-03-04 14:06:31,925: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_overflowactionposition.cs
+2024-03-04 14:06:31,944: INFO  – Generating to NETFrameworkSQLServer002\web\gxdomaink2bt_regionstatus.cs
+2024-03-04 14:06:31,964: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomainattributevaluetype.cs
+2024-03-04 14:06:31,978: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptions.cs
+2024-03-04 14:06:32,003: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaindesignsystemoptionsdefaultvalue.cs
+2024-03-04 14:06:32,025: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaingenexusgenerator.cs
+2024-03-04 14:06:32,048: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_desktopnotificationpermission.cs
+2024-03-04 14:06:32,067: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\gxdomaink2bt_webnotificationids.cs
+2024-03-04 14:06:32,085: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomaincontentviewoption.cs
+2024-03-04 14:06:32,107: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controls\calendar\gxdomainweekstartday.cs
+2024-03-04 14:06:32,126: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainaftercanceleventname.cs
+2024-03-04 14:06:32,147: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\transactionutils\gxdomainafterconfirmeventname.cs
+2024-03-04 14:06:32,172: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 14:06:32,182: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 14:06:32,210: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 14:06:32,222: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2bcoloroptionpicker to NETFrameworkSQLServer002\web...
+2024-03-04 14:06:33,573: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2btogglebar to NETFrameworkSQLServer002\web...
+2024-03-04 14:06:34,130: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2bcontrolbeautify to NETFrameworkSQLServer002\web...
+2024-03-04 14:06:34,701: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2bdesktopnotification to NETFrameworkSQLServer002\web...
+2024-03-04 14:06:34,717: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2baccordionmenu to NETFrameworkSQLServer002\web...
+2024-03-04 14:06:41,235: INFO  – Copying standard files from C:\Program Files (x86)\GeneXus\GeneXus18\k2bhorizontalmenu to NETFrameworkSQLServer002\web...
+2024-03-04 14:06:45,442: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 14:06:45,521: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 14:06:45,549: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 14:06:45,549: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 14:06:45,559: INFO  – Generating to NETFrameworkSQLServer002\web\GxFullTextSearchReindexer.cs
+2024-03-04 14:06:45,992: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 14:06:46,016: INFO  – File 'K2BToolsCommon.dll' copied to "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\web\bin\K2BToolsCommon.dll"
+2024-03-04 14:06:46,021: INFO  – Compressing static files...
+2024-03-04 14:06:46,319: INFO  – Success
+2024-03-04 14:06:46,638: INFO  – ========== SDT Generation started ==========
+2024-03-04 14:06:46,652: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtDesktopNotificationInfoSDT.cs
+2024-03-04 14:06:46,717: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtFileUploadData.cs
+2024-03-04 14:06:46,729: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BActivity.cs
+2024-03-04 14:06:46,740: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BActivityList_K2BActivityListItem.cs
+2024-03-04 14:06:46,752: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BAttributeValue_Item.cs
+2024-03-04 14:06:46,759: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BContext.cs
+2024-03-04 14:06:46,768: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridColumns_K2BGridColumnsItem.cs
+2024-03-04 14:06:46,778: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BGridConfiguration.cs
+2024-03-04 14:06:46,788: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BMultiLevelMenu_K2BMultiLevelMenuItem.cs
+2024-03-04 14:06:46,799: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BProgramNames_ProgramName.cs
+2024-03-04 14:06:46,810: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BSearchResult_Item.cs
+2024-03-04 14:06:46,821: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTabOptions_K2BTabOptionsItem.cs
+2024-03-04 14:06:46,832: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\controltypes\coloroptionpicker\type_SdtColorOptions_Color.cs
+2024-03-04 14:06:46,841: INFO  – Generating to NETFrameworkSQLServer002\web\k2btools\integrationprocedures\type_SdtWebNotificationSDT_Notification.cs
+2024-03-04 14:06:46,850: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTrnContext.cs
+2024-03-04 14:06:46,861: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTrnContext_Attribute.cs
+2024-03-04 14:06:46,862: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BTrnNavigation.cs
+2024-03-04 14:06:46,873: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_CSVImportParameters.cs
+2024-03-04 14:06:46,883: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BT_ExtendedControlValues_Item.cs
+2024-03-04 14:06:46,893: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtK2BWizardSteps_K2BWizardStepsItem.cs
+2024-03-04 14:06:46,904: INFO  – Generating to NETFrameworkSQLServer002\web\type_SdtSearchableTransactions_SearchableTransactionsItem.cs
+2024-03-04 14:06:46,919: INFO  – Success: SDT Generation
+2024-03-04 14:06:46,980: INFO  – ========== Rest API Documentation Generation started ==========
+2024-03-04 14:06:47,039: INFO  – Success: Rest API Documentation Generation
+2024-03-04 14:06:47,537: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 14:06:47,539: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 14:06:49,847: INFO  – c:\KBs\EstadoCuenta\NETFrameworkSQLServer002\Web\aestadodecuenta.cs(72,10): error CS1502: La mejor coincidencia de m‚todo sobrecargado para 'GeneXus.Printer.IReportHandler.GxSetDocName(string)' tiene algunos argumentos no v lidos [C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\aestadodecuenta\aestadodecuenta.csproj]
+2024-03-04 14:06:49,848: INFO  – c:\KBs\EstadoCuenta\NETFrameworkSQLServer002\Web\aestadodecuenta.cs(72,36): error CS1503: Argumento 1: no se puede convertir de 'decimal' a 'string' [C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\aestadodecuenta\aestadodecuenta.csproj]
+2024-03-04 14:06:49,884: INFO  – Failed: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 14:06:49,884: INFO  – ========== Web config update started ==========
+2024-03-04 14:06:49,967: INFO  – Updating web config ...
+2024-03-04 14:06:50,001: INFO  – Success: Web config update
+2024-03-04 14:06:50,003: INFO  – Failed: Build All
+2024-03-04 14:08:25,287: INFO  – ========== Build All started ==========
+2024-03-04 14:08:25,387: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:08:25,387: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:08:25,504: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:08:25,504: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:08:25,554: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:11:07,699: INFO  – ========== Build With This Only started ==========
+2024-03-04 14:11:07,812: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:11:07,827: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:11:07,915: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:11:07,916: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:11:07,926: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:11:08,217: INFO  – Success: Target Environment update
+2024-03-04 14:11:08,222: INFO  – Building changed objects list
+2024-03-04 14:11:08,291: INFO  – ========== Specification started ==========
+2024-03-04 14:11:11,490: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 14:11:12,569: INFO  – Success: Specification
+2024-03-04 14:11:12,694: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 14:11:16,492: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 14:11:16,698: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 14:11:16,797: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 14:11:17,243: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 14:11:17,302: INFO  – Compressing static files...
+2024-03-04 14:11:17,327: INFO  – Success
+2024-03-04 14:11:17,541: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 14:11:17,545: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 14:11:23,539: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 14:11:23,558: INFO  – Success: Build With This Only
+2024-03-04 14:11:26,933: INFO  – ========== Build All started ==========
+2024-03-04 14:11:27,030: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:11:27,030: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:11:27,150: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:11:27,151: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:11:27,236: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:14:38,344: INFO  – Success: Target Environment update
+2024-03-04 14:14:38,346: INFO  – Building changed objects list
+2024-03-04 14:14:38,772: INFO  – No objects to Specify
+2024-03-04 14:14:38,774: INFO  – Generating Resources...
+2024-03-04 14:14:40,514: INFO  – Success
+2024-03-04 14:14:40,514: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 14:14:41,021: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 14:14:41,029: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 14:14:41,060: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 14:14:41,106: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 14:14:41,148: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 14:14:41,174: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 14:14:41,174: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 14:14:41,591: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 14:14:41,615: INFO  – Compressing static files...
+2024-03-04 14:14:41,714: INFO  – Success
+2024-03-04 14:14:41,967: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 14:14:41,970: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 14:14:42,836: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 14:14:42,836: INFO  – ========== Web config update started ==========
+2024-03-04 14:14:42,902: INFO  – Updating web config ...
+2024-03-04 14:14:42,926: INFO  – Success: Web config update
+2024-03-04 14:14:42,933: INFO  – Success: Build All
+2024-03-04 14:18:02,748: INFO  – ========== Build With This Only started ==========
+2024-03-04 14:18:02,808: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:18:02,809: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:18:02,979: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:18:02,979: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:18:03,040: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:21:14,089: INFO  – Success: Target Environment update
+2024-03-04 14:21:14,100: INFO  – Building changed objects list
+2024-03-04 14:21:14,193: INFO  – ========== Specification started ==========
+2024-03-04 14:21:16,427: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 14:21:18,080: INFO  – Success: Specification
+2024-03-04 14:21:18,186: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 14:21:18,710: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 14:21:18,882: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 14:21:18,943: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 14:21:19,384: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 14:21:19,412: INFO  – Compressing static files...
+2024-03-04 14:21:19,466: INFO  – Success
+2024-03-04 14:21:19,625: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 14:21:19,627: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 14:21:20,815: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 14:21:20,826: INFO  – Success: Build With This Only
+2024-03-04 14:24:28,265: INFO  – ========== Build All started ==========
+2024-03-04 14:24:28,400: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:24:28,401: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:24:28,516: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:24:28,516: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:24:28,569: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:24:28,815: INFO  – Success: Target Environment update
+2024-03-04 14:24:28,816: INFO  – Building changed objects list
+2024-03-04 14:24:29,164: INFO  – No objects to Specify
+2024-03-04 14:24:29,165: INFO  – Generating Resources...
+2024-03-04 14:24:29,502: INFO  – Success
+2024-03-04 14:24:29,502: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 14:24:30,052: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 14:24:30,058: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 14:24:30,086: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 14:24:30,136: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 14:24:30,173: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 14:24:30,200: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 14:24:30,201: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 14:24:30,617: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 14:24:30,641: INFO  – Compressing static files...
+2024-03-04 14:24:30,666: INFO  – Success
+2024-03-04 14:24:30,925: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 14:24:30,927: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 14:24:31,898: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 14:24:31,898: INFO  – ========== Web config update started ==========
+2024-03-04 14:24:31,962: INFO  – Updating web config ...
+2024-03-04 14:24:31,984: INFO  – Success: Web config update
+2024-03-04 14:24:31,986: INFO  – Success: Build All
+2024-03-04 14:38:56,453: INFO  – ========== Build With This Only started ==========
+2024-03-04 14:38:56,521: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:38:56,522: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:38:56,613: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:38:56,613: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:38:56,664: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:44:01,785: INFO  – ========== Build With This Only started ==========
+2024-03-04 14:44:01,919: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:44:01,934: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:44:02,022: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:44:02,022: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:44:02,031: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:44:02,305: INFO  – Success: Target Environment update
+2024-03-04 14:44:02,310: INFO  – Building changed objects list
+2024-03-04 14:44:02,352: INFO  – ========== Specification started ==========
+2024-03-04 14:44:03,958: INFO  –  Specifying EstadoDeCuenta (1 of 1) ...
+2024-03-04 14:44:05,418: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 34. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 14:44:05,657: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 14:44:05,657: INFO  – Processing inferred calls...
+2024-03-04 14:44:09,722: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 14:44:10,473: INFO  – Success: Specification
+2024-03-04 14:44:10,587: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 14:44:14,437: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 14:44:14,573: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 14:44:14,644: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 14:44:14,741: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 14:44:15,161: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 14:44:15,229: INFO  – Compressing static files...
+2024-03-04 14:44:15,256: INFO  – Success
+2024-03-04 14:44:15,404: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 14:44:15,408: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 14:44:17,741: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 14:44:17,752: INFO  – Success: Build With This Only
+2024-03-04 14:44:37,681: INFO  – ========== Build With This Only started ==========
+2024-03-04 14:44:37,757: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:44:37,757: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:44:37,852: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:44:37,852: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:44:37,938: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:47:49,087: INFO  – Success: Target Environment update
+2024-03-04 14:47:49,090: INFO  – Building changed objects list
+2024-03-04 14:47:49,183: INFO  – ========== Specification started ==========
+2024-03-04 14:47:50,565: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 14:47:51,262: INFO  – Success: Specification
+2024-03-04 14:47:51,387: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 14:47:51,909: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 14:47:52,025: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 14:47:52,066: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 14:47:52,126: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 14:47:52,571: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 14:47:52,597: INFO  – Compressing static files...
+2024-03-04 14:47:52,621: INFO  – Success
+2024-03-04 14:47:52,701: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 14:47:52,703: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 14:47:53,551: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 14:47:53,568: INFO  – Success: Build With This Only
+2024-03-04 14:58:34,979: INFO  – ========== Build With This Only started ==========
+2024-03-04 14:58:35,055: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:58:35,056: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:58:35,160: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:58:35,161: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:58:35,208: INFO  – ========== Target Environment update started ==========
+2024-03-04 14:58:35,400: INFO  – Success: Target Environment update
+2024-03-04 14:58:35,404: INFO  – Building changed objects list
+2024-03-04 14:58:35,446: INFO  – ========== Specification started ==========
+2024-03-04 14:58:37,619: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 14:58:39,118: WARN  – warning spc0038: There is no index for order OBL_YEAR; poor performance may be noticed in group starting at line 34. (Procedure 'EstadoDeCuenta', , Details, )
+2024-03-04 14:58:39,228: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 14:58:39,497: INFO  – Processing inferred calls...
+2024-03-04 14:58:40,757: INFO  – Success: Specification
+2024-03-04 14:58:40,862: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 14:58:41,391: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 14:58:41,497: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 14:58:41,546: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 14:58:41,606: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 14:58:42,045: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 14:58:42,071: INFO  – Compressing static files...
+2024-03-04 14:58:42,096: INFO  – Success
+2024-03-04 14:58:42,217: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 14:58:42,218: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 14:58:43,118: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 14:58:43,121: INFO  – Success: Build With This Only
+2024-03-04 14:59:14,504: INFO  – ========== Build All started ==========
+2024-03-04 14:59:15,724: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 14:59:15,725: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 14:59:15,817: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 14:59:15,817: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 14:59:15,861: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:02:27,045: INFO  – Success: Target Environment update
+2024-03-04 15:02:27,047: INFO  – Building changed objects list
+2024-03-04 15:02:27,477: INFO  – No objects to Specify
+2024-03-04 15:02:27,480: INFO  – Generating Resources...
+2024-03-04 15:02:27,917: INFO  – Success
+2024-03-04 15:02:27,917: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:02:30,006: INFO  – Generating to NETFrameworkSQLServer002\web\procedure1.cs
+2024-03-04 15:02:30,037: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 15:02:30,045: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 15:02:30,184: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 15:02:30,267: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:02:30,311: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:02:30,391: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 15:02:30,392: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 15:02:30,997: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:02:31,021: INFO  – Compressing static files...
+2024-03-04 15:02:31,137: INFO  – Success
+2024-03-04 15:02:31,583: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:02:31,585: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:02:33,271: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:02:33,271: INFO  – ========== Web config update started ==========
+2024-03-04 15:02:33,341: INFO  – Updating web config ...
+2024-03-04 15:02:33,366: INFO  – Success: Web config update
+2024-03-04 15:02:33,374: INFO  – Success: Build All
+2024-03-04 15:03:55,548: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:03:55,616: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:03:55,617: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:03:55,730: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:03:55,730: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:03:55,787: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:03:55,985: INFO  – Success: Target Environment update
+2024-03-04 15:03:55,986: INFO  – Building changed objects list
+2024-03-04 15:03:56,014: INFO  – ========== Specification started ==========
+2024-03-04 15:03:58,254: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 15:03:59,842: INFO  – Success: Specification
+2024-03-04 15:03:59,944: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:04:00,464: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:04:00,572: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 15:04:00,626: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:04:00,686: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:04:01,110: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:04:01,137: INFO  – Compressing static files...
+2024-03-04 15:04:01,167: INFO  – Success
+2024-03-04 15:04:01,261: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:04:01,262: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:04:02,083: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:04:02,085: INFO  – Success: Build With This Only
+2024-03-04 15:06:26,345: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:06:26,426: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:06:26,427: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:06:26,513: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:06:26,514: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:06:26,572: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:09:37,769: INFO  – Success: Target Environment update
+2024-03-04 15:09:37,771: INFO  – Building changed objects list
+2024-03-04 15:09:37,856: INFO  – ========== Specification started ==========
+2024-03-04 15:09:40,368: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 15:09:41,202: INFO  – Success: Specification
+2024-03-04 15:09:41,315: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:09:41,824: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:09:41,930: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 15:09:41,977: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:09:42,036: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:09:42,467: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:09:42,491: INFO  – Compressing static files...
+2024-03-04 15:09:42,525: INFO  – Success
+2024-03-04 15:09:42,635: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:09:42,640: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:09:43,458: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:09:43,461: INFO  – Success: Build With This Only
+2024-03-04 15:10:00,828: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:10:00,888: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:10:00,888: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:10:00,976: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:10:00,976: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:10:01,020: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:10:01,179: INFO  – Success: Target Environment update
+2024-03-04 15:10:01,181: INFO  – Building changed objects list
+2024-03-04 15:10:01,218: INFO  – ========== Specification started ==========
+2024-03-04 15:10:02,119: WARN  – warning spc0043: COLONIA is not instantiated in group starting at line 9. (Procedure 'Vineta', , Details, )
+2024-03-04 15:10:02,177: INFO  –  Specifying  stub Vineta ...
+2024-03-04 15:10:02,207: INFO  – Processing inferred calls...
+2024-03-04 15:10:05,226: INFO  –  Specifying Vineta (already specified) ...
+2024-03-04 15:10:06,016: INFO  – Success: Specification
+2024-03-04 15:10:06,142: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:10:06,660: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 15:10:06,718: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 15:10:06,770: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:10:06,827: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:10:07,252: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:10:07,276: INFO  – Compressing static files...
+2024-03-04 15:10:07,303: INFO  – Success
+2024-03-04 15:10:07,403: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:10:07,405: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:10:08,218: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:10:08,231: INFO  – Success: Build With This Only
+2024-03-04 15:15:08,272: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:15:08,341: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:15:08,342: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:15:08,440: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:15:08,440: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:15:08,496: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:18:19,772: INFO  – Success: Target Environment update
+2024-03-04 15:18:19,772: INFO  – Building changed objects list
+2024-03-04 15:18:19,836: INFO  – ========== Specification started ==========
+2024-03-04 15:18:21,191: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 15:18:21,868: INFO  – Success: Specification
+2024-03-04 15:18:21,969: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:18:22,493: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:18:22,603: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 15:18:22,662: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:18:22,717: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:18:23,137: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:18:23,167: INFO  – Compressing static files...
+2024-03-04 15:18:23,189: INFO  – Success
+2024-03-04 15:18:23,326: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:18:23,328: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:18:24,134: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:18:24,136: INFO  – Success: Build With This Only
+2024-03-04 15:18:42,906: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:18:42,971: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:18:42,972: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:18:43,066: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:18:43,066: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:18:43,109: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:18:43,322: INFO  – Success: Target Environment update
+2024-03-04 15:18:43,325: INFO  – Building changed objects list
+2024-03-04 15:18:43,354: INFO  – ========== Specification started ==========
+2024-03-04 15:18:45,760: INFO  –  Specifying Vineta ...
+2024-03-04 15:18:47,064: WARN  – warning spc0043: COLONIA is not instantiated in group starting at line 9. (Procedure 'Vineta', , Details, )
+2024-03-04 15:18:47,116: INFO  –  Specifying  stub Vineta ...
+2024-03-04 15:18:47,245: INFO  – Processing inferred calls...
+2024-03-04 15:18:47,786: INFO  – Success: Specification
+2024-03-04 15:18:47,902: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:18:48,420: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 15:18:48,577: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:18:48,637: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:18:49,122: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:18:49,148: INFO  – Compressing static files...
+2024-03-04 15:18:49,170: INFO  – Success
+2024-03-04 15:18:49,243: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:18:49,247: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:18:50,066: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:18:50,068: INFO  – Success: Build With This Only
+2024-03-04 15:19:58,543: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:19:58,609: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:19:58,610: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:19:58,702: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:19:58,702: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:19:58,746: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:23:09,945: INFO  – Success: Target Environment update
+2024-03-04 15:23:09,949: INFO  – Building changed objects list
+2024-03-04 15:23:10,079: INFO  – ========== Specification started ==========
+2024-03-04 15:23:11,640: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 15:23:11,749: INFO  – Processing inferred calls...
+2024-03-04 15:23:15,925: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 15:23:17,391: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 15:23:17,514: INFO  – Processing inferred calls...
+2024-03-04 15:23:18,081: INFO  – Success: Specification
+2024-03-04 15:23:18,210: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:23:18,911: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:23:19,029: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 15:23:20,138: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:23:20,215: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:23:20,769: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:23:20,801: INFO  – Compressing static files...
+2024-03-04 15:23:20,824: INFO  – Success
+2024-03-04 15:23:23,107: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:23:23,111: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:23:23,909: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:23:23,915: INFO  – Success: Build With This Only
+2024-03-04 15:28:18,996: INFO  – ========== Build All started ==========
+2024-03-04 15:28:19,095: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:28:19,095: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:28:19,188: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:28:19,189: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:28:19,234: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:28:19,411: INFO  – Success: Target Environment update
+2024-03-04 15:28:19,415: INFO  – Building changed objects list
+2024-03-04 15:28:19,776: INFO  – ========== Specification started ==========
+2024-03-04 15:28:20,572: INFO  –  Specifying Vineta (1 of 1) ...
+2024-03-04 15:28:21,035: INFO  –  Specifying  stub Vineta ...
+2024-03-04 15:28:21,075: INFO  – Processing inferred calls...
+2024-03-04 15:28:24,155: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 15:28:24,185: INFO  – Generating Resources...
+2024-03-04 15:28:24,186: INFO  –  Specifying Vineta (already specified) ...
+2024-03-04 15:28:24,431: INFO  – Success
+2024-03-04 15:28:24,453: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:28:24,895: INFO  – Success: Specification
+2024-03-04 15:28:24,949: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 15:28:24,960: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:28:25,074: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 15:28:25,084: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 15:28:25,184: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 15:28:25,191: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 15:28:25,228: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 15:28:25,263: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:28:25,344: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:28:25,368: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 15:28:25,369: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 15:28:25,819: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:28:25,845: INFO  – Compressing static files...
+2024-03-04 15:28:25,881: INFO  – Success
+2024-03-04 15:28:26,190: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:28:26,193: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:28:27,532: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:28:27,533: INFO  – ========== Web config update started ==========
+2024-03-04 15:28:27,599: INFO  – Updating web config ...
+2024-03-04 15:28:27,619: INFO  – Success: Web config update
+2024-03-04 15:28:27,621: INFO  – Success: Build All
+2024-03-04 15:29:16,588: INFO  – ========== Build All started ==========
+2024-03-04 15:29:16,698: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:29:16,700: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:29:16,786: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:29:16,787: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:29:16,844: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:32:28,040: INFO  – Success: Target Environment update
+2024-03-04 15:32:28,050: INFO  – Building changed objects list
+2024-03-04 15:32:28,454: INFO  – No objects to Specify
+2024-03-04 15:32:28,454: INFO  – Generating Resources...
+2024-03-04 15:32:28,834: INFO  – Success
+2024-03-04 15:32:28,835: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:32:29,335: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:32:29,440: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 15:32:29,453: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 15:32:29,460: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 15:32:29,499: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 15:32:29,539: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:32:29,600: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:32:29,629: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 15:32:29,630: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 15:32:30,033: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:32:30,069: INFO  – Compressing static files...
+2024-03-04 15:32:30,096: INFO  – Success
+2024-03-04 15:32:30,374: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:32:30,376: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:32:31,573: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:32:31,574: INFO  – ========== Web config update started ==========
+2024-03-04 15:32:31,639: INFO  – Updating web config ...
+2024-03-04 15:32:31,659: INFO  – Success: Web config update
+2024-03-04 15:32:31,662: INFO  – Success: Build All
+2024-03-04 15:33:47,736: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:33:47,809: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:33:47,810: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:33:47,896: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:33:47,897: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:33:47,956: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:33:48,225: INFO  – Success: Target Environment update
+2024-03-04 15:33:48,228: INFO  – Building changed objects list
+2024-03-04 15:33:48,264: INFO  – ========== Specification started ==========
+2024-03-04 15:33:49,608: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 15:33:50,024: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 15:33:50,144: INFO  – Processing inferred calls...
+2024-03-04 15:33:50,722: INFO  – Success: Specification
+2024-03-04 15:33:50,838: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:33:51,364: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:33:51,515: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:33:51,581: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:33:52,030: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:33:52,058: INFO  – Compressing static files...
+2024-03-04 15:33:52,083: INFO  – Success
+2024-03-04 15:33:52,170: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:33:52,172: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:33:53,011: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:33:53,013: INFO  – Success: Build With This Only
+2024-03-04 15:33:57,481: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:33:57,554: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:33:57,554: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:33:57,652: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:33:57,652: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:33:57,697: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:37:08,923: INFO  – Success: Target Environment update
+2024-03-04 15:37:08,926: INFO  – Building changed objects list
+2024-03-04 15:37:09,004: INFO  – ========== Specification started ==========
+2024-03-04 15:37:10,351: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 15:37:11,036: INFO  – Success: Specification
+2024-03-04 15:37:11,156: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:37:11,662: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:37:11,774: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 15:37:11,822: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:37:11,881: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:37:12,305: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:37:12,330: INFO  – Compressing static files...
+2024-03-04 15:37:12,354: INFO  – Success
+2024-03-04 15:37:12,448: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:37:12,450: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:37:13,243: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:37:13,246: INFO  – Success: Build With This Only
+2024-03-04 15:39:35,613: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:39:35,686: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:39:35,686: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:39:35,781: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:39:35,781: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:39:35,831: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:39:36,014: INFO  – Success: Target Environment update
+2024-03-04 15:39:36,017: INFO  – Building changed objects list
+2024-03-04 15:39:36,045: INFO  – ========== Specification started ==========
+2024-03-04 15:39:37,421: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 15:39:37,934: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 15:39:38,114: INFO  – Processing inferred calls...
+2024-03-04 15:39:38,656: INFO  – Success: Specification
+2024-03-04 15:39:38,769: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:39:39,271: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:39:39,430: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:39:39,489: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:39:39,937: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:39:39,960: INFO  – Compressing static files...
+2024-03-04 15:39:39,983: INFO  – Success
+2024-03-04 15:39:40,085: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:39:40,087: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:39:40,888: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:39:40,889: INFO  – Success: Build With This Only
+2024-03-04 15:43:19,428: INFO  – ========== Build All started ==========
+2024-03-04 15:43:19,558: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:43:19,559: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:43:19,649: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:43:19,649: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:43:19,703: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:46:31,012: INFO  – Success: Target Environment update
+2024-03-04 15:46:31,014: INFO  – Building changed objects list
+2024-03-04 15:46:31,466: INFO  – ========== Specification started ==========
+2024-03-04 15:46:32,867: INFO  –  Specifying Vineta (already specified) ...
+2024-03-04 15:46:32,875: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 15:46:32,890: INFO  – Generating Resources...
+2024-03-04 15:46:33,135: INFO  – Success
+2024-03-04 15:46:33,155: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:46:33,649: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 15:46:33,660: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 15:46:34,402: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 15:46:34,549: INFO  – Processing inferred calls...
+2024-03-04 15:46:35,112: INFO  – Success: Specification
+2024-03-04 15:46:35,268: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:46:35,377: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 15:46:35,395: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 15:46:35,402: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 15:46:35,437: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 15:46:35,472: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:46:35,556: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:46:35,581: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 15:46:35,582: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 15:46:36,002: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:46:36,027: INFO  – Compressing static files...
+2024-03-04 15:46:36,065: INFO  – Success
+2024-03-04 15:46:36,330: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:46:36,332: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:46:37,503: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:46:37,503: INFO  – ========== Web config update started ==========
+2024-03-04 15:46:37,567: INFO  – Updating web config ...
+2024-03-04 15:46:37,588: INFO  – Success: Web config update
+2024-03-04 15:46:37,590: INFO  – Success: Build All
+2024-03-04 15:51:43,022: INFO  – ========== Build With This Only started ==========
+2024-03-04 15:51:43,083: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 15:51:43,084: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 15:51:43,188: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 15:51:43,188: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 15:51:43,235: INFO  – ========== Target Environment update started ==========
+2024-03-04 15:51:43,410: INFO  – Success: Target Environment update
+2024-03-04 15:51:43,412: INFO  – Building changed objects list
+2024-03-04 15:51:43,440: INFO  – ========== Specification started ==========
+2024-03-04 15:51:44,773: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 15:51:45,472: INFO  – Success: Specification
+2024-03-04 15:51:45,591: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 15:51:46,130: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 15:51:46,249: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 15:51:46,330: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 15:51:46,341: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 15:51:46,516: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 15:51:46,584: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 15:51:47,079: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 15:51:47,105: INFO  – Compressing static files...
+2024-03-04 15:51:47,129: INFO  – Success
+2024-03-04 15:51:47,314: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 15:51:47,317: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 15:51:48,143: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 15:51:48,150: INFO  – Success: Build With This Only
+2024-03-04 16:08:20,470: INFO  – ========== Build All started ==========
+2024-03-04 16:08:20,577: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 16:08:20,577: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 16:08:20,671: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 16:08:20,671: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 16:08:20,720: INFO  – ========== Target Environment update started ==========
+2024-03-04 16:11:31,907: INFO  – Success: Target Environment update
+2024-03-04 16:11:31,911: INFO  – Building changed objects list
+2024-03-04 16:11:32,371: INFO  – ========== Specification started ==========
+2024-03-04 16:11:33,567: INFO  –  Specifying  stub Vineta ...
+2024-03-04 16:11:33,603: INFO  – Processing inferred calls...
+2024-03-04 16:11:36,852: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 16:11:36,877: INFO  – Generating Resources...
+2024-03-04 16:11:36,884: INFO  –  Specifying Vineta (already specified) ...
+2024-03-04 16:11:37,138: INFO  – Success
+2024-03-04 16:11:37,159: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 16:11:37,522: INFO  – Success: Specification
+2024-03-04 16:11:37,650: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 16:11:37,665: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 16:11:37,786: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 16:11:37,796: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 16:11:37,901: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 16:11:37,908: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 16:11:37,938: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 16:11:37,978: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 16:11:38,056: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 16:11:38,082: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 16:11:38,083: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 16:11:38,494: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 16:11:38,523: INFO  – Compressing static files...
+2024-03-04 16:11:38,561: INFO  – Success
+2024-03-04 16:11:38,869: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 16:11:38,872: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 16:11:42,319: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 16:11:42,319: INFO  – ========== Web config update started ==========
+2024-03-04 16:11:42,387: INFO  – Updating web config ...
+2024-03-04 16:11:42,417: INFO  – Success: Web config update
+2024-03-04 16:11:42,418: INFO  – Success: Build All
+2024-03-04 16:11:48,343: INFO  – ========== Build With This Only started ==========
+2024-03-04 16:11:48,409: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 16:11:48,410: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 16:11:48,513: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 16:11:48,513: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 16:11:48,559: INFO  – ========== Target Environment update started ==========
+2024-03-04 16:11:48,697: INFO  – Success: Target Environment update
+2024-03-04 16:11:48,698: INFO  – Building changed objects list
+2024-03-04 16:11:48,729: INFO  – ========== Specification started ==========
+2024-03-04 16:11:50,222: INFO  – Generating Resources...
+2024-03-04 16:11:50,684: INFO  – Success
+2024-03-04 16:11:51,923: INFO  – Success: Specification
+2024-03-04 16:11:52,040: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 16:11:52,542: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 16:11:52,616: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 16:11:52,661: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 16:11:52,724: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 16:11:53,164: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 16:11:53,186: INFO  – Compressing static files...
+2024-03-04 16:11:53,217: INFO  – Success
+2024-03-04 16:11:53,263: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 16:11:53,266: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 16:11:54,150: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 16:11:54,153: INFO  – Success: Build With This Only
+2024-03-04 16:15:45,163: INFO  – ========== Build All started ==========
+2024-03-04 16:15:45,268: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 16:15:45,268: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 16:15:45,363: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 16:15:45,364: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 16:15:45,408: INFO  – ========== Target Environment update started ==========
+2024-03-04 16:18:56,456: INFO  – Success: Target Environment update
+2024-03-04 16:18:56,458: INFO  – Building changed objects list
+2024-03-04 16:18:56,906: INFO  – ========== Specification started ==========
+2024-03-04 16:18:58,270: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 16:18:58,303: INFO  – Generating Resources...
+2024-03-04 16:18:58,668: INFO  – Success
+2024-03-04 16:18:59,025: INFO  – Success: Specification
+2024-03-04 16:18:59,137: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 16:18:59,689: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 16:18:59,812: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 16:18:59,891: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 16:18:59,898: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 16:18:59,910: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 16:18:59,920: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 16:18:59,950: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 16:18:59,988: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 16:19:00,098: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 16:19:00,121: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 16:19:00,122: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 16:19:00,539: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 16:19:00,562: INFO  – Compressing static files...
+2024-03-04 16:19:00,587: INFO  – Success
+2024-03-04 16:19:00,855: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 16:19:00,858: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 16:19:02,129: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 16:19:02,129: INFO  – ========== Web config update started ==========
+2024-03-04 16:19:02,198: INFO  – Updating web config ...
+2024-03-04 16:19:02,220: INFO  – Success: Web config update
+2024-03-04 16:19:02,222: INFO  – Success: Build All
+2024-03-04 16:25:08,406: INFO  – ========== Build With This Only started ==========
+2024-03-04 16:25:08,495: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 16:25:08,497: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 16:25:08,586: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 16:25:08,587: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 16:25:08,629: INFO  – ========== Target Environment update started ==========
+2024-03-04 16:25:08,890: INFO  – Success: Target Environment update
+2024-03-04 16:25:08,891: INFO  – Building changed objects list
+2024-03-04 16:25:08,922: INFO  – ========== Specification started ==========
+2024-03-04 16:25:10,540: INFO  –  Specifying EstadoDeCuenta (already specified) ...
+2024-03-04 16:25:11,560: INFO  – Success: Specification
+2024-03-04 16:25:11,672: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 16:25:12,227: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 16:25:12,348: INFO  – Generating to NETFrameworkSQLServer002\web\estadodecuenta.cs
+2024-03-04 16:25:12,440: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 16:25:12,506: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 16:25:13,056: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 16:25:13,110: INFO  – Compressing static files...
+2024-03-04 16:25:13,137: INFO  – Success
+2024-03-04 16:25:14,411: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 16:25:14,412: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 16:25:15,384: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 16:25:15,390: INFO  – Success: Build With This Only
+2024-03-04 16:26:06,795: INFO  – ========== Build All started ==========
+2024-03-04 16:26:06,915: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 16:26:06,916: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 16:26:07,011: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 16:26:07,012: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 16:26:07,059: INFO  – ========== Target Environment update started ==========
+2024-03-04 16:29:18,328: INFO  – Success: Target Environment update
+2024-03-04 16:29:18,331: INFO  – Building changed objects list
+2024-03-04 16:29:18,781: INFO  – ========== Specification started ==========
+2024-03-04 16:29:20,210: INFO  –  Specifying Vineta (already specified) ...
+2024-03-04 16:29:20,237: INFO  – Generating Resources...
+2024-03-04 16:29:21,170: INFO  – Success
+2024-03-04 16:29:21,179: INFO  – Success: Specification
+2024-03-04 16:29:21,291: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 16:29:21,801: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 16:29:21,880: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 16:29:21,892: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 16:29:21,900: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 16:29:21,930: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 16:29:21,970: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 16:29:22,031: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 16:29:22,057: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 16:29:22,058: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 16:29:22,484: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 16:29:22,510: INFO  – Compressing static files...
+2024-03-04 16:29:22,543: INFO  – Success
+2024-03-04 16:29:22,810: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 16:29:22,812: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 16:29:24,055: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 16:29:24,055: INFO  – ========== Web config update started ==========
+2024-03-04 16:29:24,227: INFO  – Updating web config ...
+2024-03-04 16:29:24,250: INFO  – Success: Web config update
+2024-03-04 16:29:24,252: INFO  – Success: Build All
+2024-03-04 16:31:19,475: INFO  – ========== Build All started ==========
+2024-03-04 16:31:19,601: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-04 16:31:19,601: INFO  – Success: Copy Module 'GeneXus'
+2024-03-04 16:31:19,705: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-04 16:31:19,707: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-04 16:31:19,935: INFO  – ========== Target Environment update started ==========
+2024-03-04 16:31:20,595: INFO  – Success: Target Environment update
+2024-03-04 16:31:20,596: INFO  – Building changed objects list
+2024-03-04 16:31:20,957: INFO  – ========== Specification started ==========
+2024-03-04 16:31:22,326: INFO  –  Specifying EstadoDeCuenta ...
+2024-03-04 16:31:22,333: INFO  –  Specifying Vineta (already specified) ...
+2024-03-04 16:31:22,362: INFO  – Generating Resources...
+2024-03-04 16:31:22,585: INFO  – Success
+2024-03-04 16:31:22,605: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-04 16:31:22,751: INFO  –  Specifying  stub EstadoDeCuenta ...
+2024-03-04 16:31:22,882: INFO  – Processing inferred calls...
+2024-03-04 16:31:23,084: INFO  – Generating to NETFrameworkSQLServer002\web\vineta.cs
+2024-03-04 16:31:23,096: INFO  – Generating to NETFrameworkSQLServer002\web\avineta.cs
+2024-03-04 16:31:23,426: INFO  – Success: Specification
+2024-03-04 16:31:23,571: INFO  – Generating to NETFrameworkSQLServer002\web\aestadodecuenta.cs
+2024-03-04 16:31:23,693: INFO  – Generating to NETFrameworkSQLServer002\web\gxcfg.js
+2024-03-04 16:31:23,702: INFO  – Generating to NETFrameworkSQLServer002\web\GXCFG.WEB
+2024-03-04 16:31:23,733: INFO  – Generating to NETFrameworkSQLServer002\web\client.exe.config
+2024-03-04 16:31:23,770: INFO  – Generating to NETFrameworkSQLServer002\web\Developermenu.bld
+2024-03-04 16:31:23,892: INFO  – Generating to NETFrameworkSQLServer002\web\genexus.programs.common.bld
+2024-03-04 16:31:23,923: INFO  – Generating to NETFrameworkSQLServer002\web\bld15.info
+2024-03-04 16:31:23,924: INFO  – Generating to NETFrameworkSQLServer002\web\DeveloperMenu.xml
+2024-03-04 16:31:24,345: INFO  – Success: Default (.NET Framework) Generation
+2024-03-04 16:31:24,374: INFO  – Compressing static files...
+2024-03-04 16:31:24,415: INFO  – Success
+2024-03-04 16:31:24,698: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-04 16:31:24,702: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\LastBuild.sln"
+2024-03-04 16:31:25,956: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-04 16:31:25,958: INFO  – ========== Web config update started ==========
+2024-03-04 16:31:26,022: INFO  – Updating web config ...
+2024-03-04 16:31:26,045: INFO  – Success: Web config update
+2024-03-04 16:31:26,047: INFO  – Success: Build All

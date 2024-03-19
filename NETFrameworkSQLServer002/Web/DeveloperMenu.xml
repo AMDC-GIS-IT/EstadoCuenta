@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>UTF-8</Charset>
+   <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus18/</Path>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>CLAVES_RUTAS</ObjName>
+      <ObjDesc>CLAVES_RUTAS</ObjDesc>
+      <ObjLink>claves_rutas.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>MORA</ObjName>
+      <ObjDesc>MORA</ObjDesc>
+      <ObjLink>mora.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>RUTAS_COLONIA</ObjName>
+      <ObjDesc>RUTAS_COLONIA</ObjDesc>
+      <ObjLink>rutas_colonia.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>K2BChangePassword</ObjName>
+      <ObjDesc>K2 BChange Password</ObjDesc>
+      <ObjLink>k2bchangepassword.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>K2BHome</ObjName>
+      <ObjDesc>Application home page</ObjDesc>
+      <ObjLink>k2bhome.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>K2BTools.DesignSystems.Aries.ViewAllNotifications</ObjName>
+      <ObjDesc>K2BTools.DesignSystems.Aries.View All Notifications</ObjDesc>
+      <ObjLink>k2btools.designsystems.aries.viewallnotifications.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>K2BLogout</ObjName>
+      <ObjDesc>K2 BLogout</ObjDesc>
+      <ObjLink>k2blogout.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Generar</ObjName>
+      <ObjDesc>Generar</ObjDesc>
+      <ObjLink>generar.aspx</ObjLink>
+   </Object>
+</Objects>

@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\Produccion\web\bin\k2bhome.dll
+C:\KBs\EstadoCuenta\Produccion\build\k2bhome\obj\Release\k2bhome.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\Produccion\build\k2bhome\obj\Release\k2bhome.dll

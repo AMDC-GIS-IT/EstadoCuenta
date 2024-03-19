@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\web\bin\mora.dll
+C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\mora\obj\Release\mora.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\mora\obj\Release\mora.dll

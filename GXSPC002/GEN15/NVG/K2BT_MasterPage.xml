@@ -1,0 +1,77 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_7-179127</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>101</ObjId>
+<ObjName>K2BT_MasterPage</ObjName>
+<ObjDesc>K2BTools Master Page</ObjDesc>
+<ObjPgmName>K2BT_MasterPage</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Refresh</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>10</ObjId>
+<ObjName>K2BNotAuthorized</ObjName>
+<ObjPgmName>K2BNotAuthorized</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression>
+<Token>&quot;&quot;</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>&quot;&quot;</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>K2BStandardActivityType</Token>
+<Token>.None</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>&quot;&quot;</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>&quot;&quot;</Token></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'ToggleMenu'</EventName></Event>
+<Event>
+<EventName>Applicationicon.Click</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>27</ObjId>
+<ObjName>K2BHome</ObjName>
+<ObjPgmName>K2BHome</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Applicationname.Click</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>27</ObjId>
+<ObjName>K2BHome</ObjName>
+<ObjPgmName>K2BHome</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

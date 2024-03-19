@@ -1,0 +1,3 @@
+C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\web\bin\general.ui.masterprompt.dll
+C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\general.ui.masterprompt\obj\Release\general.ui.masterprompt.csprojResolveAssemblyReference.cache
+C:\KBs\EstadoCuenta\NETFrameworkSQLServer002\build\general.ui.masterprompt\obj\Release\general.ui.masterprompt.dll

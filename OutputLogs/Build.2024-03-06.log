@@ -1,0 +1,210 @@
+2024-03-06 09:05:10,230: INFO  – ========== Build All started ==========
+2024-03-06 09:05:10,409: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-06 09:05:10,424: INFO  – Success: Copy Module 'GeneXus'
+2024-03-06 09:05:10,520: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-06 09:05:10,520: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-06 09:05:10,531: INFO  – ========== Target Environment update started ==========
+2024-03-06 09:08:22,165: INFO  – Success: Target Environment update
+2024-03-06 09:08:22,173: INFO  – Building changed objects list
+2024-03-06 09:08:22,683: INFO  – ========== Specification started ==========
+2024-03-06 09:08:25,633: INFO  –  Specifying Generar ...
+2024-03-06 09:08:28,663: INFO  – Generating Resources...
+2024-03-06 09:08:29,001: INFO  – Success
+2024-03-06 09:08:29,852: INFO  – Success: Specification
+2024-03-06 09:08:29,966: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-06 09:08:33,829: INFO  – Generating to Produccion\web\aestadodecuenta.cs
+2024-03-06 09:08:33,977: INFO  – Generating to Produccion\web\estadodecuenta.cs
+2024-03-06 09:08:33,987: INFO  – Generating to Produccion\web\generar.cs
+2024-03-06 09:08:34,125: INFO  – Generating to Produccion\web\generar.js
+2024-03-06 09:08:34,172: INFO  – Generating to Produccion\web\gxcfg.js
+2024-03-06 09:08:34,180: INFO  – Generating to Produccion\web\GXCFG.WEB
+2024-03-06 09:08:34,242: INFO  – Generating to Produccion\web\client.exe.config
+2024-03-06 09:08:34,296: INFO  – Generating to Produccion\web\Developermenu.bld
+2024-03-06 09:08:34,401: INFO  – Generating to Produccion\web\genexus.programs.common.bld
+2024-03-06 09:08:34,429: INFO  – Generating to Produccion\web\bld15.info
+2024-03-06 09:08:34,429: INFO  – Generating to Produccion\web\DeveloperMenu.xml
+2024-03-06 09:08:34,868: INFO  – Success: Default (.NET Framework) Generation
+2024-03-06 09:08:34,993: INFO  – Compressing static files...
+2024-03-06 09:08:35,209: INFO  – Success
+2024-03-06 09:08:35,656: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-06 09:08:35,659: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\Produccion\build\LastBuild.sln"
+2024-03-06 09:08:39,213: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-06 09:08:39,214: INFO  – ========== Web config update started ==========
+2024-03-06 09:08:39,286: INFO  – Updating web config ...
+2024-03-06 09:08:39,311: INFO  – Success: Web config update
+2024-03-06 09:08:39,323: INFO  – Success: Build All
+2024-03-06 09:10:56,920: INFO  – ========== Run Developer Menu Without Building started ==========
+2024-03-06 09:10:57,212: INFO  – Success: Run Developer Menu Without Building
+2024-03-06 09:10:59,042: INFO  – ========== Run Generar Without Building started ==========
+2024-03-06 09:10:59,813: INFO  – ========== Execution started ==========
+2024-03-06 09:10:59,847: INFO  – Success: Execution
+2024-03-06 09:10:59,853: INFO  – Success: Run Generar Without Building
+2024-03-06 09:20:23,683: INFO  – ========== Build All started ==========
+2024-03-06 09:20:23,801: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-06 09:20:23,801: INFO  – Success: Copy Module 'GeneXus'
+2024-03-06 09:20:23,899: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-06 09:20:23,899: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-06 09:20:24,041: INFO  – ========== Target Environment update started ==========
+2024-03-06 09:23:35,408: INFO  – Success: Target Environment update
+2024-03-06 09:23:35,412: INFO  – Building changed objects list
+2024-03-06 09:23:36,052: INFO  – No objects to Specify
+2024-03-06 09:23:36,053: INFO  – Generating Resources...
+2024-03-06 09:23:36,356: INFO  – Success
+2024-03-06 09:23:36,357: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-06 09:23:36,939: INFO  – Generating to Produccion\web\aestadodecuenta.cs
+2024-03-06 09:23:37,060: INFO  – Generating to Produccion\web\estadodecuenta.cs
+2024-03-06 09:23:37,075: INFO  – Generating to Produccion\web\gxcfg.js
+2024-03-06 09:23:37,081: INFO  – Generating to Produccion\web\GXCFG.WEB
+2024-03-06 09:23:37,131: INFO  – Generating to Produccion\web\client.exe.config
+2024-03-06 09:23:37,177: INFO  – Generating to Produccion\web\Developermenu.bld
+2024-03-06 09:23:37,257: INFO  – Generating to Produccion\web\genexus.programs.common.bld
+2024-03-06 09:23:37,285: INFO  – Generating to Produccion\web\bld15.info
+2024-03-06 09:23:37,285: INFO  – Generating to Produccion\web\DeveloperMenu.xml
+2024-03-06 09:23:37,731: INFO  – Success: Default (.NET Framework) Generation
+2024-03-06 09:23:37,756: INFO  – Compressing static files...
+2024-03-06 09:23:37,798: INFO  – Success
+2024-03-06 09:23:38,110: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-06 09:23:38,112: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\Produccion\build\LastBuild.sln"
+2024-03-06 09:23:39,559: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-06 09:23:39,560: INFO  – ========== Web config update started ==========
+2024-03-06 09:23:39,630: INFO  – Updating web config ...
+2024-03-06 09:23:39,655: INFO  – Success: Web config update
+2024-03-06 09:23:39,658: INFO  – Success: Build All
+2024-03-06 13:45:57,918: INFO  – ========== Build All started ==========
+2024-03-06 13:45:58,085: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-06 13:45:58,107: INFO  – Success: Copy Module 'GeneXus'
+2024-03-06 13:45:58,206: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-06 13:45:58,213: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-06 13:45:58,351: INFO  – ========== Target Environment update started ==========
+2024-03-06 13:49:09,916: INFO  – Success: Target Environment update
+2024-03-06 13:49:09,922: INFO  – Building changed objects list
+2024-03-06 13:49:10,458: INFO  – ========== Specification started ==========
+2024-03-06 13:49:13,743: INFO  –  Specifying Procedure2 ...
+2024-03-06 13:49:15,006: ERROR – error spc0010: Type mismatch in assignment: &date = "2024/02/01" (Date=Character). (Procedure 'Procedure2' Source, Line: 17, , Details, )
+2024-03-06 13:49:15,006: ERROR – error spc0023: Parameter &date (Date) for method obtenertasadecambio has wrong type (expecting Character). (Procedure 'Procedure2' Source, Line: 19, , Details, )
+2024-03-06 13:49:15,006: ERROR – error spc0010: Type mismatch in assignment: &result = ObtenerTasaDeCambioExchangeRateFetcher.obtenertasadecambio(&apiKey,&baseCurrency,&targetCurrency,&date) (Numeric=Character Collection). (Procedure 'Procedure2' Source, Line: 19, , Details, )
+2024-03-06 13:49:16,570: INFO  – Failed: Specification
+2024-03-06 13:49:16,693: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-06 13:49:20,659: INFO  – Generating to Produccion\web\gxcfg.js
+2024-03-06 13:49:20,678: INFO  – Generating to Produccion\web\GXCFG.WEB
+2024-03-06 13:49:20,771: INFO  – Generating to Produccion\web\client.exe.config
+2024-03-06 13:49:20,827: INFO  – Generating to Produccion\web\Developermenu.bld
+2024-03-06 13:49:20,919: INFO  – Generating to Produccion\web\genexus.programs.common.bld
+2024-03-06 13:49:20,952: INFO  – Generating to Produccion\web\bld15.info
+2024-03-06 13:49:20,953: INFO  – Generating to Produccion\web\DeveloperMenu.xml
+2024-03-06 13:49:21,404: INFO  – Success: Default (.NET Framework) Generation
+2024-03-06 13:49:21,622: INFO  – Compressing static files...
+2024-03-06 13:49:21,818: INFO  – Success
+2024-03-06 13:49:22,594: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-06 13:49:22,600: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\Produccion\build\LastBuild.sln"
+2024-03-06 13:49:32,660: INFO  – Success: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-06 13:49:32,662: INFO  – ========== Web config update started ==========
+2024-03-06 13:49:32,846: INFO  – Updating web config ...
+2024-03-06 13:49:32,897: INFO  – Success: Web config update
+2024-03-06 13:49:32,904: INFO  – Failed: Build All
+2024-03-06 13:49:51,227: INFO  – ========== Build With This Only started ==========
+2024-03-06 13:49:51,313: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-06 13:49:51,314: INFO  – Success: Copy Module 'GeneXus'
+2024-03-06 13:49:51,432: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-06 13:49:51,432: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-06 13:49:51,496: INFO  – ========== Target Environment update started ==========
+2024-03-06 13:49:51,766: INFO  – Success: Target Environment update
+2024-03-06 13:49:51,769: INFO  – Building changed objects list
+2024-03-06 13:49:51,806: INFO  – ========== Specification started ==========
+2024-03-06 13:49:52,390: ERROR – error spc0010: Type mismatch in assignment: &result = ObtenerTasaDeCambioExchangeRateFetcher.obtenertasadecambio(&apiKey,&baseCurrency,&targetCurrency,&date) (Numeric=Character Collection). (Procedure 'Procedure2' Source, Line: 19, , Details, )
+2024-03-06 13:49:56,696: INFO  –  Specifying Procedure2 ...
+2024-03-06 13:49:56,861: ERROR – error spc0010: Type mismatch in assignment: &result = ObtenerTasaDeCambioExchangeRateFetcher.obtenertasadecambio(&apiKey,&baseCurrency,&targetCurrency,&date) (Numeric=Character Collection). (Procedure 'Procedure2' Source, Line: 19, , Details, )
+2024-03-06 13:49:58,351: INFO  – Failed: Specification
+2024-03-06 13:49:58,458: INFO  – Failed: Build With This Only
+2024-03-06 13:50:24,139: INFO  – ========== Build With This Only started ==========
+2024-03-06 13:50:24,207: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-06 13:50:24,208: INFO  – Success: Copy Module 'GeneXus'
+2024-03-06 13:50:24,297: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-06 13:50:24,297: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-06 13:50:24,352: INFO  – ========== Target Environment update started ==========
+2024-03-06 13:50:24,472: INFO  – Success: Target Environment update
+2024-03-06 13:50:24,476: INFO  – Building changed objects list
+2024-03-06 13:50:24,503: INFO  – ========== Specification started ==========
+2024-03-06 13:50:25,889: INFO  –  Specifying Procedure2 ...
+2024-03-06 13:50:27,028: ERROR – error spc0010: Type mismatch in assignment: &result = ObtenerTasaDeCambioExchangeRateFetcher.obtenertasadecambio(&apiKey,&baseCurrency,&targetCurrency,&date) (Varchar=Character Collection). (Procedure 'Procedure2' Source, Line: 19, , Details, )
+2024-03-06 13:50:27,794: INFO  – Failed: Specification
+2024-03-06 13:50:27,908: INFO  – Failed: Build With This Only
+2024-03-06 13:50:56,749: INFO  – ========== Build With This Only started ==========
+2024-03-06 13:50:56,827: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-06 13:50:56,827: INFO  – Success: Copy Module 'GeneXus'
+2024-03-06 13:50:56,907: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-06 13:50:56,907: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-06 13:50:56,976: INFO  – ========== Target Environment update started ==========
+2024-03-06 13:54:13,561: INFO  – Success: Target Environment update
+2024-03-06 13:54:13,565: INFO  – Building changed objects list
+2024-03-06 13:54:13,683: INFO  – ========== Specification started ==========
+2024-03-06 13:54:15,967: INFO  –  Specifying Procedure2 ...
+2024-03-06 13:54:17,233: ERROR – error spc0010: Type mismatch in assignment: &result = ObtenerTasaDeCambioExchangeRateFetcher.obtenertasadecambio(&apiKey,&baseCurrency,&targetCurrency,&date) (Character=Character Collection). (Procedure 'Procedure2' Source, Line: 19, , Details, )
+2024-03-06 13:54:18,788: INFO  – Failed: Specification
+2024-03-06 13:54:18,926: INFO  – Failed: Build With This Only
+2024-03-06 13:55:04,433: INFO  – ========== Build With This Only started ==========
+2024-03-06 13:55:04,503: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-06 13:55:04,504: INFO  – Success: Copy Module 'GeneXus'
+2024-03-06 13:55:04,599: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-06 13:55:04,599: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-06 13:55:04,661: INFO  – ========== Target Environment update started ==========
+2024-03-06 14:02:32,314: INFO  – Success: Target Environment update
+2024-03-06 14:02:32,316: INFO  – Building changed objects list
+2024-03-06 14:02:32,473: INFO  – ========== Specification started ==========
+2024-03-06 14:02:34,500: INFO  –  Specifying Procedure2 ...
+2024-03-06 14:02:34,759: ERROR – error spc0010: Type mismatch in assignment: &result = ObtenerTasaDeCambioExchangeRateFetcher.obtenertasadecambio(&apiKey,&baseCurrency,&targetCurrency,&date) (Character=Character Collection). (Procedure 'Procedure2' Source, Line: 19, , Details, )
+2024-03-06 14:02:35,658: INFO  – Failed: Specification
+2024-03-06 14:02:35,762: INFO  – Failed: Build With This Only
+2024-03-06 14:03:42,056: INFO  – ========== Build With This Only started ==========
+2024-03-06 14:03:42,126: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-06 14:03:42,128: INFO  – Success: Copy Module 'GeneXus'
+2024-03-06 14:03:42,225: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-06 14:03:42,225: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-06 14:03:42,346: INFO  – ========== Target Environment update started ==========
+2024-03-06 14:06:53,907: INFO  – Success: Target Environment update
+2024-03-06 14:06:53,920: INFO  – Building changed objects list
+2024-03-06 14:06:54,060: INFO  – ========== Specification started ==========
+2024-03-06 14:06:57,183: INFO  –  Specifying Procedure2 (already specified) ...
+2024-03-06 14:06:58,186: INFO  – Success: Specification
+2024-03-06 14:06:58,313: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-06 14:06:59,012: INFO  – Generating to Produccion\web\aprocedure2.cs
+2024-03-06 14:06:59,044: INFO  – Generating to Produccion\web\type_SdtObtenerTasaDeCambioExchangeRateFetcher.cs
+2024-03-06 14:06:59,057: INFO  – Generating to Produccion\web\procedure2.cs
+2024-03-06 14:06:59,147: INFO  – Generating to Produccion\web\Developermenu.bld
+2024-03-06 14:06:59,400: INFO  – Generating to Produccion\web\genexus.programs.common.bld
+2024-03-06 14:06:59,523: INFO  – Generating to Produccion\web\library.bld
+2024-03-06 14:07:00,077: INFO  – Success: Default (.NET Framework) Generation
+2024-03-06 14:07:00,110: INFO  – Compressing static files...
+2024-03-06 14:07:00,169: INFO  – Success
+2024-03-06 14:07:00,374: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-06 14:07:00,375: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\Produccion\build\LastBuild.sln"
+2024-03-06 14:07:01,079: INFO  – C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "ObtenerTasaDeCambio.dll". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [C:\KBs\EstadoCuenta\Produccion\build\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj]
+2024-03-06 14:07:01,281: INFO  – c:\KBs\EstadoCuenta\Produccion\Web\type_SdtObtenerTasaDeCambioExchangeRateFetcher.cs(71,17): error CS0246: No se puede encontrar el tipo o el nombre de espacio de nombres 'ExchangeRateFetcher' (¨falta una directiva using o una referencia de ensamblado?) [C:\KBs\EstadoCuenta\Produccion\build\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj]
+2024-03-06 14:07:02,593: INFO  – Failed: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-06 14:07:02,594: INFO  – Failed: Build With This Only
+2024-03-06 14:16:07,410: INFO  – ========== Build With This Only started ==========
+2024-03-06 14:16:07,474: INFO  – ========== Copy Module 'GeneXus' started ==========
+2024-03-06 14:16:07,475: INFO  – Success: Copy Module 'GeneXus'
+2024-03-06 14:16:07,595: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2024-03-06 14:16:07,596: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2024-03-06 14:16:07,687: INFO  – ========== Target Environment update started ==========
+2024-03-06 14:19:19,637: INFO  – Success: Target Environment update
+2024-03-06 14:19:19,658: INFO  – Building changed objects list
+2024-03-06 14:19:19,774: INFO  – ========== Specification started ==========
+2024-03-06 14:19:21,444: INFO  –  Specifying Procedure2 ...
+2024-03-06 14:19:21,671: INFO  –  Specifying  stub Procedure2 ...
+2024-03-06 14:19:22,438: INFO  – Success: Specification
+2024-03-06 14:19:22,553: INFO  – ========== Default (.NET Framework) Generation started ==========
+2024-03-06 14:19:23,126: INFO  – Generating to Produccion\web\aprocedure2.cs
+2024-03-06 14:19:23,149: INFO  – Generating to Produccion\web\procedure2.cs
+2024-03-06 14:19:23,198: INFO  – Generating to Produccion\web\Developermenu.bld
+2024-03-06 14:19:23,297: INFO  – Generating to Produccion\web\genexus.programs.common.bld
+2024-03-06 14:19:23,758: INFO  – Success: Default (.NET Framework) Generation
+2024-03-06 14:19:23,786: INFO  – Compressing static files...
+2024-03-06 14:19:23,817: INFO  – Success
+2024-03-06 14:19:23,931: INFO  – ========== DeveloperMenu Compilation for Default (.NET Framework) started ==========
+2024-03-06 14:19:23,933: INFO  – "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" /nologo /p:Configuration=Release /p:FrameworkPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319" /v:q /m  "C:\KBs\EstadoCuenta\Produccion\build\LastBuild.sln"
+2024-03-06 14:19:24,520: INFO  – C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: No se pudo resolver esta referencia. No se encuentra el ensamblado "ObtenerTasaDeCambio.dll". Compruebe si el ensamblado existe en el disco. Si el c¢digo necesita esta referencia, podr¡an producirse errores de compilaci¢n. [C:\KBs\EstadoCuenta\Produccion\build\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj]
+2024-03-06 14:19:24,684: INFO  – c:\KBs\EstadoCuenta\Produccion\Web\type_SdtObtenerTasaDeCambioExchangeRateFetcher.cs(71,17): error CS0246: No se puede encontrar el tipo o el nombre de espacio de nombres 'ExchangeRateFetcher' (¨falta una directiva using o una referencia de ensamblado?) [C:\KBs\EstadoCuenta\Produccion\build\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj]
+2024-03-06 14:19:24,719: INFO  – Failed: DeveloperMenu Compilation for Default (.NET Framework)
+2024-03-06 14:19:24,746: INFO  – Failed: Build With This Only
